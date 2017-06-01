@@ -1,0 +1,12 @@
+<response>
+	<result name="GetTestList">
+		<records>
+			<record test_id="6682" test_name="Demo Editing Skills Certification" coverage="Prepositions ;Parallel Construction ;Comma Usage ;Punctuation ;Misplaced Modifiers ;Apostrophe Usage ;Sentence Structure ;Pronoun Usage ;Tenses ;Article Usage" total_questions="10" duration="10" passing_marks="60" category="Demo Tests"/>
+			<record test_id="6683" test_name="Demo Adobe Photoshop CS3 Test" coverage="Layers ;Type ;Automating Tasks and Keyboard Shortcuts ;Workspace ;Working with Images, Retouching and Transforming ;Color Management ;Color and Tonal Adjustments ;Using Selection and Drawing ;Filters and Saving Images ;Working With Web, Video and Animation" total_questions="10" duration="10" passing_marks="60" category="Demo Tests"/>
+			<record test_id="6684" test_name="Demo Programming with C++ Test" coverage="Classes ;Constructors ;Variables and Datatypes" total_questions="10" duration="10" passing_marks="60" category="Demo Tests"/>
+			<record test_id="6685" test_name="Demo HTML 4.01 Test" coverage="Advanced Tags ;Fundamentals ;Tags ;Tables ;Links and Images ;Forms and Frames" total_questions="10" duration="10" passing_marks="60" category="Demo Tests"/>
+      <record test_id="1" test_name="Demo" coverage="Classes ;Constructors ;Variables and Datatypes" total_questions="10" duration="10" passing_marks="60" category="Demo Tests"/>
+
+    </records>
+	</result>
+</response>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpertInstructions>
+  <Instruction>
+    <Header><![CDATA[Chemical Engineering Aptitude Test (Hyundai)]]></Header>
+    <TextName><![CDATA[Chemical Engineering Aptitude Test (Hyundai)]]></TextName>
+    <Syllabus><![CDATA[<table class="ui-widget" cellpadding="3" cellspacing="0" width="97%">
+                                  <tbody>
+                                    <tr>
+                                      <td class="ui-widget-header" style="width:25%" align="left">Topic Name</td>
+                                      <td class="ui-widget-header" style="width:25%" align="left">No. of Questions</td>
+                                      <td class="ui-widget-header" style="width:25%" align="left">Duration (in minutes)</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="ui-widget-content" align="left">&nbsp;General Aptitude</td>
+                                      <td class="ui-widget-content" align="left">30</td>
+                                      <td class="ui-widget-content" align="left">30</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="ui-widget-content" align="left">&nbsp;Chemical Engineering Skills</td>
+                                      <td class="ui-widget-content" align="left">30</td>
+                                      <td class="ui-widget-content" align="left">30</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="ui-widget-content" align="left">
+                                        &nbsp;<b>Total</b>
+                                      </td>
+                                      <td class="ui-widget-content" align="left">
+                                        <b>60 Questions</b>
+                                      </td>
+                                      <td class="ui-widget-content" align="left">
+                                        <b>60 minutes</b>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>]]></Syllabus>
+    <Duration><![CDATA[]]></Duration>
+    <Question><![CDATA[]]></Question>
+    <Instructions><![CDATA[      <ol>
+      <li>
+      The test is a timed test. Keep an eye on the clock timer located at the top center of the test window.<br><br></li>
+      <li>
+      There is no negative marking. You are encouraged to attempt all questions. However, you can leave questions unanswered, if you so prefer.<br><br></li>
+      <li>
+      DO NOT use the browser back/forward buttons, shortcut menus (mouse right-click) or the keyboard for navigation.<br><br></li>
+      <li>
+      If your Internet connection breaks/ is disrupted while you are in the middle of the test, you can restart the test from the same point by again logging on to http://assessments.naukri.com/mynaukritest and re-entering your pin.<br><br></li>
+      <li>
+      Use of calculators/mobile phones or any other electronic gadgets is not permitted.</li>
+      </ol>
+    ]]></Instructions>
+  </Instruction>
+</ExpertInstructions>

@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+  <language type="English">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <quesno>Question No.</quesno>
+    <time>Time Remaning</time>
+    <item>Item</item>
+    <sectionname>Section Name</sectionname>
+    <sectiondescription>Section Description</sectiondescription>
+    <totalquestions>Total Questions</totalquestions>    
+    <proceed>Proceed</proceed>
+    <preview>Preview</preview>
+    <incomplete>Incomplete</incomplete>
+    <marked>Marked</marked>
+    <endtest>End Test</endtest>
+    <timeallocated>Time Allocated</timeallocated>
+  </language>
+  <language type="Hindi">
+    <a>क</a>
+    <b>&#2326;</b>
+    <c>ग</c>
+    <d>&#2328;</d>
+    <e>&#2337;</e>
+    <f>च</f>
+    <g>&#2331;</g>
+    <h>&#2332;</h>
+    <next>अगला</next>
+    <previous>पिछला</previous>
+    <review>समीक्षा</review>
+    <ques>प्रश्न</ques>
+    <quesno>प्रश्न क्रमांक.</quesno>
+    <time>शेष समय</time>
+    <item>गिनना</item>
+    <sectionname>
+      अनुभाग का नाम
+    </sectionname>
+    <sectiondescription>
+      अनुभाग विवरण
+    </sectiondescription>
+    <totalquestions>
+      कुल प्रश्न
+    </totalquestions>    
+    <proceed>
+      आगे बढ़ना
+    </proceed>
+    <preview>
+      पूर्वावलोकन
+    </preview>
+    <incomplete>
+      अधूरा
+    </incomplete>
+    <marked>
+      चिह्नित
+    </marked>
+    <endtest>
+      अंत टेस्ट
+    </endtest>
+    <timeallocated>
+      समय आवंटित
+    </timeallocated>
+  </language>
+  <language type="Punjabi">
+    <a>ਕ </a>
+    <b>ਖ</b>
+    <c>ਗ </c>
+    <d>ਘ</d>
+    <e>ਙ</e>
+    <f>ਚ</f>
+    <g>ਛ</g>
+    <h>ਜ</h>
+    <next>ਅਗਲਾ</next>
+    <previous>ਪਿਛਲਾ</previous>
+    <review>ਸਮੀਖ੍ਯਾ ਕਰੇਂ</review>
+    <ques>ਪ੍ਰਸ਼੍ਨ</ques>
+    <time>ਸ਼ੇਸ਼੍ ਸਮਯ੍</time>
+    <item>ਮਦ</item>
+    <sectionname>ਅਨੁਭਾਗ ਕਾ ਨਾਮ</sectionname>
+    <sectiondescription>ਅਨੁਭਾਗ ਵਿਵਰਣ</sectiondescription>
+    <totalquestions>ਕੁਲ ਪ੍ਰਸ਼੍ਨ</totalquestions>
+    <proceed>ਆਗੇ ਬਢ਼ਨਾ</proceed>
+    <preview>ਪੂਰ੍ਵਾਵਲੋਕਨ</preview>
+    <incomplete>
+      ਅਧੂਰਾ
+    </incomplete>
+    <marked>
+      ਚਿਹ੍ਨਿਤ
+    </marked>
+    <endtest>
+      ਅਂਤ ਟੇਸ੍ਟ
+    </endtest>
+    <timeallocated>ਸਮਯ ਆਵਂਟਿਤ</timeallocated>
+  </language>
+  <language type="Tamil">
+    <a>க்</a>
+    <b>ங்</b>
+    <c>ச்</c>
+    <d>ஜ்</d>
+    <e>ஞ்</e>
+    <f>ட்</f>
+    <g>ண்</g>
+    <h>த் </h>
+    <next>
+      அடுத்து
+    </next>
+    <previous>
+      முந்தைய
+    </previous>
+    <review>
+      பரிசீலனை
+    </review>
+    <ques>
+      வினா
+    </ques>
+    <time>
+      மீதியுள்ள காலம்
+    </time>
+    <item>
+      உருப்படி
+    </item>
+    <sectionname>
+      பகுதி பெயர்
+    </sectionname>
+    <sectiondescription>
+      பகுதி விவரம்
+    </sectiondescription>
+    <totalquestions>
+      மொத்த கேள்விகள்
+    </totalquestions>    
+    <proceed>
+      செல்லவும்
+    </proceed>
+    <preview>
+      முன்பார்வை
+    </preview>
+    <incomplete>
+      முழுமையில்லாத
+    </incomplete>
+    <marked>
+      குறிக்கப்பட்ட
+    </marked>
+    <endtest>
+      இறுதி டெஸ்ட்
+    </endtest>
+    <timeallocated>
+      நேரம் ஒதுக்கப்பட்ட
+    </timeallocated>
+  </language>
+  <language type="Kannada">
+    <a>ಕ್ </a>
+    <b>ಖ್</b>
+    <c>ಗ್ </c>
+    <d>ಘ್</d>
+    <e>ಙ್</e>
+    <f>ಚ್ </f>
+    <g>ಛ್</g>
+    <h>ಜ್ </h>
+    <next>
+      ಮುಂದಿನ
+    </next>
+    <previous>
+      ಹಿಂದಿನ
+    </previous>
+    <review>
+      ಪರಿಶೀಲಿಸಿ
+    </review>
+    <ques>
+      ಪ್ರಶ್ನೆ
+    </ques>
+    <time>
+      ಉಳಿದಸಮಯ
+    </time>
+    <item>
+      ವಸ್ತು
+    </item>
+    <sectionname>
+      ವಿಭಾಗ ಹೆಸರು
+    </sectionname>
+    <sectiondescription>
+      ವಿಭಾಗ ವಿವರಣೆ
+    </sectiondescription>
+    <totalquestions>
+      ಒಟ್ಟು ಪ್ರಶ್ನೆಗಳು
+    </totalquestions>    
+    <proceed>
+      ಮುಂದುವರೆಯಲು
+    </proceed>
+    <preview>
+      ಮುನ್ನೋಟ
+    </preview>
+    <incomplete>
+      ಅಪೂರ್ಣ
+    </incomplete>
+    <marked>
+      ಗುರುತಿಸಬಹುದು
+    </marked>
+    <endtest>
+      ಕೊನೆಯ ಟೆಸ್ಟ್
+    </endtest>
+    <timeallocated>
+      ಸಮಯ ನಿಗದಿ
+    </timeallocated>
+  </language>
+  <language type="Malayalam">
+    <a>ക്</a>
+    <b>ഖ്</b>
+    <c>ഗ്</c>
+    <d>ഘ്</d>
+    <e>ങ്</e>
+    <f>ച്</f>
+    <g>ഛ്</g>
+    <h>ജ്</h>
+    <next>
+      ണെxട്
+    </next>
+    <previous>
+      Pരെവിഒഉസ്
+    </previous>
+    <review>
+      റെവിഎw
+    </review>
+    <ques>
+      Qഉഎസ്ടിഒന്
+    </ques>
+    <time>
+      ഠിമെ റെമൈനിങ്
+    </time>
+    <item>
+      Iടെമ്
+    </item>
+    <sectionname>
+      Sഎച്ടിഒന് ണമെ
+    </sectionname>
+    <sectiondescription>
+      Sഎച്ടിഒന് ഢെസ്ച്രിപ്ടിഒന്
+    </sectiondescription>
+    <totalquestions>
+      ഠൊടല് Qഉഎസ്ടിഒന്സ്
+    </totalquestions>
+    <proceed>
+      Pരൊചീഡ്
+    </proceed>
+    <preview>
+      Pരെവിഎw
+    </preview>
+    <incomplete>
+      Iന്ചൊമ്പ്ലെടെ
+    </incomplete>
+    <marked>
+      Mഅര്കെഡ്
+    </marked>
+    <endtest>
+      Eണ്ഢ് ഠെസ്ട്
+    </endtest>
+    <timeallocated>
+      ഠിമെ Aല്ലൊചടെഡ്
+    </timeallocated>
+  </language>
+  <language type="Telugu">
+    <a>క్ </a>
+    <b>ఖ్</b>
+    <c>గ్</c>
+    <d>ఘ్</d>
+    <e>ఙ్</e>
+    <f>చ్</f>
+    <g>ఛ్</g>
+    <h>జ్</h>
+    <next>
+      తర్వాత
+    </next>
+    <previous>
+      మునుపటి
+    </previous>
+    <review>
+      సమీక్షించండి
+    </review>
+    <ques>
+      ప్రశ్న
+    </ques>
+    <time>
+      మిగిలిన సమయం
+    </time>
+    <item>
+      ఈటెమ్
+    </item>
+    <sectionname>
+      విభాగం పేరు
+    </sectionname>
+    <sectiondescription>
+      విభాగం వివరణ
+    </sectiondescription>
+    <totalquestions>
+      మొత్తం ప్రశ్నలు
+    </totalquestions>    
+    <proceed>
+      కొనసాగు
+    </proceed>
+    <preview>
+      ప్రివ్యూ
+    </preview>
+    <incomplete>
+      పూర్తికాని
+    </incomplete>
+    <marked>
+      గుర్తించబడింది
+    </marked>
+    <endtest>
+      ముగింపు టెస్ట్
+    </endtest>
+    <timeallocated>
+      సమయం కేటాయించిన
+    </timeallocated>
+  </language>
+  <language type="Marathi">
+    <a>क</a>
+    <b>&#2326;</b>
+    <c>ग</c>
+    <d>&#2328;</d>
+    <e>&#2337;</e>
+    <f>च</f>
+    <g>&#2331;</g>
+    <h>&#2332;</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+    <sectionname>Section Name</sectionname>
+    <sectiondescription>Section Description</sectiondescription>
+    <totalquestions>Total Questions</totalquestions>
+    <proceed>Proceed</proceed>
+    <preview>Preview</preview>
+    <incomplete>Incomplete</incomplete>
+    <marked>Marked</marked>
+    <endtest>End Test</endtest>
+    <timeallocated>Time Allocated</timeallocated>
+  </language>
+  <language type="Guajarati">
+    <a>ક</a>
+    <b>ખ</b>
+    <c>ગ</c>
+    <d>ઘ</d>
+    <e>ચ</e>
+    <f>છ</f>
+    <g>જ</g>
+    <h>ઝ</h>
+    <next>
+      આગામી
+    </next>
+    <previous>
+      ગત
+    </previous>
+    <review>
+      રીવ્યુ
+    </review>
+    <ques>
+      પ્રશ્ન
+    </ques>
+    <time>
+      બાકીરહેલસમય સમય
+    </time>
+    <item>
+      બાબત
+    </item>
+    <sectionname>
+      વિભાગ નામ
+    </sectionname>
+    <sectiondescription>
+      વિભાગ વર્ણન
+    </sectiondescription>
+    <totalquestions>
+      કુલ પ્રશ્નો
+    </totalquestions>    
+    <proceed>
+      આગળ વધો
+    </proceed>
+    <preview>
+      પૂર્વદર્શન
+    </preview>
+    <incomplete>
+      અપૂર્ણ
+    </incomplete>
+    <marked>
+      ચિહ્નિત
+    </marked>
+    <endtest>
+      અંતે ટેસ્ટ
+    </endtest>
+    <timeallocated>
+      સમય સોંપાયેલ
+    </timeallocated>
+  </language>
+  <language type="Numerical">
+    <a>1</a>
+    <b>2</b>
+    <c>3</c>
+    <d>4</d>
+    <e>5</e>
+    <f>6</f>
+    <g>7</g>
+    <h>8</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+    <sectionname>Section Name</sectionname>
+    <sectiondescription>Section Description</sectiondescription>
+    <totalquestions>Total Questions</totalquestions>
+    <proceed>Proceed</proceed>
+    <preview>Preview</preview>
+    <incomplete>Incomplete</incomplete>
+    <marked>Marked</marked>
+    <endtest>End Test</endtest>
+    <timeallocated>Time Allocated</timeallocated>
+  </language>
+</languages>

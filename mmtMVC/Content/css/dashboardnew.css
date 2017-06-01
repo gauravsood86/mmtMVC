@@ -1,0 +1,609 @@
+﻿
+.gvtd td {
+    border-bottom: 1px solid #dedede;
+}
+
+.loop_listing li {
+    padding: 10px 15px 0px 15px;
+}
+
+.ddlClass {
+    background: none repeat scroll 0 0 #f7f7f7;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    position: relative;
+    color: #9fa5a8;
+    font-size: 14px;
+    margin: 10px 0;
+    vertical-align: middle;
+    padding: 6px;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    min-width: 1000px;
+}
+
+
+.fancybox-margin {
+    margin-right: 17px;
+}
+
+.notifyjs-corner {
+    position: fixed;
+    margin: 5px;
+    z-index: 1050;
+}
+
+
+    .notifyjs-corner .notifyjs-wrapper,
+    .notifyjs-corner .notifyjs-container {
+        position: relative;
+        display: block;
+        height: inherit;
+        width: inherit;
+        margin: 3px;
+    }
+
+.notifyjs-wrapper {
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    height: 0;
+    width: 0;
+}
+
+.notifyjs-container {
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+
+.notifyjs-hidable {
+    cursor: pointer;
+}
+
+[data-notify-text], [data-notify-html] {
+    position: relative;
+}
+
+.notifyjs-arrow {
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    height: 0;
+}
+
+</style > <style type="text/css" id="poshytip-css-tip-twitter" > div.tip-twitter {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.tip-twitter table.tip-table, div.tip-twitter table.tip-table td {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    vertical-align: middle;
+}
+
+div.tip-twitter td.tip-bg-image span {
+    display: block;
+    font: 1px/1px sans-serif;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+}
+
+div.tip-twitter td.tip-right {
+    background-position: 100% 0;
+}
+
+div.tip-twitter td.tip-bottom {
+    background-position: 100% 100%;
+}
+
+div.tip-twitter td.tip-left {
+    background-position: 0 100%;
+}
+
+div.tip-twitter div.tip-inner {
+    background-position: -10px -10px;
+}
+
+div.tip-twitter div.tip-arrow {
+    visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    font: 1px/1px sans-serif;
+}
+
+.w5 a {
+    color: #c93432;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+.w5 img {
+    float: left;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.w1 {
+    width: 80px;
+}
+
+.w2 {
+    text-align: center;
+    width: 15%;
+}
+
+.w3 {
+    width: 45%;
+}
+
+.w4 {
+    width: 10%;
+}
+
+.w5 {
+    width: 12%;
+}
+
+.w61 {
+    width: 15%;
+    padding-left: 35px;
+}
+
+.w6 {
+    width: 15%;
+}
+
+.w7 {
+    width: 15%;
+}
+
+.w71 {
+    width: 15%;
+    padding-left: 30px;
+}
+
+.w8 {
+    width: 15%;
+}
+
+</style > <style type="text/css" > @media print {
+    #habla_beta_container_do_not_rely_on_div_classes_or_names;
+
+{
+    display: none !important;
+}
+
+}
+
+
+
+.dash-table1 table {
+    overflow: hidden;
+}
+
+.dash-table1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .dash-table1 thead {
+        background: none repeat scroll 0 0 #E9ECF3;
+        float: left;
+        padding-right: 1.5%;
+        width: 98.5%;
+    }
+
+    .dash-table1 .tbody {
+        float: left;
+        max-height: 400px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100%;
+    }
+
+    .dash-table1 td {
+        padding: 10px;
+    }
+
+    .dash-table1 th {
+        padding-bottom: 15px;
+        padding-left: 40px;
+        ;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+
+    .dash-table1 th {
+        color: #494949;
+        font-size: 14px;
+        font-weight: 700;
+        background-color: #E9ECF3;
+    }
+
+    .dash-table1 td {
+        color: #000000;
+        font-size: 13px;
+        font-weight: 400;
+        border-bottom: 1px solid #E4E4E4;
+    }
+
+    .dash-table1 tr:nth-of-type(odd) {
+        background: #ffffff;
+    }
+
+    .dash-table1 tr:nth-of-type(even) {
+        background: #f8f9fb;
+    }
+
+.w5 a {
+    color: #C93432;
+    text-decoration: none;
+}
+
+.w5 img {
+    float: left;
+    padding: 3px 10px;
+}
+
+
+.dash-table {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .dash-table thead {
+        float: left;
+        width: 100%;
+    }
+
+    .dash-table tbody {
+        float: left;
+        height: 502px;
+        overflow-y: scroll;
+        width: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .dash-table tr:nth-of-type(odd) {
+        background: #eceff5;
+        border-top: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    .dash-table th {
+        background: none repeat scroll 0 0 #E9ECF3;
+        color: #494949;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .dash-table td, .dash-table th {
+        padding: 13px;
+    }
+
+.w80 {
+    width: 80px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.dash-table td {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    *height: 100px;
+}
+
+.dash-table tr {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+}
+
+.ex-name {
+    width: 272px;
+    word-wrap: break-word;
+}
+
+.ex-username {
+    width: 100px;
+    word-wrap: break-word;
+}
+
+.dash-flags img {
+    float: left;
+    padding: 3px 10px;
+}
+
+.dash-flags a {
+    text-decoration: none;
+    color: #c93432;
+}
+
+.freeze-but {
+    background: none repeat scroll 0 0 #9D9D9D;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 3px 7px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.vh {
+    color: #3962dd;
+    font-size: 11px;
+}
+
+.freeze-but2 {
+    background: none repeat scroll 0 0 #36be75;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 3px 7px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .freeze-but2:hover {
+        background: #19A158;
+    }
+
+.freeze-but:hover {
+    background: #777777;
+}
+
+
+.dash-view {
+    background-image: url("./images/settings-dash.png");
+    background-position: 2px 2px;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 16px;
+}
+
+    .dash-view:hover {
+        background-position: 2px 22px;
+        border: 1px solid #228aa0;
+    }
+
+.dash-edit {
+    background-image: url("./images/edit-icon.png");
+    background-position: 2px 2px;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 16px;
+}
+
+.dash-freez {
+    background-image: url("./images/freez1.png");
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 43px;
+}
+
+.dash-freezdis {
+    background-image: url("./images/freezdis.png");
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 39px;
+}
+
+.dash-unfreez {
+    background-image: url("./images/unfree1.png");
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 51px;
+}
+
+
+.dash-edit:hover {
+    background-position: 2px 22px;
+    border: 1px solid #208750;
+}
+
+.dash-delete {
+    background-image: url("./images/delete-icon.png");
+    background-position: 2px 2px;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 16px;
+}
+
+    .dash-delete:hover {
+        background-position: 2px 22px;
+        border: 1px solid #d52a28;
+    }
+
+.sec-delete {
+    background-image: url("./images/sec-del.png");
+    background-position: 2px 2px;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 16px;
+}
+
+    .sec-delete:hover {
+        background-position: 2px 22px;
+    }
+
+
+.dash-preview {
+    background-image: url("./images/preview-icon.png");
+    background-position: 2px 2px;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 16px;
+}
+
+    .dash-preview:hover {
+        background-position: 2px 22px;
+        border: 1px solid #d52a28;
+    }
+
+.dash-publish {
+    background-image: url("./images/icon6.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 6px;
+    width: 16px;
+}
+
+    .dash-publish:hover {
+        border: 1px solid #208750;
+        background-image: url("./images/icon6.png");
+        background-position: 2px 2px;
+        background-repeat: no-repeat;
+    }
+
+a.tooltip2 {
+    position: relative;
+    display: inline;
+}
+
+    a.tooltip2 span {
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        font-size: 10px;
+        height: 24px;
+        line-height: 20px;
+        position: absolute;
+        text-align: center;
+        visibility: hidden;
+        width: 76px;
+        background-image: url("./images/tooltip-arrow.png");
+    }
+
+.w5 a.tooltip2 span {
+    top: -28px;
+    margin-left: -13px !important;
+    background-image: url("./images/click-flag.png");
+    background-repeat: no-repeat;
+}
+
+.w6 a.tooltip2 span {
+    background-image: url("./images/click-freeze.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    line-height: 15px;
+    margin-left: -29px !important;
+    top: -71px;
+    width: 226px;
+    padding-top: 8px;
+}
+
+a.tooltip3 {
+    position: relative;
+    display: inline;
+}
+
+    a.tooltip3 span {
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        font-size: 10px;
+        height: 24px;
+        line-height: 20px;
+        position: absolute;
+        text-align: center;
+        visibility: hidden;
+        width: 76px;
+        background-image: url("./images/tooltip-arrow.png");
+    }
+
+tr:first-child a.tooltip2 span {
+    background-image: url("./images/tooltip-arrow-2.png");
+    line-height: 30px;
+}
+
+tr:first-child .w6 a.tooltip2 span {
+    background-image: url("./images/click-freezeup.png");
+    line-height: 14px;
+    padding-top: 8px;
+}
+
+
+tr:first-child a:hover.tooltip2 span {
+    visibility: visible;
+    opacity: 1;
+    top: 30px;
+    left: 50%;
+    margin-left: -45px;
+    z-index: 999;
+}
+
+a:hover.tooltip2 span {
+    visibility: visible;
+    opacity: 1;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -45px;
+    z-index: 999;
+}

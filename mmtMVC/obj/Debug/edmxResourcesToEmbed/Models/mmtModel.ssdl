@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MMT_ConstModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="mmtexamflags">
+    <Key>
+      <PropertyRef Name="flagid" />
+    </Key>
+    <Property Name="flagid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="flagcount" Type="int" />
+    <Property Name="flagerror" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="examid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mmtexams">
+    <Key>
+      <PropertyRef Name="examid" />
+    </Key>
+    <Property Name="examid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="examname" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="catid" Type="int" Nullable="false" />
+    <Property Name="instructions" Type="nvarchar(max)" />
+    <Property Name="duration" Type="int" />
+    <Property Name="questioncount" Type="int" />
+    <Property Name="offline" Type="bit" />
+    <Property Name="randomtest" Type="bit" />
+    <Property Name="uploaddate" Type="datetime" Nullable="false" />
+    <Property Name="addedby" Type="int" Nullable="false" />
+    <Property Name="isfreezed" Type="bit" />
+    <Property Name="flagged" Type="bit" />
+    <Property Name="flagerror" Type="nvarchar(max)" />
+    <Property Name="islive" Type="bit" Nullable="false" />
+    <Property Name="endbutton" Type="bit" />
+    <Property Name="masterxmlfile" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="examlanguage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="passingmarks" Type="int" Nullable="false" />
+    <Property Name="islogo" Type="bit" Nullable="false" />
+    <Property Name="path" Type="nvarchar" MaxLength="200" />
+    <Property Name="isemailreport" Type="bit" Nullable="false" />
+    <Property Name="istexttospeech" Type="bit" Nullable="false" />
+    <Property Name="istestreport" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mmtgroups">
+    <Key>
+      <PropertyRef Name="groupid" />
+    </Key>
+    <Property Name="groupid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="groupdesc" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="examid" Type="int" />
+    <Property Name="sectionid" Type="int" Nullable="false" />
+    <Property Name="secid" Type="int" Nullable="false" />
+    <Property Name="passageid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mmtquestionbanks">
+    <Key>
+      <PropertyRef Name="questionid" />
+    </Key>
+    <Property Name="questionid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="question" Type="nvarchar(max)" />
+    <Property Name="a" Type="nvarchar(max)" />
+    <Property Name="b" Type="nvarchar(max)" />
+    <Property Name="c" Type="nvarchar(max)" />
+    <Property Name="d" Type="nvarchar(max)" />
+    <Property Name="e" Type="nvarchar(max)" />
+    <Property Name="f" Type="nvarchar(max)" />
+    <Property Name="g" Type="nvarchar(max)" />
+    <Property Name="h" Type="nvarchar(max)" />
+    <Property Name="cols" Type="nvarchar(max)" />
+    <Property Name="rows" Type="nvarchar(max)" />
+    <Property Name="ans" Type="nvarchar" MaxLength="2000" />
+    <Property Name="qtype" Type="varchar" MaxLength="2" />
+    <Property Name="topicid" Type="int" Nullable="false" />
+    <Property Name="secid" Type="int" Nullable="false" />
+    <Property Name="sectionid" Type="int" Nullable="false" />
+    <Property Name="examid" Type="int" Nullable="false" />
+    <Property Name="difficulty" Type="int" Nullable="false" />
+    <Property Name="textanswer" Type="nvarchar(max)" />
+    <Property Name="figure" Type="nvarchar" MaxLength="2000" />
+    <Property Name="sound" Type="nvarchar" MaxLength="2000" />
+    <Property Name="video" Type="nvarchar" MaxLength="2000" />
+    <Property Name="passageId" Type="int" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="2" />
+    <Property Name="score" Type="int" Nullable="false" />
+    <Property Name="groupid" Type="int" Nullable="false" />
+    <Property Name="calculator" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mmtsections">
+    <Key>
+      <PropertyRef Name="secid" />
+    </Key>
+    <Property Name="secid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sectionname" Type="nvarchar" MaxLength="200" />
+    <Property Name="sectiondesc" Type="nvarchar(max)" />
+    <Property Name="sectionid" Type="int" />
+    <Property Name="examid" Type="int" />
+    <Property Name="active" Type="bit" />
+    <Property Name="type" Type="int" />
+    <Property Name="score" Type="int" />
+  </EntityType>
+  <EntityType Name="mmttopics">
+    <Key>
+      <PropertyRef Name="topicid" />
+    </Key>
+    <Property Name="topicid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="topicname" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="topicdesc" Type="nvarchar(max)" />
+    <Property Name="examid" Type="int" Nullable="false" />
+    <Property Name="sectionid" Type="int" Nullable="false" />
+    <Property Name="active" Type="bit" Nullable="false" />
+    <Property Name="score" Type="int" />
+    <Property Name="secid" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_mmtexammmtexamflags">
+    <End Role="mmtexams" Type="Self.mmtexams" Multiplicity="1" />
+    <End Role="mmtexamflags" Type="Self.mmtexamflags" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexams">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtexamflags">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmtgroups">
+    <End Role="mmtexams" Type="Self.mmtexams" Multiplicity="0..1" />
+    <End Role="mmtgroups" Type="Self.mmtgroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexams">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtgroups">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmtquestionbank">
+    <End Role="mmtexams" Type="Self.mmtexams" Multiplicity="1" />
+    <End Role="mmtquestionbanks" Type="Self.mmtquestionbanks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexams">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtquestionbanks">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmtsections">
+    <End Role="mmtexams" Type="Self.mmtexams" Multiplicity="0..1" />
+    <End Role="mmtsections" Type="Self.mmtsections" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexams">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtsections">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmttopics">
+    <End Role="mmtexams" Type="Self.mmtexams" Multiplicity="1" />
+    <End Role="mmttopics" Type="Self.mmttopics" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexams">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmttopics">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtquestionbankmmtgroups">
+    <End Role="mmtgroups" Type="Self.mmtgroups" Multiplicity="1" />
+    <End Role="mmtquestionbanks" Type="Self.mmtquestionbanks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtgroups">
+        <PropertyRef Name="groupid" />
+      </Principal>
+      <Dependent Role="mmtquestionbanks">
+        <PropertyRef Name="groupid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtsectionsmmtgroups">
+    <End Role="mmtsections" Type="Self.mmtsections" Multiplicity="1" />
+    <End Role="mmtgroups" Type="Self.mmtgroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtsections">
+        <PropertyRef Name="secid" />
+      </Principal>
+      <Dependent Role="mmtgroups">
+        <PropertyRef Name="secid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtsectionsmmtquestionbank">
+    <End Role="mmtsections" Type="Self.mmtsections" Multiplicity="1" />
+    <End Role="mmtquestionbanks" Type="Self.mmtquestionbanks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtsections">
+        <PropertyRef Name="secid" />
+      </Principal>
+      <Dependent Role="mmtquestionbanks">
+        <PropertyRef Name="secid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtsectionsmmttopics">
+    <End Role="mmtsections" Type="Self.mmtsections" Multiplicity="1" />
+    <End Role="mmttopics" Type="Self.mmttopics" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtsections">
+        <PropertyRef Name="secid" />
+      </Principal>
+      <Dependent Role="mmttopics">
+        <PropertyRef Name="secid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmttopicsmmtquestionbank">
+    <End Role="mmttopics" Type="Self.mmttopics" Multiplicity="1" />
+    <End Role="mmtquestionbanks" Type="Self.mmtquestionbanks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmttopics">
+        <PropertyRef Name="topicid" />
+      </Principal>
+      <Dependent Role="mmtquestionbanks">
+        <PropertyRef Name="topicid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MMT_ConstModelStoreContainer">
+    <EntitySet Name="mmtexamflags" EntityType="Self.mmtexamflags" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mmtexams" EntityType="Self.mmtexams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mmtgroups" EntityType="Self.mmtgroups" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mmtquestionbanks" EntityType="Self.mmtquestionbanks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mmtsections" EntityType="Self.mmtsections" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mmttopics" EntityType="Self.mmttopics" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_mmtexammmtexamflags" Association="Self.FK_mmtexammmtexamflags">
+      <End Role="mmtexams" EntitySet="mmtexams" />
+      <End Role="mmtexamflags" EntitySet="mmtexamflags" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmtgroups" Association="Self.FK_mmtexamsmmtgroups">
+      <End Role="mmtexams" EntitySet="mmtexams" />
+      <End Role="mmtgroups" EntitySet="mmtgroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmtquestionbank" Association="Self.FK_mmtexamsmmtquestionbank">
+      <End Role="mmtexams" EntitySet="mmtexams" />
+      <End Role="mmtquestionbanks" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmtsections" Association="Self.FK_mmtexamsmmtsections">
+      <End Role="mmtexams" EntitySet="mmtexams" />
+      <End Role="mmtsections" EntitySet="mmtsections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmttopics" Association="Self.FK_mmtexamsmmttopics">
+      <End Role="mmtexams" EntitySet="mmtexams" />
+      <End Role="mmttopics" EntitySet="mmttopics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtquestionbankmmtgroups" Association="Self.FK_mmtquestionbankmmtgroups">
+      <End Role="mmtgroups" EntitySet="mmtgroups" />
+      <End Role="mmtquestionbanks" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtsectionsmmtgroups" Association="Self.FK_mmtsectionsmmtgroups">
+      <End Role="mmtsections" EntitySet="mmtsections" />
+      <End Role="mmtgroups" EntitySet="mmtgroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtsectionsmmtquestionbank" Association="Self.FK_mmtsectionsmmtquestionbank">
+      <End Role="mmtsections" EntitySet="mmtsections" />
+      <End Role="mmtquestionbanks" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtsectionsmmttopics" Association="Self.FK_mmtsectionsmmttopics">
+      <End Role="mmtsections" EntitySet="mmtsections" />
+      <End Role="mmttopics" EntitySet="mmttopics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmttopicsmmtquestionbank" Association="Self.FK_mmttopicsmmtquestionbank">
+      <End Role="mmttopics" EntitySet="mmttopics" />
+      <End Role="mmtquestionbanks" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

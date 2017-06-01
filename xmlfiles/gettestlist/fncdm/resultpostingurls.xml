@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResultPostingsURLs>
+  <Result_URL>http://dev.expertrating.com/cdm/webservice.aspx</Result_URL>
+  <Feedback_URL>http://naukri.expertrating.com/writingfeed.asp</Feedback_URL>
+  <TSN_URL>http://naukri.expertrating.com/writingtsn.asp</TSN_URL>
+  <DevResult_URL>http://naukri.expertrating.com/writingresult.asp</DevResult_URL>
+  <DevFeedback_URL>http://naukri.expertrating.com/writingfeed.asp</DevFeedback_URL>
+  <DevTSN_URL>http://naukri.expertrating.com/writingtsn.asp</DevTSN_URL>
+</ResultPostingsURLs>

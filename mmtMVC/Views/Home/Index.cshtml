@@ -1,0 +1,170 @@
+﻿@model IEnumerable<mmtMVC.Models.TestList>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<div class="table_demo_wrapper">
+    <div class="batch_wrap" style="margin-top: 20px">
+        <div class="top_h">
+            <h2>Dashboard</h2>
+        </div>
+
+        @Html.ActionLink("Create New Test", "../Test/Create", null, new { @style = "margin-top: 15px; float: left; font-size: 15px;", @class = "new_test_btn" })
+        @*<a class="new_test_btn" style="margin-top: 15px; float: left; font-size: 15px;" href="addtest.aspx">Create New Test</a>
+            <%if (downloadexam == true)
+            {
+
+            %>
+            <a class="new_test_btn" style="margin-top: 15px; float: right; font-size: 15px;" href="exceldownload.aspx">Download Exam</a>
+            <%
+            }
+
+            if (ispool == true)
+            {
+
+            %>         <a class="new_test_btn" style="margin-top: 15px; float: right; font-size: 15px;" href="mcqlisting.aspx">Manage Pool Questions</a>
+
+            <a style="margin-top: 15px; float: right; font-size: 15px" class="new_test_btn" href="ExcelPoolUpload.aspx">Upload Question to Pool</a>
+
+            <a style="margin-top: 15px; float: right; font-size: 15px" class="new_test_btn" href="createpoolquestion.aspx">Create New Pool Question</a>
+            <a style="margin-top: 15px; float: right; font-size: 15px" class="new_test_btn" href="createpoolexam.aspx">Create New Pool</a>
+            <%}
+
+
+            if (ispool == false && ispoolx == true)
+            {
+
+            %>
+            <a class="new_test_btn" style="margin-top: 15px; float: right; font-size: 15px;" href="mcqlisting.aspx">Manage Pool Questions</a>
+            <%} %>*@
+
+
+    </div>
+
+    <div class="table_txt" style="margin-bottom: 50px; margin-top: 15px">
+        <div class="shoring_top">
+            <div class="short_type">
+                @using (Html.BeginForm("Index", "", FormMethod.Get))
+                {
+                    @Html.Label("Search:")
+                    @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { @class = "ddlClass" })
+                    <input type="submit" value="Search" />
+
+
+                }
+
+            </div>
+            <div class="short_type">
+                @using (Html.BeginForm())
+                {
+                    <input style="margin-top: 13px; " type="submit" value="Reset" />}
+            </div>
+
+        </div>
+        <div>
+
+            <table class="dash-table1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody style="overflow-y: hidden;">
+                    <tr>
+                        <th scope="col" class="w2">
+                            <span>
+                                @Html.ActionLink("Test ID", "Index", new { sortOrder = ViewBag.IDSortParm, currentFilter = ViewBag.CurrentFilter })
+                            </span>
+                        </th>
+                        <th scope="col" class="w3">
+                            <span>
+                                @Html.ActionLink("Date Created", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+                            </span>
+                        </th>
+                        <th scope="col" class="w4">
+                            <span>
+                                @Html.ActionLink("Test Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+                            </span>
+                        </th>
+
+
+                        <th scope="col" class="w5">
+                            @Html.ActionLink("Flagged", "Index", new { sortOrder = ViewBag.FlagParm, currentFilter = ViewBag.CurrentFilter })
+                        </th>
+                        <th scope="col" class="w6">
+                            Freeze <span>
+                                <a href="javascript:void(0)" title="<span><ul style='padding-left: 7px;'><li>Freeze the test once you are satisfied that it is ready to go live.</li><li>The test cannot be freezed, if it has been flagged for discrepancies.<br /> Click <img src='content/images/red-flag.png' /> to the left to resolve.</li></ul></span>" data-alignx="center" data-alignto="target" data-aligny="top" data-offsety="5" data-offsetx="0" class="tooltipSetting tooltip2">
+                                    <img src="content/images/info-icon.png" />
+                                </a>
+                            </span>
+                        </th>
+                        <th scope="col" class="w7">Actions</th>
+
+                    </tr>
+                </tbody>
+            </table>
+            <table class="creation_listing">
+                @foreach (var item in Model)
+            {
+
+                    <tr style="background-color:WhiteSmoke;">
+                        <td class="w2">
+                            <span>@Html.DisplayFor(modelItem => item.examid)</span>
+                        </td>
+                        <td class="w3">
+                            <span>@Html.DisplayFor(modelItem => item.uploaddate)</span>
+                        </td>
+                        <td class="leftpadding w4">
+                            <div class="describe" style="text-align: left; width: 300px; padding-top: 17px;">
+                                <h6>
+
+                                    @Html.DisplayFor(modelItem => item.examname)
+                                </h6>
+
+                            </div>
+                        </td>
+                        <td class="w5">
+                            @foreach (var flag in item.FlagInfo)
+                            {
+                                if (flag.flagcount > 0)
+                                {
+                                    <div id="redflag">
+                                        <a href="javascript:openflags()" class="tooltip2">
+                                            <img src="content/images/red-flag.png" /><span>Click to View</span>
+                                        </a>
+                                        @Html.DisplayFor(modelItem => flag.flagcount)
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div id="greenflag">
+                                        <img src="content/images/green-flag.png" />
+                                    </div>
+                                }
+
+                            }
+
+                        </td>
+                        <td class="w6">
+                            <a id="ContentPlaceHolder1_grdExams_freeze_0" class="dash-freez" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdExams$ctl02$freeze','')"></a>
+                        </td>
+                        <td class="w7" valign="middle">
+                            <div id="panel1">
+
+                                <div style="float: left">
+                                    <a class="tooltip2 dash-edit edit-users" style="padding-right:10px;" href="Sections/Listing/@Html.DisplayFor(modelItem => item.examid)"></a>
+                                </div>
+                                <div style="float: left">
+                                </div>
+
+                                <div id="publish" style="float:left;display:inline-block;">
+                                    @*<a id="ContentPlaceHolder1_grdExams_LinkButton1_0" class="tooltip2 dash-publish" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdExams$ctl02$LinkButton1','')"><span>Publish Exam</span></a>*@
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                }
+            </table>
+        </div>
+    </div>
+</div>
+

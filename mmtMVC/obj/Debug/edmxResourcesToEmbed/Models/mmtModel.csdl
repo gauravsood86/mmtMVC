@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MMT_ConstModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MMT_ConstEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="mmtexamflags" EntityType="MMT_ConstModel.mmtexamflag" />
+    <EntitySet Name="mmtexams" EntityType="MMT_ConstModel.mmtexam" />
+    <EntitySet Name="mmtgroups" EntityType="MMT_ConstModel.mmtgroup" />
+    <EntitySet Name="mmtquestionbanks" EntityType="MMT_ConstModel.mmtquestionbank" />
+    <EntitySet Name="mmtsections" EntityType="MMT_ConstModel.mmtsection" />
+    <EntitySet Name="mmttopics" EntityType="MMT_ConstModel.mmttopic" />
+    <AssociationSet Name="FK_mmtexammmtexamflags" Association="MMT_ConstModel.FK_mmtexammmtexamflags">
+      <End Role="mmtexam" EntitySet="mmtexams" />
+      <End Role="mmtexamflag" EntitySet="mmtexamflags" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmtgroups" Association="MMT_ConstModel.FK_mmtexamsmmtgroups">
+      <End Role="mmtexam" EntitySet="mmtexams" />
+      <End Role="mmtgroup" EntitySet="mmtgroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmtquestionbank" Association="MMT_ConstModel.FK_mmtexamsmmtquestionbank">
+      <End Role="mmtexam" EntitySet="mmtexams" />
+      <End Role="mmtquestionbank" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmtsections" Association="MMT_ConstModel.FK_mmtexamsmmtsections">
+      <End Role="mmtexam" EntitySet="mmtexams" />
+      <End Role="mmtsection" EntitySet="mmtsections" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtexamsmmttopics" Association="MMT_ConstModel.FK_mmtexamsmmttopics">
+      <End Role="mmtexam" EntitySet="mmtexams" />
+      <End Role="mmttopic" EntitySet="mmttopics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtquestionbankmmtgroups" Association="MMT_ConstModel.FK_mmtquestionbankmmtgroups">
+      <End Role="mmtgroup" EntitySet="mmtgroups" />
+      <End Role="mmtquestionbank" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtsectionsmmtgroups" Association="MMT_ConstModel.FK_mmtsectionsmmtgroups">
+      <End Role="mmtsection" EntitySet="mmtsections" />
+      <End Role="mmtgroup" EntitySet="mmtgroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtsectionsmmtquestionbank" Association="MMT_ConstModel.FK_mmtsectionsmmtquestionbank">
+      <End Role="mmtsection" EntitySet="mmtsections" />
+      <End Role="mmtquestionbank" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmttopicsmmtquestionbank" Association="MMT_ConstModel.FK_mmttopicsmmtquestionbank">
+      <End Role="mmttopic" EntitySet="mmttopics" />
+      <End Role="mmtquestionbank" EntitySet="mmtquestionbanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mmtsectionsmmttopics" Association="MMT_ConstModel.FK_mmtsectionsmmttopics">
+      <End Role="mmtsection" EntitySet="mmtsections" />
+      <End Role="mmttopic" EntitySet="mmttopics" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="mmtexamflag">
+    <Key>
+      <PropertyRef Name="flagid" />
+    </Key>
+    <Property Name="flagid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="flagcount" Type="Int32" />
+    <Property Name="flagerror" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="examid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="mmtexam" Relationship="MMT_ConstModel.FK_mmtexammmtexamflags" FromRole="mmtexamflag" ToRole="mmtexam" />
+  </EntityType>
+  <EntityType Name="mmtexam">
+    <Key>
+      <PropertyRef Name="examid" />
+    </Key>
+    <Property Name="examid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="examname" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="catid" Type="Int32" Nullable="false" />
+    <Property Name="instructions" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="duration" Type="Int32" />
+    <Property Name="questioncount" Type="Int32" />
+    <Property Name="offline" Type="Boolean" />
+    <Property Name="randomtest" Type="Boolean" />
+    <Property Name="uploaddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="addedby" Type="Int32" Nullable="false" />
+    <Property Name="isfreezed" Type="Boolean" />
+    <Property Name="flagged" Type="Boolean" />
+    <Property Name="flagerror" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="islive" Type="Boolean" Nullable="false" />
+    <Property Name="endbutton" Type="Boolean" />
+    <Property Name="masterxmlfile" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="examlanguage" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="passingmarks" Type="Int32" Nullable="false" />
+    <Property Name="islogo" Type="Boolean" Nullable="false" />
+    <Property Name="path" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="isemailreport" Type="Boolean" Nullable="false" />
+    <Property Name="istexttospeech" Type="Boolean" Nullable="false" />
+    <Property Name="istestreport" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="mmtexamflags" Relationship="MMT_ConstModel.FK_mmtexammmtexamflags" FromRole="mmtexam" ToRole="mmtexamflag" />
+    <NavigationProperty Name="mmtgroups" Relationship="MMT_ConstModel.FK_mmtexamsmmtgroups" FromRole="mmtexam" ToRole="mmtgroup" />
+    <NavigationProperty Name="mmtquestionbanks" Relationship="MMT_ConstModel.FK_mmtexamsmmtquestionbank" FromRole="mmtexam" ToRole="mmtquestionbank" />
+    <NavigationProperty Name="mmtsections" Relationship="MMT_ConstModel.FK_mmtexamsmmtsections" FromRole="mmtexam" ToRole="mmtsection" />
+    <NavigationProperty Name="mmttopics" Relationship="MMT_ConstModel.FK_mmtexamsmmttopics" FromRole="mmtexam" ToRole="mmttopic" />
+  </EntityType>
+  <EntityType Name="mmtgroup">
+    <Key>
+      <PropertyRef Name="groupid" />
+    </Key>
+    <Property Name="groupid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="groupdesc" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="examid" Type="Int32" />
+    <Property Name="sectionid" Type="Int32" Nullable="false" />
+    <Property Name="secid" Type="Int32" Nullable="false" />
+    <Property Name="passageid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="mmtexam" Relationship="MMT_ConstModel.FK_mmtexamsmmtgroups" FromRole="mmtgroup" ToRole="mmtexam" />
+    <NavigationProperty Name="mmtquestionbanks" Relationship="MMT_ConstModel.FK_mmtquestionbankmmtgroups" FromRole="mmtgroup" ToRole="mmtquestionbank" />
+    <NavigationProperty Name="mmtsection" Relationship="MMT_ConstModel.FK_mmtsectionsmmtgroups" FromRole="mmtgroup" ToRole="mmtsection" />
+  </EntityType>
+  <EntityType Name="mmtquestionbank">
+    <Key>
+      <PropertyRef Name="questionid" />
+    </Key>
+    <Property Name="questionid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="question" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="a" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="b" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="c" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="d" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="e" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="f" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="g" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="h" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="cols" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="rows" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ans" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="qtype" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="topicid" Type="Int32" Nullable="false" />
+    <Property Name="secid" Type="Int32" Nullable="false" />
+    <Property Name="sectionid" Type="Int32" Nullable="false" />
+    <Property Name="examid" Type="Int32" Nullable="false" />
+    <Property Name="difficulty" Type="Int32" Nullable="false" />
+    <Property Name="textanswer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="figure" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="sound" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="video" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="passageId" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="score" Type="Int32" Nullable="false" />
+    <Property Name="groupid" Type="Int32" Nullable="false" />
+    <Property Name="calculator" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="mmtexam" Relationship="MMT_ConstModel.FK_mmtexamsmmtquestionbank" FromRole="mmtquestionbank" ToRole="mmtexam" />
+    <NavigationProperty Name="mmtgroup" Relationship="MMT_ConstModel.FK_mmtquestionbankmmtgroups" FromRole="mmtquestionbank" ToRole="mmtgroup" />
+    <NavigationProperty Name="mmtsection" Relationship="MMT_ConstModel.FK_mmtsectionsmmtquestionbank" FromRole="mmtquestionbank" ToRole="mmtsection" />
+    <NavigationProperty Name="mmttopic" Relationship="MMT_ConstModel.FK_mmttopicsmmtquestionbank" FromRole="mmtquestionbank" ToRole="mmttopic" />
+  </EntityType>
+  <EntityType Name="mmtsection">
+    <Key>
+      <PropertyRef Name="secid" />
+    </Key>
+    <Property Name="secid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sectionname" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="sectiondesc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="sectionid" Type="Int32" />
+    <Property Name="examid" Type="Int32" />
+    <Property Name="active" Type="Boolean" />
+    <Property Name="type" Type="MMT_ConstModel.type" />
+    <Property Name="score" Type="Int32" />
+    <NavigationProperty Name="mmtexam" Relationship="MMT_ConstModel.FK_mmtexamsmmtsections" FromRole="mmtsection" ToRole="mmtexam" />
+    <NavigationProperty Name="mmtgroups" Relationship="MMT_ConstModel.FK_mmtsectionsmmtgroups" FromRole="mmtsection" ToRole="mmtgroup" />
+    <NavigationProperty Name="mmtquestionbanks" Relationship="MMT_ConstModel.FK_mmtsectionsmmtquestionbank" FromRole="mmtsection" ToRole="mmtquestionbank" />
+    <NavigationProperty Name="mmttopics" Relationship="MMT_ConstModel.FK_mmtsectionsmmttopics" FromRole="mmtsection" ToRole="mmttopic" />
+  </EntityType>
+  <EntityType Name="mmttopic">
+    <Key>
+      <PropertyRef Name="topicid" />
+    </Key>
+    <Property Name="topicid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="topicname" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="topicdesc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="examid" Type="Int32" Nullable="false" />
+    <Property Name="sectionid" Type="Int32" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="score" Type="Int32" />
+    <Property Name="secid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="mmtexam" Relationship="MMT_ConstModel.FK_mmtexamsmmttopics" FromRole="mmttopic" ToRole="mmtexam" />
+    <NavigationProperty Name="mmtquestionbanks" Relationship="MMT_ConstModel.FK_mmttopicsmmtquestionbank" FromRole="mmttopic" ToRole="mmtquestionbank" />
+    <NavigationProperty Name="mmtsection" Relationship="MMT_ConstModel.FK_mmtsectionsmmttopics" FromRole="mmttopic" ToRole="mmtsection" />
+  </EntityType>
+  <Association Name="FK_mmtexammmtexamflags">
+    <End Type="MMT_ConstModel.mmtexam" Role="mmtexam" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmtexamflag" Role="mmtexamflag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexam">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtexamflag">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmtgroups">
+    <End Type="MMT_ConstModel.mmtexam" Role="mmtexam" Multiplicity="0..1" />
+    <End Type="MMT_ConstModel.mmtgroup" Role="mmtgroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexam">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtgroup">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmtquestionbank">
+    <End Type="MMT_ConstModel.mmtexam" Role="mmtexam" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmtquestionbank" Role="mmtquestionbank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexam">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtquestionbank">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmtsections">
+    <End Type="MMT_ConstModel.mmtexam" Role="mmtexam" Multiplicity="0..1" />
+    <End Type="MMT_ConstModel.mmtsection" Role="mmtsection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexam">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmtsection">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtexamsmmttopics">
+    <End Type="MMT_ConstModel.mmtexam" Role="mmtexam" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmttopic" Role="mmttopic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtexam">
+        <PropertyRef Name="examid" />
+      </Principal>
+      <Dependent Role="mmttopic">
+        <PropertyRef Name="examid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtquestionbankmmtgroups">
+    <End Type="MMT_ConstModel.mmtgroup" Role="mmtgroup" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmtquestionbank" Role="mmtquestionbank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtgroup">
+        <PropertyRef Name="groupid" />
+      </Principal>
+      <Dependent Role="mmtquestionbank">
+        <PropertyRef Name="groupid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtsectionsmmtgroups">
+    <End Type="MMT_ConstModel.mmtsection" Role="mmtsection" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmtgroup" Role="mmtgroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtsection">
+        <PropertyRef Name="secid" />
+      </Principal>
+      <Dependent Role="mmtgroup">
+        <PropertyRef Name="secid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtsectionsmmtquestionbank">
+    <End Type="MMT_ConstModel.mmtsection" Role="mmtsection" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmtquestionbank" Role="mmtquestionbank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtsection">
+        <PropertyRef Name="secid" />
+      </Principal>
+      <Dependent Role="mmtquestionbank">
+        <PropertyRef Name="secid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmttopicsmmtquestionbank">
+    <End Type="MMT_ConstModel.mmttopic" Role="mmttopic" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmtquestionbank" Role="mmtquestionbank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmttopic">
+        <PropertyRef Name="topicid" />
+      </Principal>
+      <Dependent Role="mmtquestionbank">
+        <PropertyRef Name="topicid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mmtsectionsmmttopics">
+    <End Type="MMT_ConstModel.mmtsection" Role="mmtsection" Multiplicity="1" />
+    <End Type="MMT_ConstModel.mmttopic" Role="mmttopic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mmtsection">
+        <PropertyRef Name="secid" />
+      </Principal>
+      <Dependent Role="mmttopic">
+        <PropertyRef Name="secid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EnumType Name="type">
+    <Member Name="MCQ" Value="1" />
+    <Member Name="SUBJECTIVE" Value="6" />
+    <Member Name="CODEASSESS" Value="3" />
+  </EnumType>
+</Schema>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+  <language type="English">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+  <language type="Hindi">
+    <a>क</a>
+    <b>&#2326;</b>
+    <c>ग</c>
+    <d>&#2328;</d>
+    <e>&#2337;</e>
+    <f>च</f>
+    <g>&#2331;</g>
+    <h>&#2332;</h>
+    <next>अगला</next>
+    <previous>पिछला</previous>
+    <review>समीक्षा</review>
+    <ques>प्रश्न</ques>
+    <time>शेष समय</time>
+    <item>गिनना</item>    
+  </language>
+  <language type="Punjabi">
+    <a>
+      ਕ
+    </a>
+    <b>ਖ</b>
+    <c>ਗ </c>
+    <d>ਘ</d>
+    <e>ਙ</e>
+    <f>ਚ</f>
+    <g>ਛ</g>
+    <h>ਜ</h>
+    
+    <next>
+      ਅਗਲਾ
+    </next>
+    <previous>
+      ਪਿਛਲਾ
+    </previous>
+    <review>
+      ਸਮੀਖ੍ਯਾ ਕਰੇਂ
+    </review>
+    <ques>
+      ਪ੍ਰਸ਼੍ਨ
+    </ques>
+    <time>
+      ਸ਼ੇ਷ ਸਮਯ
+    </time>
+    <item>
+      ਮਦ
+    </item>
+  </language>
+  <language type="Tamil">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+  <language type="Kannada">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+  <language type="Malayalam">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+  <language type="Telugu">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+  <language type="Marathi">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+  <language type="Guajarati">
+    <a>a</a>
+    <b>b</b>
+    <c>c</c>
+    <d>d</d>
+    <e>e</e>
+    <f>f</f>
+    <g>g</g>
+    <h>h</h>
+    <next>Next</next>
+    <previous>Previous</previous>
+    <review>Review</review>
+    <ques>Question</ques>
+    <time>Time Remaning</time>
+    <item>Item</item>
+  </language>
+</languages>

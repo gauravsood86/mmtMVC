@@ -1,0 +1,348 @@
+﻿@model mmtMVC.Models.mmtsection
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<div class="test_evaluation_outer" style="display: none" id="divupdate">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Updating Section..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="create_wrap">
+    <div class="batch_wrap" style="margin-top: 2px">
+        <div class="top_h">
+            <h2 id="CreateTitleH2">
+                <asp:Label ID="lbltitl" Text="Create Section"></asp:Label>
+            </h2>
+            <a href="dashboardnew.aspx" class="dashboard_btn"><< Back to Dashboard</a>
+
+        </div>
+
+
+
+    </div>
+
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <ul id="wizHeader">
+
+                    <li><a href="addtest.aspx" onclick="load()" title="Step 1: Configure Test" class="nextStep">Step 1: Configure Test</a> </li>
+                    <li><a title="Step 2: Configure Sections" class="currentStep">Step 2: Configure Sections</a> </li>
+                    <li><a title="Step 2: Add Questions">Step 3: Add Questions</a> </li>
+                    <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
+                    <li><a title="Step 5: Preview Test" class="nextStep">Step 5: Preview Test</a> </li>
+                </ul>
+            </td>
+        </tr>
+        @using (Html.BeginForm())
+        {
+
+
+            string secname = "";
+
+            @Html.AntiForgeryToken()
+           
+            <tr>
+                <td>
+                    <div id="sectiontab" class="create_wrap_inner">
+                        <div class="testname_row" style="width: 100%">
+                            <label class="tst_lable">
+                                Enter Section Name:
+                                @Html.ValidationMessageFor(model => model.sectionname, "", new { @class = "validerror" })
+                            </label>
+
+                            @Html.TextBoxFor(model => model.sectionname, null, new { @class = "ginput", @style = "width:400px;" })<br />
+                            <br />
+
+
+                            <label class="tst_lable">
+                                Section Settings:
+                            </label>
+                            @*<div id="codesettings" class="prgme check_language" style="width: 70%">
+                                    <table cellpadding="0" class="tbltestopts" style="width: 100%">
+                                        <tr id="tr2">
+                                            <td>
+                                                Select the programming language associated:
+                                            </td>
+                                            <td>
+                                                <asp:DropDownList ID="DDLProgLang" Width="300px" onchange="javascript:setcodemodevalue()">
+                                                    <asp:ListItem Value="51-ASP">ASP.NET</asp:ListItem>
+                                                    <asp:ListItem Value="37-PHP">PHP</asp:ListItem>
+                                                    <asp:ListItem Value="71-HTML">HTML</asp:ListItem>
+                                                    <asp:ListItem Value="71-JS">JS</asp:ListItem>
+                                                    <asp:ListItem Value="71-CSS">CSS</asp:ListItem>
+                                                    <asp:ListItem Value="0-GEN">Programming</asp:ListItem>
+                                                </asp:DropDownList>
+                                                <br />
+                                                <br />
+                                                <asp:ListBox ID="LB_subLang" Height="200px" Width="300px" SelectionMode="Multiple" Style="display: none">
+                                                    <asp:ListItem Value="11">C</asp:ListItem>
+                                                    <asp:ListItem Value="1">C++</asp:ListItem>
+                                                    <asp:ListItem Value="27">C#</asp:ListItem>
+                                                    <asp:ListItem Value="10">JAVA</asp:ListItem>
+                                                    <asp:ListItem Value="3">PERL</asp:ListItem>
+                                                    <asp:ListItem Value="4">PYTHON</asp:ListItem>
+                                                    <asp:ListItem Value="50">VB.NET</asp:ListItem>
+                                                    <asp:ListItem Value="22">PASCAL</asp:ListItem>
+                                                    <asp:ListItem Value="17">RUBY</asp:ListItem>
+                                                    <asp:ListItem Value="29">PHP (Console)</asp:ListItem>
+                                                    <asp:ListItem Value="39">Scala</asp:ListItem>
+                                                    <asp:ListItem Value="43">Objective-C</asp:ListItem>
+
+                                                </asp:ListBox>
+
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                    <div style="margin-left: 51px; width: 486px; margin-top: 35px;">
+                                        <asp:Label ID="lblWarning" Style="color: red;" CssClass="ui-widget warning"></asp:Label>
+                                    </div>
+                                </div>*@
+                            <div id="mcqsettings" class="prgme check_language" style="width: 70%">
+                                <table cellpadding="0" class="tbltestopts" style="width: 100%">
+                                    <tr id="tr1">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                Section Type:
+                                            </label>
+                                        </td>
+                                        <td style="font-size: 18px;">
+                                            @{
+                                                List<SelectListItem> listItems = new List<SelectListItem>();
+                                                listItems.Add(new SelectListItem
+                                                {
+                                                    Text = "Select",
+                                                    Value = "",
+                                                    Selected = true
+                                                });
+                                                listItems.Add(new SelectListItem
+                                                {
+                                                    Text = "MCQ",
+                                                    Value = "1",
+
+                                                });
+                                                listItems.Add(new SelectListItem
+                                                {
+                                                    Text = "CodeAssess",
+                                                    Value = "3"
+                                                });
+                                                listItems.Add(new SelectListItem
+                                                {
+                                                    Text = "Subjective",
+                                                    Value = "6"
+                                                });
+
+                                            }
+
+                                            @Html.DropDownListFor(x => x.type, listItems, new { @disabled = "disabled", @class = "ginput", @style = "width:50%" })
+                                            @Html.HiddenFor(x => x.type)
+                                            @Html.HiddenFor(x => x.sectionid)
+                                        </td>
+                                    </tr>
+
+                                    <tr id="trmanual">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                View and select questions manually
+                                                <a class="inst tooltipSetting tooltip2" title="Setting this option as 'No' will automate the question selection for am exam." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                            </label>
+                                        </td>
+                                        <td>
+                                            @{
+
+                                                
+                                                
+
+                                                List<SelectListItem> manuallist = new List<SelectListItem>();
+                                                manuallist.Add(new SelectListItem
+                                                {
+                                                    Text = "Yes",
+                                                    Value = "1",
+                                                    Selected = true
+
+                                                });
+                                                manuallist.Add(new SelectListItem
+                                                {
+                                                    Text = "No",
+                                                    Value = "0",
+
+                                                });
+
+
+
+                                            }
+
+                                            @foreach (var x in manuallist)
+                                            {
+                                                if (Model.configured == true)
+                                                {
+                                                    @Html.RadioButtonFor(model => model.auto, x.Value, new { @readonly = "readonly" })
+
+
+                                                }
+                                                else
+                                                {
+                                                    @Html.RadioButtonFor(model => model.auto, x.Value)
+                                                }
+
+
+                                                @x.Text
+
+                                            }
+                                        </td>
+                                    </tr>
+                                    <tr style="display:none;" id="trrandomtest">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                Randomize Options <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will randomize the order of options in question." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                            </label>
+                                        </td>
+                                        <td>
+                                            @{
+
+                                              
+
+                                                List<SelectListItem> randomlist = new List<SelectListItem>();
+                                                randomlist.Add(new SelectListItem
+                                                {
+                                                    Text = "Yes",
+                                                    Value = "1"
+
+                                                });
+                                                randomlist.Add(new SelectListItem
+                                                {
+                                                    Text = "No",
+                                                    Value = "0",
+
+                                                });
+
+
+
+                                            }
+
+
+                                            @foreach (var random in randomlist)
+                                            {
+                                                @Html.RadioButtonFor(model => model.random, random.Value)
+                                                @random.Text
+
+                                            }
+                                            }
+
+                                        </td>
+                                    </tr>
+                                    <tr id="trcomp">
+                                        <td style="width: 40%">
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                All Questions Compulsory <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will make it mandatory to attempt all the questions in the section." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+                                            </label>
+                                        </td>
+                                        <td>
+
+                                            @{
+                                                List<SelectListItem> complist = new List<SelectListItem>();
+                                                complist.Add(new SelectListItem
+                                                {
+                                                    Text = "Yes",
+                                                    Value = "1"
+
+                                                });
+                                                complist.Add(new SelectListItem
+                                                {
+                                                    Text = "No",
+                                                    Value = "0",
+
+                                                });
+
+
+
+                                            }
+                                            @foreach (var comp in complist)
+                                            {
+                                                @Html.RadioButtonFor(model => model.compulsory, comp.Value)
+                                                @comp.Text
+
+                                            }
+                                        </td>
+                                    </tr>
+
+
+                                    <tr id="trrev">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                Show Question Palette/Review <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes'/'No' will show/hide the section palette/review during the test window. This window helps the candidate to review all questions of the section at a glance and navigate to any question to attempt/change the answer." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                            </label>
+                                        </td>
+                                        <td>
+                                            @{
+                                                List<SelectListItem> revlist = new List<SelectListItem>();
+                                                revlist.Add(new SelectListItem
+                                                {
+                                                    Text = "Yes",
+                                                    Value = "1"
+
+                                                });
+                                                revlist.Add(new SelectListItem
+                                                {
+                                                    Text = "No",
+                                                    Value = "0",
+
+                                                });
+                                            }
+                                            @foreach (var rev in revlist)
+                                            {
+                                                @Html.RadioButtonFor(model => model.random, rev.Value)
+                                                @rev.Text
+
+                                            }
+
+                                        </td>
+                                    </tr>
+
+
+
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                    <input type="submit" class="crt_tset_btn"  style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Update Section"  />
+
+                    @*<asp:Button ID="Button1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="Button1_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" Text="Cancel" />
+                    <asp:Button ID="nextbtn" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="nextbtn_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Next" />*@
+
+                </td>
+            </tr>
+                                                }
+    </table>
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

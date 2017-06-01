@@ -1,0 +1,210 @@
+﻿@model IEnumerable<mmtMVC.Models.mmtsection>
+
+@{
+    ViewBag.Title = "Section Listing";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<style>
+    .score_tbl th, td {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .creation_listing td {
+        padding-left: 10px;
+        text-align: left !important;
+    }
+</style>
+<div class="test_evaluation_outer" style="display: none" id="divcreate">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Creating Section..</p>
+            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divupdate">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Updating Section..</p>
+            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divdelete">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Removing Section..</p>
+            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divload">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Loading..</p>
+            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="create_wrap">
+    <div class="batch_wrap" style="margin-top: 2px">
+        <div class="top_h">
+            <h2 id="CreateTitleH2">
+
+                Section Listing
+
+            </h2>
+            <a href="dashboardnew.aspx" class="dashboard_btn"><< Back to Dashboard</a>
+
+        </div>
+    </div>
+
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <ul id="wizHeader">
+
+                    <li><a href="addtest.aspx" onclick="load()" title="Step 1: Configure Test" class="nextStep">Step 1: Configure Test</a> </li>
+                    <li><a title="Step 2: Configure Sections" class="currentStep">Step 2: Configure Sections</a> </li>
+                    <li><a title="Step 2: Add Questions">Step 3: Add Questions</a> </li>
+                    <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
+                    <li><a title="Step 5: Preview Test" class="nextStep">Step 5: Preview Test</a> </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="seclisting">
+                    <label class="tst_lable">
+
+                        Test Sections:
+
+                    </label>
+
+                    <div class="prgme check_language" style="width: 90%">
+                        <div style="width: 100%; margin-left: 4px;" class="tst_lable">
+                            Add a section:
+                            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                            {
+                                <span class="validerror">@ViewBag.ErrorMessage</span>
+                            }
+                            @using (Html.BeginForm("Create", "Sections", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+
+
+                                List<SelectListItem> listItems = new List<SelectListItem>();
+                                listItems.Add(new SelectListItem
+                                {
+                                    Text = "Select",
+                                    Value = "",
+                                    Selected = true
+                                });
+                                listItems.Add(new SelectListItem
+                                {
+                                    Text = "MCQ",
+                                    Value = "1",
+
+                                });
+
+                                listItems.Add(new SelectListItem
+                                {
+                                    Text = "Essay",
+                                    Value = "6"
+                                });
+
+
+                                @Html.DropDownList("ddlsections", new SelectList(listItems, "Value", "Text"), new { @class = "ginput", @style = "width:200px;" })
+
+                                <input type="submit" class="up_savebtn" style="border: none; cursor: pointer; font-size: 16px;" value="Add Section" OnClientClick="javascript: return comp();" CssClass="up_savebtn" id="FinishButton" name="FinishButton" />
+                                @*<asp:Button Visible="false" Style="border: none; cursor: pointer;float:right; font-size: 16px;" Text="Section Re-Ordering" OnClientClick="javascript: return load();" CssClass="up_savebtn" ID="Button4" OnClick="Button4_Click" />*@
+                            }
+
+
+                            <table class="creation_listing" rules="all" id="grdviewselected" style="width:100%;border-collapse:collapse;" cellspacing="0" border="1">
+                                <tbody>
+                                    <tr class="borderbottom" style="background-color:WhiteSmoke;height:50px;">
+                                        <th scope="col" align="left">Sno</th>
+                                        <th scope="col" align="left">Section Name</th>
+                                        <th scope="col" align="left">Type</th>
+                                        <th scope="col" align="center">Status</th>
+                                        <th scope="col" align="center">Action</th>
+                                    </tr>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td style="width:10%;" align="left">
+                                                @Html.DisplayFor(modelItem => item.sectionid)
+                                            </td>
+                                            <td style="width:30%;" align="left">
+                                                <span style="font-weight: 300">@Html.DisplayFor(modelItem => item.sectionname)</span>
+                                            </td>
+                                            <td style="width:15%;" align="left">
+                                                <span style="font-weight: 300">@Html.DisplayFor(modelItem => item.type)</span>
+                                            </td>
+                                            <td style="width:10%;" align="left">
+
+                                                @if (item.sectionname == "-----")
+                                                {
+                                                    <span id="ContentPlaceHolder1_grdviewselected_lblstatus_1" style="font-weight: 300;" class="validerror">Unconfigured</span>
+                                                }
+                                                else
+                                                {
+                                                    <span id="ContentPlaceHolder1_grdviewselected_lblstatus_1" style="font-weight: 300">Configured</span>
+                                                }
+
+                                            </td>
+                                            <td style="width:10%;" align="left">
+                                               
+   
+                                                @Html.ActionLink("Edit", actionName: "Edit", controllerName: "Sections", routeValues: new { examid = item.examid, secid = item.secid }, htmlAttributes: new { @class = "exdlt_uesr", @style = "border: none; cursor: pointer;" })
+                                                <input name="delsec" value="Remove" onclick="javascript: return deleteCheck();" id="delsec" class="dlt_uesr" style="border: none; cursor: pointer;" type="submit">
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right">
+
+                <asp:Button ID="UpdateButton" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return update();" BorderWidth="0px" OnClick="UpdateButton_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Update Section" />
+                <asp:Button ID="Button1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="Button1_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" Text="Cancel" />
+                <asp:Button ID="nextbtn" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="nextbtn_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Next" />
+
+            </td>
+        </tr>
+    </table>
+</div>

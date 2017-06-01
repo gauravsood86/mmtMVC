@@ -1,0 +1,77 @@
+div#test-accordion {
+	margin: 10px;
+}
+div#test-accordion2 {
+	margin: 10px;
+}
+div.accordion {
+	position: relative; /* required for bounding */
+}
+div.accordion-toggle {
+	position: relative; /* required for effect */
+	z-index: 10;		/* required for effect */
+	background-color: #4367a5;
+	background-image: url("../images/accordian-arrow-up.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: pointer;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin: 10px 0;
+	font-size: 15px;
+}
+div.accordion-toggle-active {
+	background-image: url("../images/accordian-arrow-down.png");
+}
+div.accordion-content {
+	overflow-y: scroll;	/* required for effect */
+	padding: 10px 15px;
+	border-bottom: 2px solid #CFCFCF;
+	max-height: 200px;
+}
+.accordion-content li a {
+    color: #2E2E2E;
+    float: left;
+    font-size: 13px;
+}
+.accordion-content > ul {
+	list-style: none outside none;
+	line-height: 24px;
+}
+.accordion-content li a:hover, .list-pet a:hover {
+	color: #284C8A;
+	text-decoration: underline;
+}
+.accordion-content li {
+    float: left;
+    width: 100%;
+	padding: 3px 0;
+}
+.accordion-content li a.exising-view {
+    background-color:#9D9D9D;
+    border-radius: 3px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 2px 9px;
+}
+.accordion-content li a.exising-pick {
+    margin: 0 10px;
+	background-color: #36BE75;
+    border-radius: 3px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 2px 9px;
+}
+.accordion-content li a.exising-pick:hover {
+	background-color:#19A158;
+	text-decoration:none;
+}
+.accordion-content li a.exising-view:hover {
+	background-color:#777777;
+	text-decoration:none;
+}

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MMT_ConstModelStoreContainer" CdmEntityContainer="MMT_ConstEntities">
+    <EntitySetMapping Name="mmtexamflags">
+      <EntityTypeMapping TypeName="MMT_ConstModel.mmtexamflag">
+        <MappingFragment StoreEntitySet="mmtexamflags">
+          <ScalarProperty Name="examid" ColumnName="examid" />
+          <ScalarProperty Name="flagerror" ColumnName="flagerror" />
+          <ScalarProperty Name="flagcount" ColumnName="flagcount" />
+          <ScalarProperty Name="flagid" ColumnName="flagid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mmtexams">
+      <EntityTypeMapping TypeName="MMT_ConstModel.mmtexam">
+        <MappingFragment StoreEntitySet="mmtexams">
+          <ScalarProperty Name="istestreport" ColumnName="istestreport" />
+          <ScalarProperty Name="istexttospeech" ColumnName="istexttospeech" />
+          <ScalarProperty Name="isemailreport" ColumnName="isemailreport" />
+          <ScalarProperty Name="path" ColumnName="path" />
+          <ScalarProperty Name="islogo" ColumnName="islogo" />
+          <ScalarProperty Name="passingmarks" ColumnName="passingmarks" />
+          <ScalarProperty Name="examlanguage" ColumnName="examlanguage" />
+          <ScalarProperty Name="masterxmlfile" ColumnName="masterxmlfile" />
+          <ScalarProperty Name="endbutton" ColumnName="endbutton" />
+          <ScalarProperty Name="islive" ColumnName="islive" />
+          <ScalarProperty Name="flagerror" ColumnName="flagerror" />
+          <ScalarProperty Name="flagged" ColumnName="flagged" />
+          <ScalarProperty Name="isfreezed" ColumnName="isfreezed" />
+          <ScalarProperty Name="addedby" ColumnName="addedby" />
+          <ScalarProperty Name="uploaddate" ColumnName="uploaddate" />
+          <ScalarProperty Name="randomtest" ColumnName="randomtest" />
+          <ScalarProperty Name="offline" ColumnName="offline" />
+          <ScalarProperty Name="questioncount" ColumnName="questioncount" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="instructions" ColumnName="instructions" />
+          <ScalarProperty Name="catid" ColumnName="catid" />
+          <ScalarProperty Name="examname" ColumnName="examname" />
+          <ScalarProperty Name="examid" ColumnName="examid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mmtgroups">
+      <EntityTypeMapping TypeName="MMT_ConstModel.mmtgroup">
+        <MappingFragment StoreEntitySet="mmtgroups">
+          <ScalarProperty Name="passageid" ColumnName="passageid" />
+          <ScalarProperty Name="secid" ColumnName="secid" />
+          <ScalarProperty Name="sectionid" ColumnName="sectionid" />
+          <ScalarProperty Name="examid" ColumnName="examid" />
+          <ScalarProperty Name="groupdesc" ColumnName="groupdesc" />
+          <ScalarProperty Name="groupid" ColumnName="groupid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mmtquestionbanks">
+      <EntityTypeMapping TypeName="MMT_ConstModel.mmtquestionbank">
+        <MappingFragment StoreEntitySet="mmtquestionbanks">
+          <ScalarProperty Name="calculator" ColumnName="calculator" />
+          <ScalarProperty Name="groupid" ColumnName="groupid" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="passageId" ColumnName="passageId" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="sound" ColumnName="sound" />
+          <ScalarProperty Name="figure" ColumnName="figure" />
+          <ScalarProperty Name="textanswer" ColumnName="textanswer" />
+          <ScalarProperty Name="difficulty" ColumnName="difficulty" />
+          <ScalarProperty Name="examid" ColumnName="examid" />
+          <ScalarProperty Name="sectionid" ColumnName="sectionid" />
+          <ScalarProperty Name="secid" ColumnName="secid" />
+          <ScalarProperty Name="topicid" ColumnName="topicid" />
+          <ScalarProperty Name="qtype" ColumnName="qtype" />
+          <ScalarProperty Name="ans" ColumnName="ans" />
+          <ScalarProperty Name="rows" ColumnName="rows" />
+          <ScalarProperty Name="cols" ColumnName="cols" />
+          <ScalarProperty Name="h" ColumnName="h" />
+          <ScalarProperty Name="g" ColumnName="g" />
+          <ScalarProperty Name="f" ColumnName="f" />
+          <ScalarProperty Name="e" ColumnName="e" />
+          <ScalarProperty Name="d" ColumnName="d" />
+          <ScalarProperty Name="c" ColumnName="c" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="a" ColumnName="a" />
+          <ScalarProperty Name="question" ColumnName="question" />
+          <ScalarProperty Name="questionid" ColumnName="questionid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mmtsections">
+      <EntityTypeMapping TypeName="MMT_ConstModel.mmtsection">
+        <MappingFragment StoreEntitySet="mmtsections">
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="examid" ColumnName="examid" />
+          <ScalarProperty Name="sectionid" ColumnName="sectionid" />
+          <ScalarProperty Name="sectiondesc" ColumnName="sectiondesc" />
+          <ScalarProperty Name="sectionname" ColumnName="sectionname" />
+          <ScalarProperty Name="secid" ColumnName="secid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mmttopics">
+      <EntityTypeMapping TypeName="MMT_ConstModel.mmttopic">
+        <MappingFragment StoreEntitySet="mmttopics">
+          <ScalarProperty Name="secid" ColumnName="secid" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="sectionid" ColumnName="sectionid" />
+          <ScalarProperty Name="examid" ColumnName="examid" />
+          <ScalarProperty Name="topicdesc" ColumnName="topicdesc" />
+          <ScalarProperty Name="topicname" ColumnName="topicname" />
+          <ScalarProperty Name="topicid" ColumnName="topicid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

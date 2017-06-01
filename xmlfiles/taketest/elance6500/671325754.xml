@@ -1,0 +1,2031 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpertRating>
+  <Test>
+    <store>test|123,seltheme|humanity,selheader|firstnaukri.gif,selbgcolor|style='background-color:#ffffff;',pin_code|E2721673,non|True,exm|7646,examid|7646,userid|892543,candidateid|892543,cauthenticated|true,sitecode|821580,pincode|2721673,pininup|true,ViewResult|true,SendMail|true,mailto|nijiatnaukri@gmail.com
+,passcode|,fname|rr,lname|rr,employertyp|false,timerfree|,showreview|false,examended|false,attemptid|1944866,examname|Demo test FN,offline|Y,price|0,totques|40,examtime|40,timepending|Time Remaining: 0:40:00,examstarted|true,questionno|1,juststarted|true,timestarted|true</store>
+    <info>
+      <customexamid>
+      </customexamid>
+      <userid>45</userid>
+      <examid>857</examid>
+      <reviewbutton>false</reviewbutton>
+      <currenttime>3/13/2014 4:19:28 PM</currenttime>
+      <currentsection>1</currentsection>
+      <hdnsectionid>
+      </hdnsectionid>
+      <hdnvarid>
+      </hdnvarid>
+      <hdnvarSrNo>
+      </hdnvarSrNo>
+      <timerem>00:10:00</timerem>
+      <flowtype>1</flowtype>
+      <flowtypetime>2</flowtypetime>
+      <currentquestion>1</currentquestion>
+      <totquessection>6</totquessection>
+      <totques>16</totques>
+      <questionno>1</questionno>
+      <numberingcontinue>nocont</numberingcontinue>
+      <varlan>English</varlan>
+      <reviewsection>
+      </reviewsection>
+      <next>
+      </next>
+      <attemptstatus>
+      </attemptstatus>
+      <enablered>
+      </enablered>
+      <questionid>
+      </questionid>
+      <resume>
+      </resume>
+      <secRev>
+      </secRev>
+      <RevType>
+      </RevType>
+      <enattemptid>UVrSKyvbJcKsLTR+IAoEvQ==</enattemptid>
+      <ExamStartTime>3/13/2014 10:49:25 AM</ExamStartTime>
+      <SecView>0</SecView>
+    </info>
+    <Numbering>0</Numbering>
+    <Review individual="0" type="" show="0">
+    </Review>
+    <Time show="0">
+    </Time>
+    <totaltime>30</totaltime>
+    <completed>ok</completed>
+    <cssData>Theme|||http://expertrating.com/employers/css/redmond/style.css,Header|||http://www.expertrating.com/employers/images/header/jetairways1.gif,bgcolor|||#ffffff,urlredirect|||</cssData>
+  </Test>
+  <Section type="1" id="1" count="" showintro="1" showtitle="0" showmark="1" showreview="0" questioncompulsory="0" randomizeoptions="0" completed="not" isnegative="0" negativescore="0">
+    <title>JAVA</title>
+    <section_description>
+    </section_description>
+    <Time>00:10:00</Time>
+    <Groups id="1" sectionid="1" count="">
+      <common_instructions> Group 1 Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1&lt;BR/&gt;Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1&lt;BR/&gt;Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1Group 1&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</common_instructions>
+    </Groups>
+    <Groups id="2" sectionid="1" count="">
+      <common_instructions> Group 2 Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2&lt;BR/&gt;Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2&lt;BR/&gt;Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</common_instructions>
+    </Groups>
+    <Topics id="3543" Topicname="JAVA" sectionid="1" currentcount="1" count="">
+    </Topics>
+  </Section>
+  <Section type="1" id="2" count="" showintro="1" showtitle="0" showmark="1" showreview="0" questioncompulsory="0" randomizeoptions="0" completed="not" isnegative="0" negativescore="0">
+    <title>PL/SQLSection</title>
+    <section_description>
+    </section_description>
+    <Time>00:10:00</Time>
+    <Groups id="1" sectionid="2" count="">
+      <common_instructions> Group 2 Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2&lt;BR/&gt;Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2&lt;BR/&gt;Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2Group 2&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</common_instructions>
+    </Groups>
+    <Topics id="3544" Topicname="JAVA" sectionid="2" currentcount="1" count="">
+    </Topics>
+    <Topics id="3545" Topicname="HTML" sectionid="2" currentcount="1" count="">
+    </Topics>
+  </Section>
+  <Section type="6" id="3" count="" showintro="" showtitle="" showmark="" showreview="" questioncompulsory="" randomizeoptions="" completed="not" isnegative="0" negativescore="0">
+    <title>Essay</title>
+    <section_description>
+    </section_description>
+    <Time>00:10:00</Time>
+    <Topics id="3546" Topicname="dq" sectionid="3" currentcount="1" count="">
+    </Topics>
+  </Section>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61412</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following lines will compile without warning or error.&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;#include &amp;lt;stdio.h&amp;gt;&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;int&lt;/span&gt; main()   &lt;BR/&gt;{   &lt;BR/&gt;&lt;span class="kwrd"&gt;float&lt;/span&gt; a, b, r, j, theta, thetaquadrant3, thetaquadrant4, convert ;   &lt;BR/&gt;&lt;BR/&gt;j = -1;   &lt;BR/&gt;b = b*-1;   &lt;BR/&gt;thetaquadrant3 = theta - 180;   &lt;BR/&gt;thetaquadrant4 = theta + 180;   &lt;BR/&gt;&lt;BR/&gt;printf (&lt;span class="str"&gt;"Please enter intput A and B in the form of a+bj\n"&lt;/span&gt;);&lt;BR/&gt;&lt;BR/&gt;&lt;span class="str"&gt;");   &lt;BR/&gt;scanf ("&lt;/span&gt;%f&lt;span class="str"&gt;" , &amp;amp;a);   &lt;BR/&gt;&lt;BR/&gt;"&lt;/span&gt;);   &lt;BR/&gt;scanf (&lt;span class="str"&gt;"%f"&lt;/span&gt; , &amp;amp;b);   &lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;if&lt;/span&gt; ((a&amp;gt;=0.0) &amp;amp;&amp;amp; (b &amp;gt;= 0.0))   &lt;BR/&gt;{   &lt;BR/&gt;//take no action &lt;span class="kwrd"&gt;as&lt;/span&gt; the calculated angle &lt;span class="kwrd"&gt;is&lt;/span&gt; &lt;span class="kwrd"&gt;in&lt;/span&gt; quadrant 1      &lt;BR/&gt;r = sqrt (pow(a, 2) + pow(b , 2));      &lt;BR/&gt;printf (&lt;span class="str"&gt;"R=%f\n\n"&lt;/span&gt; , r);     &lt;BR/&gt;&lt;BR/&gt;theta = atan(b/a);   &lt;BR/&gt;printf (&lt;span class="str"&gt;"Theta=%f\n\n"&lt;/span&gt;, theta );   &lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;if&lt;/span&gt; ((a&amp;lt;=-0.0) &amp;amp;&amp;amp; (b &amp;gt;= 0.0))   &lt;BR/&gt;{   &lt;BR/&gt;//take no action &lt;span class="kwrd"&gt;as&lt;/span&gt; the calculated angle &lt;span class="kwrd"&gt;is&lt;/span&gt; &lt;span class="kwrd"&gt;in&lt;/span&gt; quadrant 2   &lt;BR/&gt;r = sqrt (pow(a, 2) + pow(b , 2));    &lt;BR/&gt;printf (&lt;span class="str"&gt;"R=%f\n\n"&lt;/span&gt; , r);    &lt;BR/&gt;&lt;BR/&gt;theta = atan(b/a);    &lt;BR/&gt;printf (&lt;span class="str"&gt;"Theta=%f\n\n"&lt;/span&gt;, theta );    &lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;if&lt;/span&gt; ((a&amp;lt;=-0.0) &amp;amp;&amp;amp; (b &amp;lt;= -0.0))    &lt;BR/&gt;{&lt;BR/&gt;//Quadant 3   &lt;BR/&gt;r = sqrt (pow(a, 2) + pow(b , 2));    &lt;BR/&gt;printf (&lt;span class="str"&gt;"R=%f\n\n"&lt;/span&gt; , r);    &lt;BR/&gt;&lt;BR/&gt;theta = atan(b/a);    &lt;BR/&gt;printf (&lt;span class="str"&gt;"Theta=%f\n\n"&lt;/span&gt;, thetaquadrant3 );    &lt;BR/&gt;&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;if&lt;/span&gt; ((a&amp;gt;=0.0) &amp;amp;&amp;amp; (b &amp;lt;= -0.0))    &lt;BR/&gt;{      &lt;BR/&gt;//Quadrant 4    &lt;BR/&gt;r = sqrt (pow(a, 2) + pow(b , 2));   &lt;BR/&gt;printf (&lt;span class="str"&gt;"R=%f\n\n"&lt;/span&gt; , r);    &lt;BR/&gt;&lt;BR/&gt;theta = atan(b/a);    &lt;BR/&gt;printf (&lt;span class="str"&gt;"Theta=%f\n\n"&lt;/span&gt;, thetaquadrant4 );    &lt;BR/&gt;}    &lt;BR/&gt;&lt;BR/&gt;// Converting back to rectangular Co-ordinates    &lt;BR/&gt;convert = r*cos(theta) + j*r*sin (theta);    &lt;BR/&gt;printf (&lt;span class="str"&gt;"Corresponds to%f\n\n"&lt;/span&gt; , convert);     &lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;return&lt;/span&gt; 0;   &lt;BR/&gt;}&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;Working FIne&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">float f=1.3;</OptionA>
+    <OptionB value="b">char c="a";</OptionB>
+    <OptionC value="c">byte b=257;</OptionC>
+    <OptionD value="d">boolean b=null;</OptionD>
+    <OptionE value="e">int i=10;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>e</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61413</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will happen if you try to compile and run the following code&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt; &lt;BR/&gt;# include &amp;lt;stdio.h&amp;gt;&lt;BR/&gt;# include &amp;lt;conio.h&amp;gt; &lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;void&lt;/span&gt; swap (&lt;span class="kwrd"&gt;char&lt;/span&gt; *x, &lt;span class="kwrd"&gt;char&lt;/span&gt; *y)&lt;BR/&gt;{&lt;BR/&gt;    &lt;span class="kwrd"&gt;char&lt;/span&gt; temp;&lt;BR/&gt;    temp = *x;&lt;BR/&gt;    *x = *y;&lt;BR/&gt;    *y = temp;&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;void&lt;/span&gt; permute(&lt;span class="kwrd"&gt;char&lt;/span&gt; *a, &lt;span class="kwrd"&gt;int&lt;/span&gt; i, &lt;span class="kwrd"&gt;int&lt;/span&gt; n)&lt;BR/&gt;{&lt;BR/&gt;   &lt;span class="kwrd"&gt;int&lt;/span&gt; j;&lt;BR/&gt;   &lt;span class="kwrd"&gt;if&lt;/span&gt; (i == n)&lt;BR/&gt;     printf(&lt;span class="str"&gt;"%s\n"&lt;/span&gt;, a);&lt;BR/&gt;   &lt;span class="kwrd"&gt;else&lt;/span&gt;&lt;BR/&gt;   {&lt;BR/&gt;        &lt;span class="kwrd"&gt;for&lt;/span&gt; (j = i; j &amp;lt;= n; j++)&lt;BR/&gt;       {&lt;BR/&gt;          swap((a+i), (a+j));&lt;BR/&gt;          permute(a, i+1, n);&lt;BR/&gt;          swap((a+i), (a+j));&lt;BR/&gt;       }&lt;BR/&gt;   }&lt;BR/&gt;} &lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;int&lt;/span&gt; main()&lt;BR/&gt;{&lt;BR/&gt;   &lt;span class="kwrd"&gt;char&lt;/span&gt; a[] = &lt;span class="str"&gt;"ABC"&lt;/span&gt;;&lt;BR/&gt;   permute(a, 0, 2);&lt;BR/&gt;   getchar();&lt;BR/&gt;   &lt;span class="kwrd"&gt;return&lt;/span&gt; 0;&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">&lt;BR/&gt;error Can&amp;#39;t make static reference to void amethod. 2&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;error Can't make &lt;span class="kwrd"&gt;static&lt;/span&gt; reference to &lt;span class="kwrd"&gt;void&lt;/span&gt; amethod. &lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;a&lt;BR/&gt;b&lt;BR/&gt;c&lt;BR/&gt;de&lt;BR/&gt;f&lt;BR/&gt;g&lt;BR/&gt;</OptionA>
+    <OptionB value="b">error method main not correct</OptionB>
+    <OptionC value="c">error array must include parameter</OptionC>
+    <OptionD value="d">amethod must be declared with String</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61414</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following will compile without error&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">import java.awt.*;package Mypackage;class Myclass {}</OptionA>
+    <OptionB value="b">package MyPackage;import java.awt.*;class MyClass{}</OptionB>
+    <OptionC value="c">/*This is a comment */package MyPackage;import java.awt.*;class MyClass{}</OptionC>
+    <OptionD value="d">
+    </OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>bc</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61415</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>A byte can be of what size&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">&amp;#45;128 to 127</OptionA>
+    <OptionB value="b">(&amp;#45;2 power 8 )&amp;#45;1 to 2 power 8</OptionB>
+    <OptionC value="c">&amp;#45;255 to 256</OptionC>
+    <OptionD value="d">depends on the particular implementation of the Java Virtual machine</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61416</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will be printed out if this code is run with the following command line?&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;BR/&gt;java myprog good morning&lt;BR/&gt;&lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; myprog{&lt;BR/&gt;    &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; main(String argv[])&lt;BR/&gt;    {&lt;BR/&gt;    System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(argv[2]);&lt;BR/&gt;    }&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">myprog</OptionA>
+    <OptionB value="b">good</OptionB>
+    <OptionC value="c">morning</OptionC>
+    <OptionD value="d">Exception raised$$ "java.lang.ArrayIndexOutOfBoundsException$$ 2"</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61417</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following are keywords or reserved words in Java?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">&lt;table&gt;&lt;tr&gt;&lt;td&gt;STUDENT_ID &lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;NUMBER &lt;/td&gt; &lt;td&gt;  &lt;/td&gt;&lt;td&gt;NOT NULL, Primary Key&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STUDENT_NAME&lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;VARCHAR2 (30)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COURSE_ID&lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;VARCHAR2 (10)&lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;NOT NULL &lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;MARKS&lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;NUMBER&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;START_DATE&lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;DATE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FINISH_DATE&lt;/td&gt;&lt;td&gt;  &lt;/td&gt;&lt;td&gt;DATE&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</OptionA>
+    <OptionB value="b">then</OptionB>
+    <OptionC value="c">goto</OptionC>
+    <OptionD value="d">while</OptionD>
+    <OptionE value="e">case &lt;BR/&gt;&lt;BR/&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>acde</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61418</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following are legal identifiers &lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">2variable</OptionA>
+    <OptionB value="b">variable2</OptionB>
+    <OptionC value="c">_whatavariable</OptionC>
+    <OptionD value="d">_3_</OptionD>
+    <OptionE value="e">$anothervar</OptionE>
+    <OptionF value="f">#myvar &lt;BR/&gt;&lt;BR/&gt;</OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>bcde</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61419</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will happen when you compile and run the following code?&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; MyClass&lt;BR/&gt;{&lt;BR/&gt;   &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;int&lt;/span&gt; i;&lt;BR/&gt;   &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; main(String argv[])&lt;BR/&gt;   {&lt;BR/&gt;    System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(i);&lt;BR/&gt;   }&lt;BR/&gt;}&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">Error Variable i may not have been initialized</OptionA>
+    <OptionB value="b">null</OptionB>
+    <OptionC value="c">1</OptionC>
+    <OptionD value="d">0</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61420</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will happen if you try to compile and run the following code?&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; Q &lt;BR/&gt;{&lt;BR/&gt;   &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; main(String argv[])&lt;BR/&gt;    {&lt;BR/&gt;        &lt;span class="kwrd"&gt;int&lt;/span&gt; anar[]=&lt;span class="kwrd"&gt;new&lt;/span&gt; &lt;span class="kwrd"&gt;int&lt;/span&gt;[]{1,2,3};&lt;BR/&gt;        System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(anar[1]);&lt;BR/&gt;        }&lt;BR/&gt;}&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">1</OptionA>
+    <OptionB value="b">Error anar is referenced before it is initialized</OptionB>
+    <OptionC value="c">2</OptionC>
+    <OptionD value="d">Error$$ size of array must be defined &lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="1" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61421</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will happen if you try to compile and run the following code?&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; Q &lt;BR/&gt;{&lt;BR/&gt;   &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; main(String argv[])&lt;BR/&gt;   {&lt;BR/&gt;     &lt;span class="kwrd"&gt;int&lt;/span&gt; anar[]=&lt;span class="kwrd"&gt;new&lt;/span&gt; &lt;span class="kwrd"&gt;int&lt;/span&gt;[5];&lt;BR/&gt;     System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(anar[0]);&lt;BR/&gt;   }&lt;BR/&gt;}&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">Error$$anar is referenced before it is initialized</OptionA>
+    <OptionB value="b">null</OptionB>
+    <OptionC value="c">0</OptionC>
+    <OptionD value="d">5 &lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="2" srno="11" group_id="2" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61422</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will be the result of attempting to compile and run the following code?&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;abstract&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; MineBase &lt;BR/&gt;{&lt;BR/&gt;   &lt;span class="kwrd"&gt;abstract&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; amethod();&lt;BR/&gt;   &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;int&lt;/span&gt; i;&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; Mine extends MineBase &lt;BR/&gt;{&lt;BR/&gt;  &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; main(String argv[])&lt;BR/&gt;  {&lt;BR/&gt;     &lt;span class="kwrd"&gt;int&lt;/span&gt;[] ar=&lt;span class="kwrd"&gt;new&lt;/span&gt; &lt;span class="kwrd"&gt;int&lt;/span&gt;[5];&lt;BR/&gt;     &lt;span class="kwrd"&gt;for&lt;/span&gt;(i=0;i &amp;lt; ar.length;i++)&lt;BR/&gt;       System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(ar[i]);&lt;BR/&gt;  }&lt;BR/&gt;}&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">a sequence of 5 0&amp;#39;s will be printed</OptionA>
+    <OptionB value="b">Error$$ ar is used before it is initialized</OptionB>
+    <OptionC value="c">Error Mine must be declared abstract</OptionC>
+    <OptionD value="d">IndexOutOfBoundes Error &lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>2</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="2" srno="11" group_id="2" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61423</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;int&lt;/span&gt; i=1;&lt;BR/&gt;&lt;span class="kwrd"&gt;switch&lt;/span&gt; (i) &lt;BR/&gt;{&lt;BR/&gt;&lt;BR/&gt;    System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"zero"&lt;/span&gt;);&lt;BR/&gt;        &lt;span class="kwrd"&gt;break&lt;/span&gt;;&lt;BR/&gt;&lt;BR/&gt;    System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"one"&lt;/span&gt;);&lt;BR/&gt;&lt;BR/&gt;     System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"two"&lt;/span&gt;);&lt;BR/&gt;&lt;BR/&gt;    System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"default"&lt;/span&gt;);&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">one</OptionA>
+    <OptionB value="b">one, default</OptionB>
+    <OptionC value="c">one, two, default</OptionC>
+    <OptionD value="d">default &lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>2</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="3" srno="13" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61424</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will be printed out if you attempt to compile and run the following code? &lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;int&lt;/span&gt; i=9;&lt;BR/&gt;&lt;span class="kwrd"&gt;switch&lt;/span&gt; (i)&lt;BR/&gt; {&lt;BR/&gt;&lt;BR/&gt;      System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"default"&lt;/span&gt;);&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"two"&lt;/span&gt;);}&lt;BR/&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">default</OptionA>
+    <OptionB value="b">default, zero</OptionB>
+    <OptionC value="c">error default clause not defined</OptionC>
+    <OptionD value="d">no output displayed &lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="4" srno="14" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61425</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following lines of code will compile without error&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">int i=0;if(i) {System.out.println("Hello");}</OptionA>
+    <OptionB value="b">boolean b=true;boolean b2=true;if(b==b2) {System.out.println("So true"); }</OptionB>
+    <OptionC value="c">int i=1;int j=2;if(i==1|| j==2)System.out.println("OK");</OptionC>
+    <OptionD value="d">int i=1;int j=2;if(i==1 &amp;| j==2)System.out.println("OK");&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>bc</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="5" srno="15" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61426</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What will be output if you try to compile and run the following code, but there is no file called Hello.txt in the current directory?&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;import java.io.*;&lt;BR/&gt;&lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;class&lt;/span&gt; Mine {&lt;BR/&gt;    &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;static&lt;/span&gt; &lt;span class="kwrd"&gt;void&lt;/span&gt; main(String argv[]){&lt;BR/&gt;    Mine m=&lt;span class="kwrd"&gt;new&lt;/span&gt; Mine();&lt;BR/&gt;    System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(m.amethod());&lt;BR/&gt;    }&lt;BR/&gt;    &lt;span class="kwrd"&gt;public&lt;/span&gt; &lt;span class="kwrd"&gt;int&lt;/span&gt; amethod() {&lt;BR/&gt;    &lt;span class="kwrd"&gt;try&lt;/span&gt; {&lt;BR/&gt;        FileInputStream dis=&lt;span class="kwrd"&gt;new&lt;/span&gt; FileInputStream(&lt;span class="str"&gt;"Hello.txt"&lt;/span&gt;);&lt;BR/&gt;    }&lt;span class="kwrd"&gt;catch&lt;/span&gt; (FileNotFoundException fne) {&lt;BR/&gt;        System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"No such file found"&lt;/span&gt;);&lt;BR/&gt;        &lt;span class="kwrd"&gt;return&lt;/span&gt; &amp;amp;#45;1;&lt;BR/&gt;    }&lt;span class="kwrd"&gt;catch&lt;/span&gt;(IOException ioe) {&lt;BR/&gt;    } &lt;span class="kwrd"&gt;finally&lt;/span&gt;{&lt;BR/&gt;        System.&lt;span class="kwrd"&gt;out&lt;/span&gt;.println(&lt;span class="str"&gt;"Doing finally"&lt;/span&gt;);&lt;BR/&gt;    }&lt;BR/&gt;&lt;BR/&gt;    &lt;span class="kwrd"&gt;return&lt;/span&gt; 0;&lt;BR/&gt;    }&lt;BR/&gt;&lt;BR/&gt;}&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">No such file found</OptionA>
+    <OptionB value="b">No such file found ,&amp;#45;1</OptionB>
+    <OptionC value="c">No such file found, Doing finally, &amp;#45;1</OptionC>
+    <OptionD value="d">0 &lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="6" srno="16" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61443</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Consider the following code snippet:
+&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&amp;lt;form id=&lt;span class="str"&gt;"form1"&lt;/span&gt;&amp;gt;
+&amp;lt;input type=&lt;span class="str"&gt;"text"&lt;/span&gt; id=&lt;span class="str"&gt;"text1"&lt;/span&gt; &lt;span class="kwrd"&gt;value&lt;/span&gt;=&lt;span class="str"&gt;"default"&lt;/span&gt; /&amp;gt; &amp;lt;/br&amp;gt;
+&amp;lt;input type=&lt;span class="str"&gt;"text"&lt;/span&gt; name=&lt;span class="str"&gt;"email"&lt;/span&gt; /&amp;gt;&amp;lt;/br&amp;gt;
+&amp;lt;/form&amp;gt;&amp;lt;/br&amp;gt;
+&amp;lt;script type=&lt;span class="str"&gt;"text/javascript"&lt;/span&gt;&amp;gt;&amp;lt;/br&amp;gt;
+function submitForm1() &amp;lt;/br&amp;gt;
+{
+alert($(&lt;span class="str"&gt;&amp;#39;#form1&amp;#39;&lt;/span&gt;).serialize());&amp;lt;/br&amp;gt;
+}
+&amp;lt;/script&amp;gt;
+&lt;/div&gt;&lt;/pre&gt; 
+What does the alert box display when the function submitForm1 is called?</Question>
+    <OptionA value="a">d</OptionA>
+    <OptionB value="b">d</OptionB>
+    <OptionC value="c">d</OptionC>
+    <OptionD value="d">d</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3543</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61427</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Examine the code&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;SET&lt;/span&gt; &lt;span class="kwrd"&gt;SERVER&lt;/span&gt; &lt;span class="kwrd"&gt;OUTPUT&lt;/span&gt; &lt;span class="kwrd"&gt;ON&lt;/span&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;DECLARE&lt;/span&gt;&lt;BR/&gt;v_char_val varchar2(100);&lt;BR/&gt;&lt;span class="kwrd"&gt;BEGIN&lt;/span&gt;&lt;BR/&gt;= &lt;span class="str"&gt;'Hello World'&lt;/span&gt;,&lt;BR/&gt;DBMS_OUTPUT.PUT_LINE(v_char_val);&lt;BR/&gt;&lt;span class="kwrd"&gt;END&lt;/span&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;SET&lt;/span&gt; &lt;span class="kwrd"&gt;SERVER&lt;/span&gt; &lt;span class="kwrd"&gt;OUTPUT&lt;/span&gt; &lt;span class="kwrd"&gt;OFF&lt;/span&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;This code is stored in a script file name "myproc,sql". Which statement executes the code in the script file?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">Myproc.sql</OptionA>
+    <OptionB value="b">RUN myproc,sql</OptionB>
+    <OptionC value="c">START myproc.sql</OptionC>
+    <OptionD value="d">EXECUTE myproc.sql</OptionD>
+    <OptionE value="e">BEGIN myproc.sql END;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="2" srno="2" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61428</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Examine this block of code&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;Set&lt;/span&gt; &lt;span class="kwrd"&gt;server&lt;/span&gt; &lt;span class="kwrd"&gt;output&lt;/span&gt; ONDeclare&lt;BR/&gt;X NUMBER;&lt;BR/&gt;V_SAL NUMBER;&lt;BR/&gt;= &lt;span class="str"&gt;'TRUE'&lt;/span&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;Begin&lt;/span&gt;&lt;BR/&gt;=1;&lt;BR/&gt;=1000;&lt;BR/&gt;&lt;span class="kwrd"&gt;Declare&lt;/span&gt;&lt;BR/&gt;V_found VARCHAR2(10);&lt;BR/&gt;Y NUMBER;&lt;BR/&gt;&lt;span class="kwrd"&gt;Begin&lt;/span&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;IF&lt;/span&gt; (V_sal&amp;gt;500) &lt;span class="kwrd"&gt;THEN&lt;/span&gt;&lt;BR/&gt;= &lt;span class="str"&gt;'YES'&lt;/span&gt;;&lt;BR/&gt;&lt;span class="kwrd"&gt;END&lt;/span&gt; &lt;span class="kwrd"&gt;IF&lt;/span&gt;;&lt;BR/&gt;DBMS_OUTPUT.PUT_LINE(&lt;span class="str"&gt;'value of V_found is'&lt;/span&gt; || V_found);&lt;BR/&gt;DBMS_OUTPUT.PUT_LINE (&lt;span class="str"&gt;'value of V_found is'&lt;/span&gt; || V_found);&lt;BR/&gt;20;ENDDBMS_OUTPUT.PUT_LINE (&lt;span class="str"&gt;'value of V_found is'&lt;/span&gt; || V_found);DBMS_OUTPUT.PUT_LINE (&lt;span class="str"&gt;'value of Y is'&lt;/span&gt; || TO_CHAR (Y));&lt;BR/&gt;&lt;span class="kwrd"&gt;END&lt;/span&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;Why does this code produce an error when executed?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">The value of V_found cannot be YES.</OptionA>
+    <OptionB value="b">Variable V_found is declared at more than one location.</OptionB>
+    <OptionC value="c">Variable Y is declared in the inner block and referenced in the outer block.</OptionC>
+    <OptionD value="d">Variable V_sal is declared in the outer block and referenced in the inner block.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="3" srno="3" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61429</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which statement is valid within the executable section of Pl/SQL block?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">BEGINemp_rec emp%ROWTYPEEND;</OptionA>
+    <OptionB value="b">WHEN NO_DATA_FOUND THENDBMS_OUTPUT.PUT.LINE(&amp;#39;No records found&amp;#39;);</OptionB>
+    <OptionC value="c">Select ename,sal into v_ename,v_sal from emp where empno=101;</OptionC>
+    <OptionD value="d">Procedure cal_max(n1 NUBER n2 NUMBER, p_max OUT NUMBER)ISBEGINIfn1&amp;#62;n2 thenp_max$$=n1;Elsep_max=n2;END.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="4" srno="4" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61430</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>How do you send the output of your SQL* Plus session to a text operating system file called MYOUTPUT.LST?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">SAVE MYOUTPUT.LST</OptionA>
+    <OptionB value="b">SPOOL MYOUTPUT.LST</OptionB>
+    <OptionC value="c">PRINT MYOUTPUT.LST</OptionC>
+    <OptionD value="d">SEND MYOUTPUT.LST&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="5" srno="5" group_id="1" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61431</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Management has asked you to calculate the net revenue per unit for each product, if the cost of each product is increased by 10% and the sale price of each product is increased by 25%. You issue this SQL statement.&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;SELECT&lt;/span&gt; id, sale_price * 1.25 &amp;amp;#45; cost * 1.10 &lt;span class="kwrd"&gt;FROM&lt;/span&gt; product;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;Which conclusion can you draw from the results?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">Only the required results are displayed.</OptionA>
+    <OptionB value="b">The results provide more information than management requested.</OptionB>
+    <OptionC value="c">A function needs to be included in the SELECT statement to achieve the desired result.</OptionC>
+    <OptionD value="d">The order on the operations in the calculation needs to be changed to achieve the required results.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="5" srno="5" group_id="1" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61432</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You want to create report to show different jobs in each department. You do not want to display any duplicate roles in the report. Which SELECT statement do you use to create the report?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">SELECT deptno, job FROM emp;</OptionA>
+    <OptionB value="b">SELECT no duplicate deptno, job FROM emp;</OptionB>
+    <OptionC value="c">SELECT distinct deptno, job FROM emp;</OptionC>
+    <OptionD value="d">CREATE report DISPLAY deptno, job FROM emp;</OptionD>
+    <OptionE value="e">SELECT distinct deptno, distinct job FROM emp;&lt;BR/&gt;&lt;BR/&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>1</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="6" srno="7" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61433</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Mr. King is the president of a company. Five managers report to him. All other employees report to these managers. Examine the code.&lt;BR/&gt;&lt;BR/&gt;SELECT employee.ename FROM emp employee&lt;BR/&gt;WHERE employee. empno not in SELECT manager.mgr FROM emp manager;&lt;BR/&gt;&lt;BR/&gt;The above statement returns no rows selected as the result why?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">All employees have a manager.</OptionA>
+    <OptionB value="b">None of the employees have a manager.</OptionB>
+    <OptionC value="c">A null value is returned from the sub query.</OptionC>
+    <OptionD value="d">Operator is not allowed in sub queries.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="7" srno="8" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61434</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Your company wants to get each employee a $100 salary increment. You need to evaluate the results,&lt;BR/&gt;from the EMP table prior to actual modification. If you do not want to store the result in the database which statement is valid?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">You need to add a column to the EMP table.</OptionA>
+    <OptionB value="b">You need to give the arithmetic expression that involves the salary increment in the set clause of the update statement.</OptionB>
+    <OptionC value="c">You need to give the arithmetic expression that involves the salary increment in the select clause of the select statement.</OptionC>
+    <OptionD value="d">You need to give the arithmetic expression that involves the salary increment in the update clause of the select statement.</OptionD>
+    <OptionE value="e">You need to give the arithmetic expression that involves the salary increment in the display clause of the select statement.&lt;BR/&gt;&lt;BR/&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="8" srno="9" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61435</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>The employee table contains these columns&lt;BR/&gt;&lt;BR/&gt;First_Name 	VARCHAR2(25)&lt;BR/&gt;Last_Name 	VARCHAR2(25)&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Evaluate these two SQL statements.&lt;BR/&gt;1.SELECT Concat(first_name, last) , Length(concat(first_name, last_name)FROM employee WHERE UPPER (last_name) Like &amp;#39;%J&amp;#39;OR UPPER (last_name) Like &amp;#39;%K&amp;#39; ;&lt;BR/&gt;&lt;BR/&gt;2.SELECT INITCAP (first_name) || initcap (last_name), Length (last_name) + Length (first_name)FROM employeeWHERE INITCAP (SUBSTR (last_name, 1, 1)) IN (&amp;#39;J&amp;#39; , &amp;#39;K&amp;#39; , &amp;#39;L&amp;#39;)&lt;BR/&gt;&lt;BR/&gt;How will the results differ?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">The statement will retrieve different data from the database.</OptionA>
+    <OptionB value="b">The statement will retrieve the same data from the database, but will display it differently.</OptionB>
+    <OptionC value="c">Statement1 will execute but statement2 will not.</OptionC>
+    <OptionD value="d">Statement2 will execute but statement1 will not.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="9" srno="10" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61436</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>In which order does the Oracle Server evaluate clauses?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">HAVING, WHERE, GROUP BY</OptionA>
+    <OptionB value="b">WHERE, GROUP BY, HAVING</OptionB>
+    <OptionC value="c">GROUP BY, HAVING, WHERE</OptionC>
+    <OptionD value="d">WHERE, HAVING, GROUP BY &lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="10" srno="11" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61437</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>In which situation should you use outer join query?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">The employee table has two columns that correspond.</OptionA>
+    <OptionB value="b">The employee and region tables have corresponding columns.</OptionB>
+    <OptionC value="c">The employees and region tables have no correspondence.</OptionC>
+    <OptionD value="d">The employee table column correspond to the region table column contains null values for rows that need to be displayed.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="11" srno="12" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61438</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>The employee table contains these columns$$&lt;BR/&gt;&lt;BR/&gt;ID			NUMBER(9) 		PK&lt;BR/&gt;LAST_NAME 	        VARCHAR2(25)         NOT NULL&lt;BR/&gt;DEPT_ID 		NUMBER(9)&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Evaluate this SQL script&lt;BR/&gt;&lt;BR/&gt;DEFINE id_2=93004&lt;BR/&gt;SELECT * FROM employee WHERE id = &amp; id_2&lt;BR/&gt;Which change should u make to script so that it will execute?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">Remove the ampersand.</OptionA>
+    <OptionB value="b">Use the ACCEPT account.</OptionB>
+    <OptionC value="c">Add single quotation marks.</OptionC>
+    <OptionD value="d">No change is needed.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="12" srno="13" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61439</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>In the declarative section of a PL/SQL block, you created but did not initialize a number variable. When the block executes what will be the initial value of the variable?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">0.</OptionA>
+    <OptionB value="b">Null.</OptionB>
+    <OptionC value="c">It depends on the scale and precision of the variable.</OptionC>
+    <OptionD value="d">The block will not execute because the variable was not initialized.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="13" srno="14" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61440</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Evaluate the SQL statement.&lt;BR/&gt;&lt;BR/&gt;SELECT e.id, (.15* e.salary) + (.25* e.bonus), (s.sale_amount * (.15*e.commision_pct))&lt;BR/&gt;FROM employee e , sales&lt;BR/&gt;WHERE e.id = s.emp_id;&lt;BR/&gt;&lt;BR/&gt;What would happen if you removed all the parenthesis from calculation?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">Results will be lower.</OptionA>
+    <OptionB value="b">Results will be higher.</OptionB>
+    <OptionC value="c">Statement will not execute.</OptionC>
+    <OptionD value="d">Statement will achieve some results.&lt;BR/&gt;&lt;BR/&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="14" srno="15" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61441</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which is not an SQL Plus command?&lt;BR/&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">List.</OptionA>
+    <OptionB value="b">Accept.</OptionB>
+    <OptionC value="c">Change.</OptionC>
+    <OptionD value="d">Update.</OptionD>
+    <OptionE value="e">Describe.&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3544</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="15" srno="16" group_id="0" section_id="2" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61442</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>&lt;BR/&gt;&lt;pre class="csharpcode"&gt;&lt;div style="word-break: break-all; -moz-hyphens: auto; width: 57em;"&gt;
+&lt;BR/&gt;&lt;span class="kwrd"&gt;&amp;lt;&lt;/span&gt;&lt;span class="html"&gt;head&lt;/span&gt; &lt;span class="attr"&gt;id&lt;/span&gt;&lt;span class="kwrd"&gt;="Head1"&lt;/span&gt;&lt;span class="kwrd"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="html"&gt;title&lt;/span&gt;&lt;span class="kwrd"&gt;&amp;gt;&lt;/span&gt;&lt;BR/&gt;Upload Exam&lt;BR/&gt;&lt;span class="kwrd"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="html"&gt;title&lt;/span&gt;&lt;span class="kwrd"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="html"&gt;link&lt;/span&gt; &lt;span class="attr"&gt;type&lt;/span&gt;&lt;span class="kwrd"&gt;="text/css"&lt;/span&gt; &lt;span class="attr"&gt;href&lt;/span&gt;&lt;span class="kwrd"&gt;="style/style1.css"&lt;/span&gt; &lt;span class="attr"&gt;rel&lt;/span&gt;&lt;span class="kwrd"&gt;="stylesheet"&lt;/span&gt; &lt;span class="kwrd"&gt;/&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="html"&gt;link&lt;/span&gt; &lt;span class="attr"&gt;href&lt;/span&gt;&lt;span class="kwrd"&gt;="style/menu.css"&lt;/span&gt; &lt;span class="attr"&gt;rel&lt;/span&gt;&lt;span class="kwrd"&gt;="stylesheet"&lt;/span&gt; &lt;span class="attr"&gt;type&lt;/span&gt;&lt;span class="kwrd"&gt;="text/css"&lt;/span&gt; &lt;span class="kwrd"&gt;/&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="html"&gt;link&lt;/span&gt; &lt;span class="attr"&gt;href&lt;/span&gt;&lt;span class="kwrd"&gt;="../testengine/css/csharp.css"&lt;/span&gt; &lt;span class="attr"&gt;rel&lt;/span&gt;&lt;span class="kwrd"&gt;="stylesheet"&lt;/span&gt; &lt;span class="attr"&gt;type&lt;/span&gt;&lt;span class="kwrd"&gt;="text/css"&lt;/span&gt; &lt;span class="kwrd"&gt;/&amp;gt;&lt;/span&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="html"&gt;style&lt;/span&gt;&lt;span class="kwrd"&gt;&amp;gt;&lt;/span&gt;&lt;BR/&gt;&lt;span class="kwrd"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="html"&gt;head&lt;/span&gt;&lt;span class="kwrd"&gt;&amp;gt;&lt;/span&gt;&lt;BR/&gt;&lt;/div&gt;&lt;/pre&gt;&lt;BR/&gt;</Question>
+    <OptionA value="a">List.</OptionA>
+    <OptionB value="b">ccept.</OptionB>
+    <OptionC value="c">Change.</OptionC>
+    <OptionD value="d">Update.</OptionD>
+    <OptionE value="e">Describe.</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>3545</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="1" srno="1" group_id="0" section_id="3" compulsory="0" randomizeoptions="0" score="0" isnegative="0">
+    <AttemptId>671325754</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId MasterQuesId="">61444</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Question 1</Question>
+    <OptionA value="a">
+    </OptionA>
+    <OptionB value="b">
+    </OptionB>
+    <OptionC value="c">
+    </OptionC>
+    <OptionD value="d">
+    </OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">10000</OptionH>
+    <TopicId>3546</TopicId>
+    <ExamId>857</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>
+    </CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>0</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+</ExpertRating>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a7d706ba023640138743f82e6d429bdc" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="MMT_ConstModel.mmtexamflag" Width="1.5" PointX="3" PointY="5.5" />
+        <EntityTypeShape EntityType="MMT_ConstModel.mmtexam" Width="1.5" PointX="0.75" PointY="5.25" />
+        <EntityTypeShape EntityType="MMT_ConstModel.mmtgroup" Width="1.5" PointX="5.25" PointY="8.75" />
+        <EntityTypeShape EntityType="MMT_ConstModel.mmtquestionbank" Width="1.5" PointX="10.5" PointY="6.625" />
+        <EntityTypeShape EntityType="MMT_ConstModel.mmtsection" Width="1.5" PointX="3" PointY="11.75" />
+        <EntityTypeShape EntityType="MMT_ConstModel.mmttopic" Width="1.5" PointX="8.25" PointY="8.625" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtexammmtexamflags" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtexamsmmtgroups" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtexamsmmtquestionbank" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtexamsmmtsections" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtexamsmmttopics" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtquestionbankmmtgroups" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtsectionsmmtgroups" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtsectionsmmtquestionbank" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmttopicsmmtquestionbank" />
+        <AssociationConnector Association="MMT_ConstModel.FK_mmtsectionsmmttopics" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

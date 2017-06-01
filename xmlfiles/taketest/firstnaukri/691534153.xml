@@ -1,0 +1,2419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpertRating>
+  <Test>
+    <store>test|123,seltheme|humanity,selheader|firstnaukri.gif,selbgcolor|style='background-color:#ffffff;',pin_code|E2721673,non|True,exm|7646,examid|7646,userid|892543,candidateid|892543,cauthenticated|true,sitecode|821580,pincode|2721673,pininup|true,ViewResult|true,SendMail|true,mailto|nijiatnaukri@gmail.com
+,passcode|,fname|rr,lname|rr,employertyp|false,timerfree|,showreview|false,examended|false,attemptid|1944866,examname|Demo test FN,offline|Y,price|0,totques|40,examtime|40,timepending|Time Remaining: 0:40:00,examstarted|true,questionno|1,juststarted|true,timestarted|true</store>
+    <info>
+      <customexamid>
+      </customexamid>
+      <userid>45</userid>
+      <examid>562</examid>
+      <reviewbutton>true</reviewbutton>
+      <currenttime>2/4/2014 12:36:51 PM</currenttime>
+      <currentsection>1</currentsection>
+      <hdnsectionid>
+      </hdnsectionid>
+      <hdnvarid>
+      </hdnvarid>
+      <hdnvarSrNo>
+      </hdnvarSrNo>
+      <timerem>00:40:00</timerem>
+      <flowtype>1</flowtype>
+      <flowtypetime>2</flowtypetime>
+      <currentquestion>1</currentquestion>
+      <totquessection>40</totquessection>
+      <totques>40</totques>
+      <questionno>1</questionno>
+      <numberingcontinue>nocont</numberingcontinue>
+      <varlan>English</varlan>
+      <reviewsection>
+      </reviewsection>
+      <next>
+      </next>
+      <attemptstatus>
+      </attemptstatus>
+      <enablered>
+      </enablered>
+      <questionid>
+      </questionid>
+      <resume>
+      </resume>
+      <secRev>
+      </secRev>
+      <RevType>exam</RevType>
+      <enattemptid>n=QkK9Jl6v88G25E3I5EkQ==taa=1</enattemptid>
+      <ExamStartTime>2/4/2014 7:06:34 AM</ExamStartTime>
+      <SecView>1</SecView>
+    </info>
+    <Numbering>0</Numbering>
+    <Review individual="0" type="" show="0">
+    </Review>
+    <Time show="0">
+    </Time>
+    <totaltime>40</totaltime>
+    <completed>ok</completed>
+    <cssData>Theme|||http://expertrating.com/employers/css/redmond/style.css,Header|||http://www.expertrating.com/employers/images/header/jetairways1.gif,bgcolor|||#ffffff,urlredirect|||</cssData>
+  </Test>
+  <Section type="1" id="1" count="" showintro="1" showtitle="0" showmark="1" showreview="0" questioncompulsory="0" randomizeoptions="0" completed="not" isnegative="0" negativescore="0">
+    <title>Section 1</title>
+    <section_description>Summer has come and passed
+The innocent can never last
+Wake me up when September ends
+
+Like my father's come to pass
+Seven years has gone so fast
+Wake me up when September ends
+
+Here comes the rain again
+Falling from the stars
+Drenched in my pain again
+Becoming who we are
+
+As my memory rests
+But never forgets what I lost
+Wake me up when September ends
+
+Summer has come and passed
+The innocent can never last
+Wake me up when September ends
+
+Ring out the bells again
+Like we did when spring began
+Wake me up when September ends
+
+Read more: Green Day - Wake Me Up When September Ends Lyrics | MetroLyrics
+</section_description>
+    <Time>00:40:00</Time>
+    <Topics id="2269" Topicname="Basic Concepts" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2270" Topicname="Security" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2271" Topicname="Memory Management" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2272" Topicname="Event Handling" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2273" Topicname="CLR" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2274" Topicname="Configuration" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2275" Topicname="Advanced Topics" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2276" Topicname="Database Programming and Validation" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2277" Topicname="ADO.net" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2278" Topicname="DataBinding, Web Controls, User Control, Custom Controls" sectionid="1" currentcount="1" count="">
+    </Topics>
+    <Topics id="2279" Topicname="Framework Fundamentals" sectionid="1" currentcount="1" count="">
+    </Topics>
+  </Section>
+  <ExamQuestions id="1" srno="1" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19357</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You create an ASP.NET application for ABC Corporation. The project manager requires a standard appearance for all Web applications. Standards are expected to change periodically. You need to enforce these standards and reduce maintenance time. What would you do?&lt;br&gt;</Question>
+    <OptionA value="a">Create a Microsoft Visual Studio .NET Enterprise template</OptionA>
+    <OptionB value="b">Create a sample HTML page</OptionB>
+    <OptionC value="c">Create a sample ASP.NET Web form</OptionC>
+    <OptionD value="d">Create a cascading style sheet&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>I</Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>00:40:00</TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>00:40:05</QuesShowTime>
+    <TimeTaken>00:00:05</TimeTaken>
+    <UTCQuesTime>2/4/2014 7:06:35 AM</UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="2" srno="2" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19358</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is correct when starting a form tag?</Question>
+    <OptionA value="a">&amp;lt;form runat="server&amp;gt;</OptionA>
+    <OptionB value="b">&amp;lt;asp:form runat="server"&amp;gt;</OptionB>
+    <OptionC value="c">&amp;lt;asp:form&amp;gt;</OptionC>
+    <OptionD value="d">&amp;lt;startForm&amp;gt;&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="3" srno="3" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19359</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is not an ASP.NET Input Validation Control?</Question>
+    <OptionA value="a">&amp;lt;asp:ValidationSummary&amp;gt;</OptionA>
+    <OptionB value="b">&amp;lt;asp:DateValidator&amp;gt;</OptionB>
+    <OptionC value="c">&amp;lt;asp:CompareValidator&amp;gt;</OptionC>
+    <OptionD value="d">&amp;lt;asp:RangeValidator&amp;gt;</OptionD>
+    <OptionE value="e">&amp;lt;asp:CustomValidator&amp;gt;&lt;br&gt;&lt;br&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="4" srno="4" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19360</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is not a valid directive?</Question>
+    <OptionA value="a">@Page</OptionA>
+    <OptionB value="b">@Implement</OptionB>
+    <OptionC value="c">@Insert</OptionC>
+    <OptionD value="d">@Register</OptionD>
+    <OptionE value="e">@Reference&lt;br&gt;&lt;br&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="5" srno="5" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19361</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following directives can be used to include libraries in an ASP.NET page?</Question>
+    <OptionA value="a">Include</OptionA>
+    <OptionB value="b">Import</OptionB>
+    <OptionC value="c">Insert</OptionC>
+    <OptionD value="d">Both a and b&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="6" srno="6" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19362</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>The page processing stages are:</Question>
+    <OptionA value="a">Configuration, Event Handling, Rendering and Cleanup</OptionA>
+    <OptionB value="b">Initialization, Loading, Event Handling and Unloading</OptionB>
+    <OptionC value="c">Configuration, Event Handling, Unloading and Cleanup</OptionC>
+    <OptionD value="d">Initialization, Event Handling, Rendering and Unloading&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="7" srno="7" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19363</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following can be used to add an Unbound Column in a DataGrid?</Question>
+    <OptionA value="a">ASP:UnboundColumn</OptionA>
+    <OptionB value="b">UnboundColumn</OptionB>
+    <OptionC value="c">ASP:TempateColumn</OptionC>
+    <OptionD value="d">ItemTemplate&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>cd</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="8" srno="8" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19364</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You are a web developer for an international literary website. Your application has a lot of text content that requires translation and few executable components. Which approach would you use?&lt;br&gt;</Question>
+    <OptionA value="a">Detect and redirect</OptionA>
+    <OptionB value="b">Use run-time adjustment</OptionB>
+    <OptionC value="c">Use satellite assemblies</OptionC>
+    <OptionD value="d">Allow the client browser to decide&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="9" srno="9" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19365</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>How can you pop-up a window to display text that identifies the author of the book?&lt;br&gt;</Question>
+    <OptionA value="a">For each image, set the AlternateText property to specify the text you want to display, and set the ToolTip property to True.</OptionA>
+    <OptionB value="b">In the onmouseover event handler for each image, add code that calls the RaiseBubbleEvent() method of the System.Web.UI.WebControls.Image class.</OptionB>
+    <OptionC value="c">In the onmouseover event handler for each image, add code that calls the ToString() method of the System.Web.UI.WebControls.Image class.</OptionC>
+    <OptionD value="d">For each image, set the ToolTip property to specify the text you want to display.&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="10" srno="10" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19366</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which DLL is responsible for processing the page requests running on the server?&lt;br&gt;</Question>
+    <OptionA value="a">Internet Server Application Programming Interface</OptionA>
+    <OptionB value="b">Internet Information Server Program</OptionB>
+    <OptionC value="c">Webserver interface</OptionC>
+    <OptionD value="d">IIS Application&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="11" srno="11" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19367</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of following is correct if you want to import a C# class called myClass that is implemented in the myClass.cs file into a .aspx page?</Question>
+    <OptionA value="a">&amp;lt;%@Page Import="myClass" Src="myClass.cs" %&amp;gt;</OptionA>
+    <OptionB value="b">&amp;lt;%@Page Inherits="myClass" Src="myClass.cs" %&amp;gt;</OptionB>
+    <OptionC value="c">&amp;lt;%@Page Include="myClass" Src="myClass.cs" %&amp;gt;</OptionC>
+    <OptionD value="d">&amp;lt;%@Page Insert="myClass" Src="myClass.cs" %&amp;gt;&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="12" srno="12" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19368</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You are creating an ASP.NET page for Premium Consultants. You create a DataGrid control that displays past purchases made by the user. The DataGrid control is populated from an existing database when the page is created. The page contains TextBox controls that allow users to update their personal information, such as address and telephone number. You need to ensure that the page is refreshed as quickly as possible when users update their contact information.&lt;br&gt;What should you do?&lt;br&gt;</Question>
+    <OptionA value="a">Set the Enable property of the DataGrid control to false.</OptionA>
+    <OptionB value="b">Set the EnableViewState property of the DataGrid to false.</OptionB>
+    <OptionC value="c">Write code in the Page.Load event handler that populates the DataGrid control only when the IsPostBack property of the page is false.</OptionC>
+    <OptionD value="d">Write code in the Page.Load event handler that populates the DataGrid control only when the IsPostBack&lt;br&gt;property of the page is true.&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="13" srno="13" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19369</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is the way to handle Unmanaged Code Exceptions in ASP.NET?&lt;br&gt;</Question>
+    <OptionA value="a">Server.GetLastError()</OptionA>
+    <OptionB value="b">Exception ex</OptionB>
+    <OptionC value="c">Raise Error</OptionC>
+    <OptionD value="d">None of above&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="14" srno="14" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19370</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is not a valid ASP.NET Web form control?</Question>
+    <OptionA value="a">&amp;lt;ASP:Panel&amp;gt;</OptionA>
+    <OptionB value="b">&amp;lt;ASP:Div&amp;gt;</OptionB>
+    <OptionC value="c">&amp;lt;ASP:TableCell&amp;gt;</OptionC>
+    <OptionD value="d">&amp;lt;ASP:ImageButton&amp;gt;&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="15" srno="15" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19371</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You are developing an application to take orders over the Internet. When the user posts back the order form, you first check to see whether he is a registered customer of your company. If not, you must transfer control to the Register html page. Which method should you use to effect this transfer?</Question>
+    <OptionA value="a">Response.Redirect()</OptionA>
+    <OptionB value="b">Server.Transfer()</OptionB>
+    <OptionC value="c">Server.Execute()</OptionC>
+    <OptionD value="d">Page.ProcessRequest()&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="16" srno="16" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19372</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the two statements is true?&lt;br&gt;&lt;br&gt;(a)MSIL code is platform independent&lt;br&gt;(b)CLR is platform dependent&lt;br&gt;</Question>
+    <OptionA value="a">Only (a) is true, (b) is false</OptionA>
+    <OptionB value="b">Only (b) is true, (a) is false</OptionB>
+    <OptionC value="c">Both (a) and (b) are true</OptionC>
+    <OptionD value="d">Both (a) and (b) are false&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="17" srno="17" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19373</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What is an Object in Object Oriented Programming?</Question>
+    <OptionA value="a">A real entity having some state</OptionA>
+    <OptionB value="b">A real entity having state and behavior</OptionB>
+    <OptionC value="c">An entity having some state</OptionC>
+    <OptionD value="d">An entity having state and behavior&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="18" srno="18" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19374</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>How many times can classes be nested within a class?</Question>
+    <OptionA value="a">5</OptionA>
+    <OptionB value="b">8</OptionB>
+    <OptionC value="c">4</OptionC>
+    <OptionD value="d">Any number of times&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="19" srno="19" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19375</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You have three classes named A, B, and C. The class B is derived from class A and class C is derived from B. Which of the following relations are correct for the given classes?</Question>
+    <OptionA value="a">A isa B</OptionA>
+    <OptionB value="b">B isa A</OptionB>
+    <OptionC value="c">C isa B</OptionC>
+    <OptionD value="d">B isa C&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>bc</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>3</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="20" srno="20" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19376</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is a benefit derived from using OOPS?</Question>
+    <OptionA value="a">Elimination of redundant code</OptionA>
+    <OptionB value="b">Reusing the code</OptionB>
+    <OptionC value="c">Ability to enhance and extend previously written code for new modules</OptionC>
+    <OptionD value="d">Co-existence of multiple instances of objects</OptionD>
+    <OptionE value="e">All of the above&lt;br&gt;&lt;br&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>e</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="21" srno="21" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19377</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Inheritance is a process by which the objects of parent class acquire the properties of child class.</Question>
+    <OptionA value="a">True</OptionA>
+    <OptionB value="b">False&lt;br&gt;&lt;br&gt;</OptionB>
+    <OptionC value="c">
+    </OptionC>
+    <OptionD value="d">
+    </OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="22" srno="22" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19378</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What is Encapsulation?</Question>
+    <OptionA value="a">Wrapping functions into a single unit</OptionA>
+    <OptionB value="b">Wrapping functions and data into a single unit</OptionB>
+    <OptionC value="c">Making the whole data accessible to the outer world</OptionC>
+    <OptionD value="d">Making the whole data and functions accessible to the outer world&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="23" srno="23" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19379</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following statements are correct with regard to Polymorphism?</Question>
+    <OptionA value="a">Polymorphism is a process by which a class can exist in multiple forms</OptionA>
+    <OptionB value="b">Polymorphism is a process by which a class can exist in only two forms</OptionB>
+    <OptionC value="c">Polymorphism is a process by which different instances of an object displays different behavior</OptionC>
+    <OptionD value="d">Polymorphism is a process by which different instances of an object displays same behavior&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>ac</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="24" srno="24" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19380</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following help increase the code clarity?</Question>
+    <OptionA value="a">Inheritance</OptionA>
+    <OptionB value="b">Polymorphism</OptionB>
+    <OptionC value="c">Abstraction</OptionC>
+    <OptionD value="d">Encapsulation&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2269</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>cd</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>3</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="25" srno="25" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19381</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following authorization and authentication methods is not&lt;br&gt;provided by ASP.NET?</Question>
+    <OptionA value="a">Windows built-in authentication</OptionA>
+    <OptionB value="b">Passport-based authentication</OptionB>
+    <OptionC value="c">Forms-based authentication</OptionC>
+    <OptionD value="d">IIS authentication&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2270</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="26" srno="26" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19382</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>In Forms-based authentication, which of the following is not an attribute of the &amp;lt;forms&amp;gt; element?</Question>
+    <OptionA value="a">Name</OptionA>
+    <OptionB value="b">Path</OptionB>
+    <OptionC value="c">Loginurl</OptionC>
+    <OptionD value="d">Protection</OptionD>
+    <OptionE value="e">Timeout</OptionE>
+    <OptionF value="f">Credentials</OptionF>
+    <OptionG value="g">Machinekey&lt;br&gt;&lt;br&gt;</OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2270</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>g</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>3</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="27" srno="27" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19383</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>If you don't specify a value for the timeout attribute in the &amp;lt;forms&amp;gt; element in web.config, for how long will the authentication cookie be valid?</Question>
+    <OptionA value="a">10 minutes</OptionA>
+    <OptionB value="b">15 minutes</OptionB>
+    <OptionC value="c">30 minutes</OptionC>
+    <OptionD value="d">60 minute</OptionD>
+    <OptionE value="e">For ever&lt;br&gt;&lt;br&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2270</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="28" srno="28" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19384</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Consider the following two statements about Windows authentication and choose the most appropriate option:&lt;br&gt;&lt;br&gt;1. An asterisk(*) means all users, roles or verbs, depending upon the attribute&lt;br&gt;it is used in&lt;br&gt;2. A question mark(?) means "anonymous access"&lt;br&gt;</Question>
+    <OptionA value="a">1 is true and 2 is false</OptionA>
+    <OptionB value="b">1 is false and 2 is true</OptionB>
+    <OptionC value="c">Both 1 and 2 are true</OptionC>
+    <OptionD value="d">Both 1 and 2 are false&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2270</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>1</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="29" srno="29" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19385</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Is the following statement true or false?&lt;br&gt;&lt;br&gt;SHA1 and MD5 are the two encryption methods supported by ASP.NET.&lt;br&gt;</Question>
+    <OptionA value="a">True</OptionA>
+    <OptionB value="b">False&lt;br&gt;&lt;br&gt;</OptionB>
+    <OptionC value="c">
+    </OptionC>
+    <OptionD value="d">
+    </OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2270</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="30" srno="30" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19386</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>In Windows built-in authentication, what will happen with the following set&lt;br&gt;of statements?&lt;br&gt;&lt;br&gt;&amp;lt;system.web&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;lt;authorization&amp;gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;deny users="RIL"/&amp;gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;allow users="RIL"/&amp;gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;lt;/authorization&amp;gt;&lt;br&gt;&amp;lt;/system.web&amp;gt;&lt;br&gt;</Question>
+    <OptionA value="a">The user RIL is first denied and then allowed access</OptionA>
+    <OptionB value="b">The user RIL is denied access because the &amp;lt;deny&amp;gt; element takes precedence over the &amp;lt;allow&amp;gt; element</OptionB>
+    <OptionC value="c">An error is generated because deny and allow cannot both be assigned to the same user</OptionC>
+    <OptionD value="d">Can't say. It depends on the Windows OS version&lt;br&gt;&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2270</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="31" srno="31" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19387</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>XYZ is creating an e-commerce site for PremiumBoutique. The site is distributed across multiple servers in a Web form. Users will be able to navigate through the pages of the site and select products for purchase. XYZ wants to use a DataSet object to save their selections. Users will be able to view their selections at any time by clicking a Shopping Cart link. XYZ wants to ensure that each user's shopping cart DataSet object is saved between requests when the user is making purchases on the site. How can this requirement be implement?&lt;br&gt;</Question>
+    <OptionA value="a">Create a StateBag object. Use the StateBag object to store the DataSet object in the page's ViewState property</OptionA>
+    <OptionB value="b">Use the HttpSessionState object returned by the Session property of the page to store the DataSet object. Use the Web.config file to configure an out-of-process session route</OptionB>
+    <OptionC value="c">Use the Cache object returned by the page's Cache property to store a DataSet object for each user. Use an HttpCachePolicy object to set a timeout period for the cached data</OptionC>
+    <OptionD value="d">Use the Session_Start event to create an Application variable of type DataSet for each session. Store the DataSet object in the Application variable&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2271</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="32" srno="32" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19388</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>How you will generate a report with minimum network traffic?&lt;br&gt;</Question>
+    <OptionA value="a">Use Microsoft SQL Server indexes to optimize the data calculations</OptionA>
+    <OptionB value="b">Implement the calculations in a business layer class</OptionB>
+    <OptionC value="c">Implement the calculations in a data layer class</OptionC>
+    <OptionD value="d">Use Microsoft SQL Server stored procedures for the data calculations&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2271</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="33" srno="33" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19389</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You are creating an ASP.NET application that is hosted on your company's Web server. You want to access a database with minimal effort. What you will not do?&lt;br&gt;</Question>
+    <OptionA value="a">Begin a transaction</OptionA>
+    <OptionB value="b">Create a connection to the database</OptionB>
+    <OptionC value="c">Create a data set using an adapter object</OptionC>
+    <OptionD value="d">Use the data set to display data or to change items in the database</OptionD>
+    <OptionE value="e">Update the database from the data set</OptionE>
+    <OptionF value="f">Close the database connection</OptionF>
+    <OptionG value="g">Check for transaction errors&lt;br&gt;</OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2271</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>ag</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>C</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="34" srno="34" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19390</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You are creating an ASP.NET application that will record each customer's entry. It is possible that thousands of entries could be posted at any given time. Your application will be hosted on twenty Web servers. As customers enter information into your application, maintaining state information will be important. This information should be stored securely and should be capable of being restored in the event that a Web server is restarted. Customers will enter data into three separate pages in your application. Which of the following methods of storing state information would best suit the situation?&lt;br&gt;</Question>
+    <OptionA value="a">View State</OptionA>
+    <OptionB value="b">Hidden fields</OptionB>
+    <OptionC value="c">State Server</OptionC>
+    <OptionD value="d">Application state</OptionD>
+    <OptionE value="e">SQL Server&lt;br&gt;</OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2271</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>e</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>3</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="35" srno="35" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19391</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>You want to create a cookie object named "CustomerAddress" of type "CustomerInfo" to maintain address information of customers who buy products online. Which of the following code snippets should you use to create this cookie?&lt;br&gt;</Question>
+    <OptionA value="a">Dim CustomerAddress As New Cookie("CustomerInfo")</OptionA>
+    <OptionB value="b">Dim CustomerAddress As Cookie("CustomerInfo")</OptionB>
+    <OptionC value="c">Dim CustomerAddress As HttpCookie("CustomerInfo")</OptionC>
+    <OptionD value="d">Dim CustomerAddress As New HttpCookie("CustomerInfo")&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2271</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="36" srno="36" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19392</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>The control's value set during the postback can be accessed in:</Question>
+    <OptionA value="a">Page_Init</OptionA>
+    <OptionB value="b">Page_Load</OptionB>
+    <OptionC value="c">Both Page_Init and Page_Load</OptionC>
+    <OptionD value="d">Neither in Page_Load nor Page_Init&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2272</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>b</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="37" srno="37" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19393</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Consider the following events:&lt;br&gt;&lt;br&gt;1. Page_Load&lt;br&gt;2. Page_Unload&lt;br&gt;3. Control Event&lt;br&gt;4. Page_Init&lt;br&gt;&lt;br&gt;What is the order of their execution?&lt;br&gt;</Question>
+    <OptionA value="a">1,2,3,4</OptionA>
+    <OptionB value="b">1,4,3,2</OptionB>
+    <OptionC value="c">4,1,3,2</OptionC>
+    <OptionD value="d">4,3,1,2&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2272</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="38" srno="38" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19394</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Server based controls can be accessed from:</Question>
+    <OptionA value="a">Server code only</OptionA>
+    <OptionB value="b">Server as well as client code</OptionB>
+    <OptionC value="c">Client code only&lt;br&gt;&lt;br&gt;</OptionC>
+    <OptionD value="d">
+    </OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2272</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>a</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="39" srno="39" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19395</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>Which of the following is not an event of the Page class?</Question>
+    <OptionA value="a">Init</OptionA>
+    <OptionB value="b">Load</OptionB>
+    <OptionC value="c">Error</OptionC>
+    <OptionD value="d">Abort&lt;br&gt;&lt;br&gt;</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2272</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>d</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+  <ExamQuestions id="40" srno="40" group_id="0" section_id="1" compulsory="0" randomizeoptions="0" score="1" isnegative="0">
+    <AttemptId>691534153</AttemptId>
+    <Userid>45</Userid>
+    <QuestionId>19396</QuestionId>
+    <QuestionNo>
+    </QuestionNo>
+    <Question>What is the total no. of events in Global.asax file in Asp.NET?</Question>
+    <OptionA value="a">20</OptionA>
+    <OptionB value="b">25</OptionB>
+    <OptionC value="c">19</OptionC>
+    <OptionD value="d">32</OptionD>
+    <OptionE value="e">
+    </OptionE>
+    <OptionF value="f">
+    </OptionF>
+    <OptionG value="g">
+    </OptionG>
+    <OptionH value="h">
+    </OptionH>
+    <TopicId>2272</TopicId>
+    <ExamId>562</ExamId>
+    <Incomplete>
+    </Incomplete>
+    <CorrectAnswer>c</CorrectAnswer>
+    <Attempt>
+    </Attempt>
+    <OrgAttempt>
+    </OrgAttempt>
+    <Marked>
+    </Marked>
+    <SubItem>
+    </SubItem>
+    <TextAttempt>
+    </TextAttempt>
+    <QuestionSet>
+    </QuestionSet>
+    <QType>R</QType>
+    <PassageId>0</PassageId>
+    <Figure>
+    </Figure>
+    <Sound>
+    </Sound>
+    <Difficulty>2</Difficulty>
+    <srno>
+    </srno>
+    <TimeRemaining>
+    </TimeRemaining>
+    <OriginalTime>
+    </OriginalTime>
+    <QuesShowTime>
+    </QuesShowTime>
+    <TimeTaken>
+    </TimeTaken>
+    <UTCQuesTime>
+    </UTCQuesTime>
+    <questype>
+    </questype>
+  </ExamQuestions>
+</ExpertRating>
