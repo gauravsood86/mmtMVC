@@ -161,7 +161,7 @@
                 <h2 id="CreateTitleH2">
                     Create Test
                 </h2>
-                <a href="dashboardnew.aspx" class="dashboard_btn"><< Back to Dashboard</a>
+                @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
 
             </div>
 

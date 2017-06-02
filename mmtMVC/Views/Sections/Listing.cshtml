@@ -79,7 +79,7 @@
                 Section Listing
 
             </h2>
-            <a href="dashboardnew.aspx" class="dashboard_btn"><< Back to Dashboard</a>
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
 
         </div>
     </div>
@@ -182,7 +182,7 @@
                                             <td style="width:10%;" align="left">
                                                
    
-                                                @Html.ActionLink("Edit", actionName: "Edit", controllerName: "Sections", routeValues: new { examid = item.examid, secid = item.secid }, htmlAttributes: new { @class = "exdlt_uesr", @style = "border: none; cursor: pointer;" })
+                                                @Html.ActionLink("Edit", actionName: "Edit", controllerName: "Sections", routeValues: new { eid = item.examid, secid = item.secid }, htmlAttributes: new { @class = "exdlt_uesr", @style = "border: none; cursor: pointer;" })
                                                 <input name="delsec" value="Remove" onclick="javascript: return deleteCheck();" id="delsec" class="dlt_uesr" style="border: none; cursor: pointer;" type="submit">
                                             </td>
                                         </tr>

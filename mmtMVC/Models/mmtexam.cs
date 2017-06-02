@@ -49,10 +49,14 @@ namespace mmtMVC.Models
         public string masterxmlfile { get; set; }
         public string examlanguage { get; set; }
         public int passingmarks { get; set; }
+        [Required]
         public bool islogo { get; set; }
         public string path { get; set; }
+        [Required]
         public bool isemailreport { get; set; }
+        [Required]
         public bool istexttospeech { get; set; }
+        [Required]
         public bool istestreport { get; set; }
         [NotMapped]
         public HttpPostedFileBase File { get; set; }

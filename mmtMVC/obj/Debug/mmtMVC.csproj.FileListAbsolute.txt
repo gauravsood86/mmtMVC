@@ -55,4 +55,3 @@ E:\Projects\MVC\mmtMVC\mmtMVC\bin\Newtonsoft.Json.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Net.Http.Formatting.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.WebHost.xml
-E:\Projects\MVC\mmtMVC\mmtMVC\obj\Debug\mmtMVC.csprojResolveAssemblyReference.cache

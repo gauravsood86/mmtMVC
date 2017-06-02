@@ -17,18 +17,18 @@ namespace mmtMVC.Controllers
         private MMT_ConstEntities db = new MMT_ConstEntities();
 
         // GET: Sections
-        public ActionResult Listing(int? id)
+        public ActionResult Listing(int? eid)
         {
 
-            if (id != null)
+            if (eid != null)
             {
-                Session["examid"] = id;
+                Session["examid"] = eid;
             }
             else
             {
                 if (Session["examid"] != null)
                 {
-                    id = (int)Session["examid"];
+                    eid = (int)Session["examid"];
                 }
                 else
                 {
@@ -37,7 +37,7 @@ namespace mmtMVC.Controllers
             }
 
             ViewBag.ErrorMessage = TempData["ErrorMessage"] as string;
-            var mmtsections = (from e in db.mmtsections where e.examid == id select e).AsEnumerable();
+            var mmtsections = (from e in db.mmtsections where e.examid == eid select e).AsEnumerable();
             return View(mmtsections.ToList());
         }
 
@@ -391,7 +391,7 @@ namespace mmtMVC.Controllers
             {
 
                 TempData["ErrorMessage"] = " (Please select section to add)";
-                return RedirectToAction("Listing", "Sections", new { id = (int)Session["examid"] });
+                return RedirectToAction("Listing", "Sections", new { eid = (int)Session["examid"] });
             }
 
             //    db.mmtsections.Add(mmtsection);
@@ -403,17 +403,17 @@ namespace mmtMVC.Controllers
             //return View(mmtsection);
 
 
-            return RedirectToAction("Listing", "Sections", new { id = (int)Session["examid"] });
+            return RedirectToAction("Listing", "Sections", new { eid = (int)Session["examid"] });
         }
 
         // GET: Sections/Edit/5
-        public ActionResult Edit(string secid , string examid)
+        public ActionResult Edit(string eid , string secid)
         {
             if (secid == null || secid == "")
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            if (examid == null || examid == "")
+            if (eid == null || eid == "")
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
@@ -435,10 +435,10 @@ namespace mmtMVC.Controllers
                 return HttpNotFound();
             }
 
-            int eid = Convert.ToInt32(examid);
+            int examid = Convert.ToInt32(eid);
 
             mmtexam std = (from s in db.mmtexams
-                           where s.examid == eid
+                           where s.examid == examid
                            select s).FirstOrDefault<mmtexam>();
             
 
@@ -467,9 +467,31 @@ namespace mmtMVC.Controllers
             if (ModelState.IsValid)
             {
                 mmtsection.active = true;
+              
+
+                int eid = Convert.ToInt32(mmtsection.examid);
+
+                mmtexam std = (from s in db.mmtexams
+                               where s.examid == eid
+                               select s).FirstOrDefault<mmtexam>();
+
+
+                XmlDocument xmldoc = new XmlDocument();
+                XmlNode xmlRoot;
+                xmldoc.LoadXml(std.masterxmlfile);
+                xmlRoot = xmldoc.SelectSingleNode("//test//sections//section[@id=" + mmtsection.sectionid.ToString() + "]");
+                xmlRoot.ChildNodes[0].InnerText = mmtsection.sectionname;
+                xmlRoot.Attributes["showreview"].Value = mmtsection.review.ToString();
+                xmlRoot.Attributes["questioncompulsory"].Value = mmtsection.compulsory.ToString();
+                xmlRoot.Attributes["randomizeoptions"].Value = mmtsection.random.ToString();
+                xmlRoot.Attributes["auto"].Value = mmtsection.auto.ToString();
+                std.masterxmlfile = xmldoc.OuterXml;
+
                 db.Entry(mmtsection).State = EntityState.Modified;
+                db.Entry(std).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Listing", "Sections", new { id = (int)Session["examid"] });
+
+                return RedirectToAction("Listing", "Sections", new { eid = (int)Session["examid"] });
             }
 
             mmtsection mmtrebind = db.mmtsections.Find(Convert.ToInt32(mmtsection.secid));

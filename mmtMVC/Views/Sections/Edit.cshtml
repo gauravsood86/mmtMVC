@@ -26,7 +26,10 @@
             <h2 id="CreateTitleH2">
                 <asp:Label ID="lbltitl" Text="Create Section"></asp:Label>
             </h2>
-            <a href="dashboardnew.aspx" class="dashboard_btn"><< Back to Dashboard</a>
+          
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
+
+
 
         </div>
 
@@ -38,10 +41,9 @@
         <tr>
             <td>
                 <ul id="wizHeader">
-
-                    <li><a href="addtest.aspx" onclick="load()" title="Step 1: Configure Test" class="nextStep">Step 1: Configure Test</a> </li>
+                    <li>@Html.ActionLink("Step 1: Configure Test", "Edit", "Test", null, new {@title= "Step 1: Configure Test", @oncline= "load()",  @class = "nextStep" })</li>
                     <li><a title="Step 2: Configure Sections" class="currentStep">Step 2: Configure Sections</a> </li>
-                    <li><a title="Step 2: Add Questions">Step 3: Add Questions</a> </li>
+                    <li><a title="Step 2: Add Questions"> Step 3: Add Questions</a> </li>
                     <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
                     <li><a title="Step 5: Preview Test" class="nextStep">Step 5: Preview Test</a> </li>
                 </ul>
@@ -54,7 +56,7 @@
             string secname = "";
 
             @Html.AntiForgeryToken()
-           
+
             <tr>
                 <td>
                     <div id="sectiontab" class="create_wrap_inner">
@@ -127,7 +129,6 @@
                                                 {
                                                     Text = "Select",
                                                     Value = "",
-                                                    Selected = true
                                                 });
                                                 listItems.Add(new SelectListItem
                                                 {
@@ -148,8 +149,8 @@
 
                                             }
 
-                                            @Html.DropDownListFor(x => x.type, listItems, new { @disabled = "disabled", @class = "ginput", @style = "width:50%" })
-                                            @Html.HiddenFor(x => x.type)
+                                            @Html.TextBoxFor(x => x.type, null, new { @disabled = "disabled", @class = "ginput", @style = "width:50%" })
+
                                             @Html.HiddenFor(x => x.sectionid)
                                         </td>
                                     </tr>
@@ -165,8 +166,8 @@
                                         <td>
                                             @{
 
-                                                
-                                                
+
+
 
                                                 List<SelectListItem> manuallist = new List<SelectListItem>();
                                                 manuallist.Add(new SelectListItem
@@ -189,15 +190,23 @@
 
                                             @foreach (var x in manuallist)
                                             {
-                                                if (Model.configured == true)
+                                                if (Model.type != mmtMVC.Models.type.MCQ)
                                                 {
-                                                    @Html.RadioButtonFor(model => model.auto, x.Value, new { @readonly = "readonly" })
-
-
+                                                    @Html.RadioButtonFor(model => model.auto, x.Value, new { @disabled = "disabled" })
+                                                    @Html.HiddenFor(model => model.auto)
                                                 }
                                                 else
                                                 {
-                                                    @Html.RadioButtonFor(model => model.auto, x.Value)
+                                                    if (Model.configured == true)
+                                                    {
+                                                        @Html.RadioButtonFor(model => model.auto, x.Value, new { @disabled = "disabled" })
+                                                        @Html.HiddenFor(model => model.auto)
+
+                                                    }
+                                                    else
+                                                    {
+                                                        @Html.RadioButtonFor(model => model.auto, x.Value)
+                                                    }
                                                 }
 
 
@@ -216,7 +225,7 @@
                                         <td>
                                             @{
 
-                                              
+
 
                                                 List<SelectListItem> randomlist = new List<SelectListItem>();
                                                 randomlist.Add(new SelectListItem
@@ -329,10 +338,14 @@
             </tr>
             <tr>
                 <td style="text-align: right">
-                    <input type="submit" class="crt_tset_btn"  style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Update Section"  />
+                    <input type="submit" class="crt_tset_btn" style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Update Section" />
+                    <input type="submit" class="crt_tset_btn" style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Cancel" />
+                    @Html.ActionLink("Cancel", actionName: "Listing", controllerName: "Sections", routeValues: new { eid = Session["examid"].ToString() }, htmlAttributes: new { @class = "crt_tset_btn", @style = "border-width:0px;font-size:14px;float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" })
+
+
 
                     @*<asp:Button ID="Button1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="Button1_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" Text="Cancel" />
-                    <asp:Button ID="nextbtn" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="nextbtn_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Next" />*@
+                        <asp:Button ID="nextbtn" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="nextbtn_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Next" />*@
 
                 </td>
             </tr>

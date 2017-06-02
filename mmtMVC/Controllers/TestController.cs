@@ -178,7 +178,7 @@ namespace mmtMVC.Controllers
                     Utils.CACheckXML.CheckXML(id);
 
 
-                    return RedirectToAction("Index","Section");
+                    return RedirectToAction("Listing","Section", new {eid= id });
                 }
                 catch (DbEntityValidationException e)
                 {
@@ -194,21 +194,25 @@ namespace mmtMVC.Controllers
                     }
                     throw;
                 }
-
+             
+            }
+            else
+            {
+                return View();
             }
 
 
-            return View("Index", "Home");
+           
         }
 
         // GET: Test/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(int? eid)
         {
-            if (id == null)
+            if (eid == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            mmtexam mmtexam = db.mmtexams.Find(id);
+            mmtexam mmtexam = db.mmtexams.Find(eid);
             if (mmtexam == null)
             {
                 return HttpNotFound();
@@ -221,7 +225,7 @@ namespace mmtMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "examid,examname,catid,instructions,duration,questioncount,offline,randomtest,uploaddate,addedby,isfreezed,flagged,flagerror,islive,endbutton,masterxmlfile,examlanguage,passingmarks")] mmtexam mmtexam)
+        public ActionResult Edit(mmtexam mmtexam)
         {
             if (ModelState.IsValid)
             {

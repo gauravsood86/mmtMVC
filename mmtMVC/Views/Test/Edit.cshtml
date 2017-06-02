@@ -1,190 +1,641 @@
 ﻿@model mmtMVC.Models.mmtexam
 
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
 }
 
-<!DOCTYPE html>
+ <script src="@("/Content/js/tiny_mce/tiny_mce.js")"></script>
+<script type="text/javascript">
+        tinyMCE.init({
+            // General options
+            mode: "textareas",
+            theme: "simple",
+            plugins: "lists,pagebreak,advhr,advlink,iespell,inlinepopups,insertdatetime,paste,directionality,noneditable,visualchars,nonbreaking,xhtmlxtras,advlist,autosave,visualblocks",
+            editor_selector: "myTextEditor",
+            width: 950,
+            height: 300,
+            // Theme options
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Edit</title>
-</head>
-<body>
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-    
-    
-    @using (Html.BeginForm())
-    {
-        @Html.AntiForgeryToken()
-        
-        <div class="form-horizontal">
-            <h4>mmtexam</h4>
-            <hr />
-            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-            @Html.HiddenFor(model => model.examid)
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.surveyname, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.surveyname, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.surveyname, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.catid, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.catid, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.catid, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.instructions, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.instructions, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.instructions, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.duration, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.duration, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.duration, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.questioncount, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.questioncount, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.questioncount, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.offline, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.offline)
-                        @Html.ValidationMessageFor(model => model.offline, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.randomtest, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.randomtest)
-                        @Html.ValidationMessageFor(model => model.randomtest, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.uploaddate, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.uploaddate, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.uploaddate, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.addedby, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.addedby, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.addedby, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.isfreezed, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.isfreezed)
-                        @Html.ValidationMessageFor(model => model.isfreezed, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.flagged, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.flagged)
-                        @Html.ValidationMessageFor(model => model.flagged, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.flagerror, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.flagerror, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.flagerror, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.islive, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.islive)
-                        @Html.ValidationMessageFor(model => model.islive, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.endbutton, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.endbutton)
-                        @Html.ValidationMessageFor(model => model.endbutton, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.masterxmlfile, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.masterxmlfile, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.masterxmlfile, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.examlanguage, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.examlanguage, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.examlanguage, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                @Html.LabelFor(model => model.passingmarks, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.passingmarks, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.passingmarks, "", new { @class = "text-danger" })
-                </div>
-            </div>
-    
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Save" class="btn btn-default" />
-                </div>
-            </div>
-        </div>
-    }
-    
-    <div>
-        @Html.ActionLink("Back to List", "Index")
+            theme_advanced_toolbar_align: "left",
+            theme_advanced_statusbar_location: "bottom",
+            theme_advanced_resizing: true
+
+        });
+
+
+        function showquesimagepreview(input) {
+            var parentid1 = $(input).parent(".imgprev");
+            var mssg = "<ul>";
+            var err = "false";
+
+
+            if (input.files && input.files[0]) {
+                var image = new Image();
+
+                var filerdr = new FileReader();
+                filerdr.readAsDataURL(input.files[0]);
+
+                filerdr.onload = function (e) {
+
+                    image.onload = function () {
+                        var w = this.width,
+                            h = this.height,
+                            t = input.files[0].type,                           // ext only: // file.type.split('/')[1],
+                            n = input.files[0].name,
+                            s = ~~(input.files[0].size / 1024);
+
+                        if (s > 500) {
+                            err = "true";
+                            mssg = mssg + "<li>Image size cannot be greater than 500KB</li>";
+                        }
+                        if (w >= 781) {
+                            err = "true";
+                            mssg = mssg + "<li>Header not  supported. Please resize your header. Max header supported is  780px × 199px</li>";
+                        }
+                        if (h >= 200) {
+                            err = "true";
+                            mssg = mssg + "<li>Header not  supported. Please resize your header. Max header supported is  780px × 199px</li>";
+                        }
+                        if (t == "image/bmp") {
+                            err = "true";
+                            mssg = mssg + "<li>BMP image not allowed</li>";
+                        }
+                        mssg = mssg + "</ul>";
+
+                        if (err == "true") {
+                            $("#File").val("");
+                            alertify.alert(mssg, function () {
+                            });
+                        }
+                        else {
+                            $("#logo").attr('src', e.target.result);
+                            $("#lbllogoerror").css("display", "none");
+                        }
+
+                    };
+                    image.src = e.target.result;
+                    image.onerror = function () {
+
+                        alertify.alert('Invalid file type: ' + input.files[0].type, function () {
+                        });
+                        $("#File").val("");
+                    };
+
+
+                };
+
+
+            }
+
+        }
+
+
+        $(document).ready(function () {
+            $("input[name='islogo']").change(function () {
+
+                var rdvalue = $(this).val();
+
+                if (rdvalue == "True") {
+
+                    $("#logopath").css("display", "");
+                }
+                else {
+
+                    $("#logopath").css("display", "none");
+                }
+
+                $("#lbllogoerror").css("display", "none");
+            });
+        });
+
+</script>
+
+<div class="test_evaluation_outer" style="display: none" id="divcreate">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Creating Test..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
     </div>
-</body>
-</html>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divload">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Loading..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divupdate">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Updating Test..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="create_wrap">
+    <div class="batch_wrap" style="margin-top: 2px">
+        <div class="top_h">
+            <h2 id="CreateTitleH2">
+                Create Test
+            </h2>
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
+
+        </div>
+
+
+
+    </div>
+
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <ul id="wizHeader">
+
+                    <li><a title="Step 1: Configure Test" class="currentStep">Step 1: Configure Test</a> </li>
+                    <li><a title="Step 2: Configure Sections">Step 2: Configure Sections</a> </li>
+                    <li><a title="Step 3: Add Questions" class="nextStep">Step 3: Add Questions</a> </li>
+                    <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
+                    <li><a title="Step 5: Preview Test" class="nextStep">Step 5: Preview Test</a> </li>
+                </ul>
+            </td>
+        </tr>
+        @using (Html.BeginForm("Edit", "Test", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <tr>
+                <td>
+                    <div class="create_wrap_inner">
+                        <div class="testname_row" style="width: 100%">
+                            <label class="tst_lable">
+                                Enter Test Name:
+                            @Html.ValidationMessageFor(model => model.examname, "", new { @class = "validerror" })
+                            </label>
+                            @Html.TextBoxFor(model => model.examname, null, new { @class = "ginput", @style = "width:400px;" })
+                            <br />
+                            <br />
+                            <label class="tst_lable" style="width: auto;">
+                                Enter Test Syllabus:
+                            </label>
+                            <span class="rc_lable_value" style="font-size: 12px">(It will be displayed at the start of test.)</span>
+
+
+                            @Html.TextAreaFor(model => model.instructions, 10, 20, new { @class = "cr_txtarea myTextEditor" })
+                            <div class="clr"></div>
+
+                        </div>
+
+
+                        <div id="maintestset" class="prgme check_language" style="width: 90%">
+                            <label class="tst_lable" style="font-weight: bold; font-size: 20px;">
+                                Test Settings:
+
+
+                            </label>
+
+                            <table cellpadding="0" class="tbltestopts" style="width: 100%">
+                                <tr id="assesslogo">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Test Logo <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yrdtestlogoes' will display test specific logo during the assessment. <br><br>Maximum Size:500px, Maximum Height:199px, Maximum Width:780px" data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.islogo, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> logolist = new List<SelectListItem>();
+                                            logolist.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            logolist.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+
+                                            });
+
+
+
+                                        }
+                                        @foreach (var logo in logolist)
+                                        {
+                                            @Html.RadioButtonFor(model => model.islogo, logo.Value)
+                                            @logo.Text
+
+                                        }
+
+                                        <label ID="lbllogoerror" Style="left: 30px; position: relative; top: 10px;display:none;" class="validerror">(Please select logo to upload.)</label>
+                                    </td>
+                                </tr>
+                                <tr id="logopath" style="display: none;" class="imgprev">
+                                    <td></td>
+                                    <td>
+                                        @Html.TextBoxFor(model => model.File, new { type = "file", name = "fileInput", @onchange = "showquesimagepreview(this)" })<br /><br />
+
+                                        <img ID="logo" />
+                                    </td>
+                                </tr>
+                                <tr id="assessmail">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Email test report to candidate <a class="inst tooltipSetting tooltip2" title="Test taker will be mailed report once the test is completed." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.isemailreport, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> emaillist = new List<SelectListItem>();
+                                            emaillist.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            emaillist.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+
+                                            });
+
+
+
+                                        }
+                                        @foreach (var email in emaillist)
+                                        {
+                                            @Html.RadioButtonFor(model => model.isemailreport, email.Value)
+                                            @email.Text
+
+                                        }
+
+                                    </td>
+                                </tr>
+                                <tr id="audioisnt">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Enable Text to Speech <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will read the test instructions over audio." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.istexttospeech, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> tospeech = new List<SelectListItem>();
+                                            tospeech.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            tospeech.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+
+                                            });
+
+
+
+                                        }
+                                        @foreach (var sppech in tospeech)
+                                        {
+                                            @Html.RadioButtonFor(model => model.istexttospeech, sppech.Value)
+
+                                            @sppech.Text
+
+                                        }
+
+                                    </td>
+                                </tr>
+                                <tr id="assesquesdetails">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Include test attempts in analysis <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will enable question level reporting in admin." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.istestreport, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> analysis = new List<SelectListItem>();
+                                            analysis.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            analysis.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+
+                                            });
+
+
+
+                                        }
+                                        @foreach (var annly in analysis)
+                                        {
+                                            @Html.RadioButtonFor(model => model.istestreport, annly.Value)
+                                            @annly.Text
+
+                                        }
+
+                                    </td>
+                                </tr>
+                                <tr id="trrandomtest">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Randomize Questions <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will randomize the order of questions in section." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.randomtest, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> rndmItems = new List<SelectListItem>();
+                                            rndmItems.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            rndmItems.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+                                                Selected = true
+                                            });
+
+
+
+                                        }
+                                        @foreach (var radio in rndmItems)
+                                        {
+
+                                            @Html.RadioButtonFor(model => model.randomtest, radio.Value)
+                                            @radio.Text
+
+                                        }
+                                    </td>
+                                </tr>
+                                @*<tr id="trtimedisplay" style="display: none">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                Test Duration:
+                                            </label>
+                                        </td>
+                                        <td style="font-size: 18px;">
+
+                                            <asp:TextBox Width="20%" class="ginput" ID="txttimeedit" MaxLength="3" Text="40"></asp:TextBox>
+                                            minutes
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator6" ValidationGroup="grp1" ControlToValidate="txttimeedit" Display="Dynamic"
+                                                                        ErrorMessage=" (Test Duration Required)" CssClass="validerror"></asp:RequiredFieldValidator>
+                                            <asp:RegularExpressionValidator CssClass="validerror" ID="RegularExpressionValidator2" ControlToValidate="txttimeedit" ErrorMessage="Only Numbers allowed." Display="Dynamic" ValidationExpression="\d+"></asp:RegularExpressionValidator>
+                                            <asp:RangeValidator ID="RangeValidator1" ValidationGroup="grp1" Display="Dynamic" CssClass="validerror" ControlToValidate="txttimeedit" Type="Integer" MinimumValue="5" MaximumValue="999" ErrorMessage="Time duration should be between (5-999) minutes."></asp:RangeValidator>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr id="trcusform">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                Custom Form <a class="inst tooltipSetting tooltip2" title="Create custom form for exam to be filled by candidate before starting the test." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <asp:RadioButtonList CssClass="tst_lable" Style="width: auto; float: left" RepeatDirection="Horizontal" ID="rdbcusform" CellPadding="0" CellSpacing="5">
+                                                <asp:ListItem Text=" Yes" Value="1"></asp:ListItem>
+                                                <asp:ListItem Text=" No" Value="0" Selected="True"></asp:ListItem>
+                                            </asp:RadioButtonList>
+                                        </td>
+                                    </tr>
+
+                                    <tr id="trgrdcusform">
+                                        <td colspan="2">
+                                            <label class="tst_lable">
+                                                Custom Form Data:
+
+
+                                            </label>
+                                            <asp:GridView ID="grdviewselected" CssClass="creation_listing" OnRowDataBound="grdviewselected_RowDataBound" AutoGenerateColumns="False" Width="100%" GridLines="None" BorderStyle="None" AllowPaging="True" PageSize="10" EmptyDataText="No Questions Selected" ShowHeaderWhenEmpty="True" AllowSorting="True">
+                                                <Columns>
+                                                    <asp:TemplateField HeaderText="Sno" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="5%" ItemStyle-Width="5%">
+                                                        <ItemTemplate>
+                                                            <%# (Container.DataItemIndex + 1)+"." %>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Field Name" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="20%" ItemStyle-Width="20%">
+                                                        <ItemTemplate>
+                                                            <%#Eval("fieldnames") %>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Field Type" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="20%" ItemStyle-Width="20%">
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="fieldtype" Text='<% #Eval("fieldtype") %>'></asp:Label>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Values" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="20%" ItemStyle-Width="20%">
+                                                        <ItemTemplate>
+
+                                                            <asp:Label ID="dropdownvalues" Text='<%#Eval("dropdownvalues") %>'></asp:Label>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Data Type" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="15%" HeaderStyle-HorizontalAlign="Left" ItemStyle-Width="15%">
+                                                        <ItemTemplate>
+
+                                                            <asp:Label ID="datatype" Text='<%#Eval("datatype") %>'></asp:Label>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Required" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="10%" ItemStyle-Width="10%">
+                                                        <ItemTemplate>
+                                                            <%#Eval("isrequired") %>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Max Length" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="10%" ItemStyle-Width="10%">
+                                                        <ItemTemplate>
+
+                                                            <asp:Label ID="numericmaxlength" Text='<%#Eval("numericmaxlength") %>'></asp:Label>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+
+                                                </Columns>
+                                                <HeaderStyle BackColor="#f5f5f5" Height="50px" CssClass="borderbottom" />
+                                                <RowStyle BackColor="#ffffff" />
+                                                <AlternatingRowStyle BackColor="#f5f5f5" />
+                                                <PagerStyle BackColor="#dedede" ForeColor="#0072bc" HorizontalAlign="Left" Width="100%" />
+                                                <PagerSettings Mode="NumericFirstLast" PageButtonCount="3" FirstPageText="First" LastPageText="Last" NextPageText="" PreviousPageText="" />
+
+                                            </asp:GridView>
+                                        </td>
+                                    </tr>*@
+                                @*<tr style="display: none;">
+                                        <td>
+                                            <label class="tst_lable" style="width: auto; float: left">
+                                                Pass Percentage <a class="inst tooltipSetting tooltip2" title="The selected value will be the minimum amount of percentage marks required by candidate to pass the test." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <asp:DropDownList ID="ddlpercent" CssClass="ginput" Width="100px">
+                                                <asp:ListItem Text='0' Value='0'></asp:ListItem>
+                                                <asp:ListItem Text='1' Value='1'></asp:ListItem>
+                                                <asp:ListItem Text='2' Value='2'></asp:ListItem>
+                                                <asp:ListItem Text='3' Value='3'></asp:ListItem>
+                                                <asp:ListItem Text='4' Value='4'></asp:ListItem>
+                                                <asp:ListItem Text='5' Value='5'></asp:ListItem>
+                                                <asp:ListItem Text='6' Value='6'></asp:ListItem>
+                                                <asp:ListItem Text='7' Value='7'></asp:ListItem>
+                                                <asp:ListItem Text='8' Value='8'></asp:ListItem>
+                                                <asp:ListItem Text='9' Value='9'></asp:ListItem>
+                                                <asp:ListItem Text='10' Value='10'></asp:ListItem>
+                                                <asp:ListItem Text='11' Value='11'></asp:ListItem>
+                                                <asp:ListItem Text='12' Value='12'></asp:ListItem>
+                                                <asp:ListItem Text='13' Value='13'></asp:ListItem>
+                                                <asp:ListItem Text='14' Value='14'></asp:ListItem>
+                                                <asp:ListItem Text='15' Value='15'></asp:ListItem>
+                                                <asp:ListItem Text='16' Value='16'></asp:ListItem>
+                                                <asp:ListItem Text='17' Value='17'></asp:ListItem>
+                                                <asp:ListItem Text='18' Value='18'></asp:ListItem>
+                                                <asp:ListItem Text='19' Value='19'></asp:ListItem>
+                                                <asp:ListItem Text='20' Value='20'></asp:ListItem>
+                                                <asp:ListItem Text='21' Value='21'></asp:ListItem>
+                                                <asp:ListItem Text='22' Value='22'></asp:ListItem>
+                                                <asp:ListItem Text='23' Value='23'></asp:ListItem>
+                                                <asp:ListItem Text='24' Value='24'></asp:ListItem>
+                                                <asp:ListItem Text='25' Value='25'></asp:ListItem>
+                                                <asp:ListItem Text='26' Value='26'></asp:ListItem>
+                                                <asp:ListItem Text='27' Value='27'></asp:ListItem>
+                                                <asp:ListItem Text='28' Value='28'></asp:ListItem>
+                                                <asp:ListItem Text='29' Value='29'></asp:ListItem>
+                                                <asp:ListItem Text='30' Value='30'></asp:ListItem>
+                                                <asp:ListItem Text='31' Value='31'></asp:ListItem>
+                                                <asp:ListItem Text='32' Value='32'></asp:ListItem>
+                                                <asp:ListItem Text='33' Value='33'></asp:ListItem>
+                                                <asp:ListItem Text='34' Value='34'></asp:ListItem>
+                                                <asp:ListItem Text='35' Value='35'></asp:ListItem>
+                                                <asp:ListItem Text='36' Value='36'></asp:ListItem>
+                                                <asp:ListItem Text='37' Value='37'></asp:ListItem>
+                                                <asp:ListItem Text='38' Value='38'></asp:ListItem>
+                                                <asp:ListItem Text='39' Value='39'></asp:ListItem>
+                                                <asp:ListItem Text='40' Value='40'></asp:ListItem>
+                                                <asp:ListItem Text='41' Value='41'></asp:ListItem>
+                                                <asp:ListItem Text='42' Value='42'></asp:ListItem>
+                                                <asp:ListItem Text='43' Value='43'></asp:ListItem>
+                                                <asp:ListItem Text='44' Value='44'></asp:ListItem>
+                                                <asp:ListItem Text='45' Value='45'></asp:ListItem>
+                                                <asp:ListItem Text='46' Value='46'></asp:ListItem>
+                                                <asp:ListItem Text='47' Value='47'></asp:ListItem>
+                                                <asp:ListItem Text='48' Value='48'></asp:ListItem>
+                                                <asp:ListItem Text='49' Value='49'></asp:ListItem>
+                                                <asp:ListItem Text='50' Value='50'></asp:ListItem>
+                                                <asp:ListItem Text='51' Value='51'></asp:ListItem>
+                                                <asp:ListItem Text='52' Value='52'></asp:ListItem>
+                                                <asp:ListItem Text='53' Value='53'></asp:ListItem>
+                                                <asp:ListItem Text='54' Value='54'></asp:ListItem>
+                                                <asp:ListItem Text='55' Value='55'></asp:ListItem>
+                                                <asp:ListItem Text='56' Value='56'></asp:ListItem>
+                                                <asp:ListItem Text='57' Value='57'></asp:ListItem>
+                                                <asp:ListItem Text='58' Value='58'></asp:ListItem>
+                                                <asp:ListItem Text='59' Value='59'></asp:ListItem>
+                                                <asp:ListItem Text='60' Value='60' Selected="True"></asp:ListItem>
+                                                <asp:ListItem Text='61' Value='61'></asp:ListItem>
+                                                <asp:ListItem Text='62' Value='62'></asp:ListItem>
+                                                <asp:ListItem Text='63' Value='63'></asp:ListItem>
+                                                <asp:ListItem Text='64' Value='64'></asp:ListItem>
+                                                <asp:ListItem Text='65' Value='65'></asp:ListItem>
+                                                <asp:ListItem Text='66' Value='66'></asp:ListItem>
+                                                <asp:ListItem Text='67' Value='67'></asp:ListItem>
+                                                <asp:ListItem Text='68' Value='68'></asp:ListItem>
+                                                <asp:ListItem Text='69' Value='69'></asp:ListItem>
+                                                <asp:ListItem Text='70' Value='70'></asp:ListItem>
+                                                <asp:ListItem Text='71' Value='71'></asp:ListItem>
+                                                <asp:ListItem Text='72' Value='72'></asp:ListItem>
+                                                <asp:ListItem Text='73' Value='73'></asp:ListItem>
+                                                <asp:ListItem Text='74' Value='74'></asp:ListItem>
+                                                <asp:ListItem Text='75' Value='75'></asp:ListItem>
+                                                <asp:ListItem Text='76' Value='76'></asp:ListItem>
+                                                <asp:ListItem Text='77' Value='77'></asp:ListItem>
+                                                <asp:ListItem Text='78' Value='78'></asp:ListItem>
+                                                <asp:ListItem Text='79' Value='79'></asp:ListItem>
+                                                <asp:ListItem Text='80' Value='80'></asp:ListItem>
+                                                <asp:ListItem Text='81' Value='81'></asp:ListItem>
+                                                <asp:ListItem Text='82' Value='82'></asp:ListItem>
+                                                <asp:ListItem Text='83' Value='83'></asp:ListItem>
+                                                <asp:ListItem Text='84' Value='84'></asp:ListItem>
+                                                <asp:ListItem Text='85' Value='85'></asp:ListItem>
+                                                <asp:ListItem Text='86' Value='86'></asp:ListItem>
+                                                <asp:ListItem Text='87' Value='87'></asp:ListItem>
+                                                <asp:ListItem Text='88' Value='88'></asp:ListItem>
+                                                <asp:ListItem Text='89' Value='89'></asp:ListItem>
+                                                <asp:ListItem Text='90' Value='90'></asp:ListItem>
+                                                <asp:ListItem Text='91' Value='91'></asp:ListItem>
+                                                <asp:ListItem Text='92' Value='92'></asp:ListItem>
+                                                <asp:ListItem Text='93' Value='93'></asp:ListItem>
+                                                <asp:ListItem Text='94' Value='94'></asp:ListItem>
+                                                <asp:ListItem Text='95' Value='95'></asp:ListItem>
+                                                <asp:ListItem Text='96' Value='96'></asp:ListItem>
+                                                <asp:ListItem Text='97' Value='97'></asp:ListItem>
+                                                <asp:ListItem Text='98' Value='98'></asp:ListItem>
+                                                <asp:ListItem Text='99' Value='99'></asp:ListItem>
+                                                <asp:ListItem Text='100' Value='100'></asp:ListItem>
+
+                                            </asp:DropDownList>
+
+                                        </td>
+                                    </tr>*@
+
+                            </table>
+                        </div>
+                </td>
+            </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" class="crt_tset_btn" value="Update" Style="border-width:0px;font-size:14px;float: right; position: relative; right: 110px;">
+                        <input type="submit" class="crt_tset_btn" value="Cancel" Style="border-width:0px;font-size:14px;float: right; position: absolute; right: 18px;">
+
+                    </td>
+                </tr>
+
+
+
+
+
+                                            }
+    </table>
+</div>
+
+
+
+  
