@@ -237,18 +237,17 @@
                                                     {
                                                         Text = "No",
                                                         Value = "False",
-                                                        
+                                                        Selected = true,
                                                     });
 
 
 
                                                 }
-                                                @foreach (var logo in logolist)
-                                                {
-                                                    @Html.RadioButtonFor(model => model.islogo, logo.Value)
-                                                    @logo.Text
+                                              
+                                                    @Html.DropDownListFor(model => model.islogo,logolist, new { @class = "ginput", @style = "width:200px;" })
+                                                    
 
-                                                }
+                                               
                                                 
                                                 <label ID="lbllogoerror" Style="left: 30px; position: relative; top: 10px;display:none;" class="validerror">(Please select logo to upload.)</label>
                                             </td>
@@ -282,18 +281,17 @@
                                                     {
                                                         Text = "No",
                                                         Value = "False",
-                                                   
+                                                        Selected = true,
                                                     });
 
 
 
                                                 }
-                                                @foreach (var email in emaillist)
-                                                {
-                                                    @Html.RadioButtonFor(model => model.isemailreport, email.Value)
-                                                    @email.Text
+                                                
+                                                    @Html.DropDownListFor(model => model.isemailreport, emaillist, new { @class = "ginput", @style = "width:200px;" })
+                                                  
 
-                                                }
+                                               
 
                                             </td>
                                         </tr><tr id="audioisnt">
@@ -317,19 +315,17 @@
                                                     {
                                                         Text = "No",
                                                         Value = "False",
-                                                      
+                                                        Selected = true,
                                                     });
 
 
 
                                                 }
-                                                @foreach (var sppech in tospeech)
-                                                {
-                                                    @Html.RadioButtonFor(model => model.istexttospeech, sppech.Value)
-                                                    
-                                                    @sppech.Text
+                                              
+                                                    @Html.DropDownListFor(model => model.istexttospeech, tospeech, new { @class = "ginput", @style = "width:200px;" })
+                                                 
 
-                                                }
+                                                
 
                                             </td>
                                         </tr>
@@ -353,18 +349,15 @@
                                                     {
                                                         Text = "No",
                                                         Value = "False",
-                                                       
+                                                        Selected = true,
                                                     });
 
 
 
                                                 }
-                                                @foreach (var annly in analysis)
-                                                {
-                                                    @Html.RadioButtonFor(model => model.istestreport, annly.Value)
-                                                    @annly.Text
-
-                                                }
+                                              
+                                                    @Html.DropDownListFor(model => model.istestreport, analysis, new { @class = "ginput", @style = "width:200px;" })
+                                                 
 
                                             </td>
                                         </tr>
@@ -389,19 +382,16 @@
                                                 {
                                                     Text = "No",
                                                     Value = "False",
-                                                    Selected = true
+                                                    Selected = true,
                                                 });
 
 
 
                                             }
-                                            @foreach (var radio in  rndmItems)
-                                            {
+                                            
 
-                                            @Html.RadioButtonFor(model => model.randomtest, radio.Value)
-                                            @radio.Text
-                                             
-                                            }   
+                                            @Html.DropDownListFor(model => model.randomtest, rndmItems, new { @class = "ginput", @style = "width:200px;" })
+                                         
                                         </td>
                                     </tr>
                                     @*<tr id="trtimedisplay" style="display: none">

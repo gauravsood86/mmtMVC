@@ -50,14 +50,14 @@ namespace mmtMVC.Models
         public string examlanguage { get; set; }
         public int passingmarks { get; set; }
         [Required]
-        public bool islogo { get; set; }
+        public Nullable<bool> islogo { get; set; }
         public string path { get; set; }
         [Required]
-        public bool isemailreport { get; set; }
+        public Nullable<bool> isemailreport { get; set; }
         [Required]
-        public bool istexttospeech { get; set; }
+        public Nullable<bool> istexttospeech { get; set; }
         [Required]
-        public bool istestreport { get; set; }
+        public Nullable<bool> istestreport { get; set; }
         [NotMapped]
         public HttpPostedFileBase File { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

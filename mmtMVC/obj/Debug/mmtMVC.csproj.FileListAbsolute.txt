@@ -25,7 +25,11 @@ E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.AI.WindowsServer.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.ApplicationInsights.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\Newtonsoft.Json.dll
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Net.Http.Formatting.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Helpers.dll
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.dll
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.WebHost.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Mvc.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Razor.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Webpages.Deployment.dll
@@ -39,6 +43,10 @@ E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.AI.Web.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.AI.WindowsServer.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.ApplicationInsights.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\Newtonsoft.Json.xml
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Net.Http.Formatting.xml
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.xml
+E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.WebHost.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Razor.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Webpages.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Webpages.Deployment.xml
@@ -47,11 +55,3 @@ E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Helpers.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Mvc.xml
 E:\Projects\MVC\mmtMVC\mmtMVC\obj\Debug\mmtMVC.dll
 E:\Projects\MVC\mmtMVC\mmtMVC\obj\Debug\mmtMVC.pdb
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\Newtonsoft.Json.dll
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Net.Http.Formatting.dll
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.dll
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.WebHost.dll
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\Newtonsoft.Json.xml
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Net.Http.Formatting.xml
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.xml
-E:\Projects\MVC\mmtMVC\mmtMVC\bin\System.Web.Http.WebHost.xml

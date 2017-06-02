@@ -12,7 +12,7 @@
         <center>
             <br />
             <p style="color: black; font-size: 24px">Updating Section..</p>
-            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+            <img width="128" src="@("/content/images/notloader.gif")" alt="Loading" id="img3" />
 
             <br />
             <br />
@@ -339,8 +339,8 @@
             <tr>
                 <td style="text-align: right">
                     <input type="submit" class="crt_tset_btn" style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Update Section" />
-                    <input type="submit" class="crt_tset_btn" style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Cancel" />
-                    @Html.ActionLink("Cancel", actionName: "Listing", controllerName: "Sections", routeValues: new { eid = Session["examid"].ToString() }, htmlAttributes: new { @class = "crt_tset_btn", @style = "border-width:0px;font-size:14px;float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" })
+                 
+                    @Html.ActionLink("Cancel", actionName: "Listing", controllerName: "Sections", routeValues: new { eid = Session["examid"].ToString() }, htmlAttributes: new {@onclick= "javascript: return load();", @class = "crt_tset_btn", @style = "border-width:0px;font-size:14px;float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" })
 
 
 

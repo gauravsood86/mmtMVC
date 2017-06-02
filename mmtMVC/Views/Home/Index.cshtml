@@ -91,8 +91,8 @@
                         </th>
                         <th scope="col" class="w6">
                             Freeze <span>
-                                <a href="javascript:void(0)" title="<span><ul style='padding-left: 7px;'><li>Freeze the test once you are satisfied that it is ready to go live.</li><li>The test cannot be freezed, if it has been flagged for discrepancies.<br /> Click <img src='content/images/red-flag.png' /> to the left to resolve.</li></ul></span>" data-alignx="center" data-alignto="target" data-aligny="top" data-offsety="5" data-offsetx="0" class="tooltipSetting tooltip2">
-                                    <img src="content/images/info-icon.png" />
+                                <a href="javascript:void(0)" title="<span><ul style='padding-left: 7px;'><li>Freeze the test once you are satisfied that it is ready to go live.</li><li>The test cannot be freezed, if it has been flagged for discrepancies.<br /> Click <img src='@("/content/images/red-flag.png")' /> to the left to resolve.</li></ul></span>" data-alignx="center" data-alignto="target" data-aligny="top" data-offsety="5" data-offsetx="0" class="tooltipSetting tooltip2">
+                                    <img src="@("/content/images/info-icon.png")" />
                                 </a>
                             </span>
                         </th>
@@ -128,7 +128,7 @@
                                 {
                                     <div id="redflag">
                                         <a href="javascript:openflags()" class="tooltip2">
-                                            <img src="content/images/red-flag.png" /><span>Click to View</span>
+                                            <img src="@("/content/images/red-flag.png")"/><span>Click to View</span>
                                         </a>
                                         @Html.DisplayFor(modelItem => flag.flagcount)
                                     </div>
@@ -136,7 +136,7 @@
                                 else
                                 {
                                     <div id="greenflag">
-                                        <img src="content/images/green-flag.png" />
+                                        <img src="@("/content/images/green-flag.png")" />
                                     </div>
                                 }
 

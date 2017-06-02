@@ -21,7 +21,7 @@
         <center>
             <br />
             <p style="color: black; font-size: 24px">Creating Section..</p>
-            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+            <img width="128" src="@("/content/images/notloader.gif")" alt="Loading" id="img3" />
 
             <br />
             <br />
@@ -35,7 +35,7 @@
         <center>
             <br />
             <p style="color: black; font-size: 24px">Updating Section..</p>
-            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+            <img width="128" src="@("/content/images/notloader.gif")" alt="Loading" id="img3" />
 
             <br />
             <br />
@@ -49,7 +49,7 @@
         <center>
             <br />
             <p style="color: black; font-size: 24px">Removing Section..</p>
-            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+            <img width="128" src="@("/content/images/notloader.gif")" alt="Loading" id="img3" />
 
             <br />
             <br />
@@ -63,7 +63,7 @@
         <center>
             <br />
             <p style="color: black; font-size: 24px">Loading..</p>
-            <img width="128" src="images/notloader.gif" alt="Loading" id="img3" />
+            <img width="128" src="@("/content/images/notloader.gif")" alt="Loading" id="img3" />
 
             <br />
             <br />
@@ -171,11 +171,11 @@
 
                                                 @if (item.sectionname == "-----")
                                                 {
-                                                    <span id="ContentPlaceHolder1_grdviewselected_lblstatus_1" style="font-weight: 300;" class="validerror">Unconfigured</span>
+                                                    <span id="status" style="font-weight: 300;" class="validerror">Unconfigured</span>
                                                 }
                                                 else
                                                 {
-                                                    <span id="ContentPlaceHolder1_grdviewselected_lblstatus_1" style="font-weight: 300">Configured</span>
+                                                    <span id="status" style="font-weight: 300">Configured</span>
                                                 }
 
                                             </td>
