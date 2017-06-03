@@ -110,41 +110,15 @@
 
 </script>
 
-<div class="test_evaluation_outer" style="display: none" id="divcreate">
 
-    <div class="process_end_popup">
-        <center>
-            <br />
-            <p style="color: black; font-size: 24px">Creating Test..</p>
-            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
 
-            <br />
-            <br />
-        </center>
-    </div>
-
-</div>
-<div class="test_evaluation_outer" style="display: none" id="divload">
-
-    <div class="process_end_popup">
-        <center>
-            <br />
-            <p style="color: black; font-size: 24px">Loading..</p>
-            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
-
-            <br />
-            <br />
-        </center>
-    </div>
-
-</div>
 <div class="test_evaluation_outer" style="display: none" id="divupdate">
 
     <div class="process_end_popup">
         <center>
             <br />
             <p style="color: black; font-size: 24px">Updating Test..</p>
-            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+            <img width="128" src=""@("/content/images/notloader.gif")"" alt="Loading" id="img3" />
 
             <br />
             <br />
@@ -156,9 +130,9 @@
     <div class="batch_wrap" style="margin-top: 2px">
         <div class="top_h">
             <h2 id="CreateTitleH2">
-                Create Test
+                Edit Test
             </h2>
-            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn loadanim" })
 
         </div>
 
@@ -234,18 +208,14 @@
                                             {
                                                 Text = "No",
                                                 Value = "False",
-
+                         
                                             });
 
 
 
                                         }
-                                        @foreach (var logo in logolist)
-                                        {
-                                            @Html.RadioButtonFor(model => model.islogo, logo.Value)
-                                            @logo.Text
-
-                                        }
+                                              
+                                                    @Html.DropDownListFor(model => model.islogo,logolist, new { @class = "ginput", @style = "width:200px;" })
 
                                         <label ID="lbllogoerror" Style="left: 30px; position: relative; top: 10px;display:none;" class="validerror">(Please select logo to upload.)</label>
                                     </td>
@@ -285,16 +255,11 @@
 
 
                                         }
-                                        @foreach (var email in emaillist)
-                                        {
-                                            @Html.RadioButtonFor(model => model.isemailreport, email.Value)
-                                            @email.Text
-
-                                        }
+                                                
+                                                    @Html.DropDownListFor(model => model.isemailreport, emaillist, new { @class = "ginput", @style = "width:200px;" })
 
                                     </td>
-                                </tr>
-                                <tr id="audioisnt">
+                                        </tr><tr id="audioisnt">
                                     <td>
                                         <label class="tst_lable" style="width: auto; float: left">
                                             Enable Text to Speech <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will read the test instructions over audio." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
@@ -321,13 +286,8 @@
 
 
                                         }
-                                        @foreach (var sppech in tospeech)
-                                        {
-                                            @Html.RadioButtonFor(model => model.istexttospeech, sppech.Value)
-
-                                            @sppech.Text
-
-                                        }
+                                              
+                                                    @Html.DropDownListFor(model => model.istexttospeech, tospeech, new { @class = "ginput", @style = "width:200px;" })
 
                                     </td>
                                 </tr>
@@ -357,12 +317,8 @@
 
 
                                         }
-                                        @foreach (var annly in analysis)
-                                        {
-                                            @Html.RadioButtonFor(model => model.istestreport, annly.Value)
-                                            @annly.Text
-
-                                        }
+                                              
+                                                    @Html.DropDownListFor(model => model.istestreport, analysis, new { @class = "ginput", @style = "width:200px;" })
 
                                     </td>
                                 </tr>
@@ -393,13 +349,10 @@
 
 
                                         }
-                                        @foreach (var radio in rndmItems)
-                                        {
+                                            
 
-                                            @Html.RadioButtonFor(model => model.randomtest, radio.Value)
-                                            @radio.Text
-
-                                        }
+                                            @Html.DropDownListFor(model => model.randomtest, rndmItems, new { @class = "ginput", @style = "width:200px;" })
+                                         
                                     </td>
                                 </tr>
                                 @*<tr id="trtimedisplay" style="display: none">
@@ -622,8 +575,9 @@
 
                 <tr>
                     <td>
-                        <input type="submit" class="crt_tset_btn" value="Update" Style="border-width:0px;font-size:14px;float: right; position: relative; right: 110px;">
-                        <input type="submit" class="crt_tset_btn" value="Cancel" Style="border-width:0px;font-size:14px;float: right; position: absolute; right: 18px;">
+                        <input type="submit" class="crt_tset_btn actionbtns" value="Update">
+                        @Html.ActionLink("Cancel", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new {@class = "crt_tset_btn loadanim cancelbtn"})
+
 
                     </td>
                 </tr>

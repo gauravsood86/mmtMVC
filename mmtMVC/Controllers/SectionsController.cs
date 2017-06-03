@@ -36,8 +36,23 @@ namespace mmtMVC.Controllers
                 }
             }
 
+
+
             ViewBag.ErrorMessage = TempData["ErrorMessage"] as string;
             var mmtsections = (from e in db.mmtsections where e.examid == eid select e).AsEnumerable();
+
+            bool has = mmtsections.Any(mmtsection => mmtsection.sectionname == "-----");
+            if (has == true)
+            {
+                ViewBag.NextButton = false;
+
+            }
+            else
+            {
+                ViewBag.NextButton = true;
+            }
+
+
             return View(mmtsections.ToList());
         }
 
@@ -407,7 +422,7 @@ namespace mmtMVC.Controllers
         }
 
         // GET: Sections/Edit/5
-        public ActionResult Edit(string eid , string secid)
+        public ActionResult Edit(string eid, string secid)
         {
             if (secid == null || secid == "")
             {
@@ -440,7 +455,7 @@ namespace mmtMVC.Controllers
             mmtexam std = (from s in db.mmtexams
                            where s.examid == examid
                            select s).FirstOrDefault<mmtexam>();
-            
+
 
             XmlDocument xmldoc = new XmlDocument();
             XmlNode xmlRoot;
@@ -448,10 +463,10 @@ namespace mmtMVC.Controllers
             xmlRoot = xmldoc.SelectSingleNode("//test//sections//section[@id=" + mmtsection.sectionid.ToString() + "]");
             mmtsection.review = Convert.ToInt32(xmlRoot.Attributes["showreview"].Value);
             mmtsection.compulsory = Convert.ToInt32(xmlRoot.Attributes["questioncompulsory"].Value);
-            mmtsection.random  = Convert.ToInt32(xmlRoot.Attributes["randomizeoptions"].Value);
-            mmtsection.auto =  Convert.ToInt32(xmlRoot.Attributes["auto"].Value);
+            mmtsection.random = Convert.ToInt32(xmlRoot.Attributes["randomizeoptions"].Value);
+            mmtsection.auto = Convert.ToInt32(xmlRoot.Attributes["auto"].Value);
 
-            
+
 
             ViewBag.examid = new SelectList(db.mmtexams, "examid", "examname", mmtsection.examid);
             return View(mmtsection);
@@ -462,14 +477,14 @@ namespace mmtMVC.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit( mmtsection mmtsection)
+        public ActionResult Edit(mmtsection mmtsection)
         {
             if (ModelState.IsValid)
             {
                 mmtsection.active = true;
-              
 
-                int eid = Convert.ToInt32(mmtsection.examid);
+
+                int eid = Convert.ToInt32(Session["examid"]);
 
                 mmtexam std = (from s in db.mmtexams
                                where s.examid == eid

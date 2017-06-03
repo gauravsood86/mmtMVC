@@ -4,9 +4,7 @@
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
 }
 
-
-
-<script src="@("/Content/js/tiny_mce/tiny_mce.js")"></script>
+ <script src="@("/Content/js/tiny_mce/tiny_mce.js")"></script>
 <script type="text/javascript">
         tinyMCE.init({
             // General options
@@ -94,8 +92,9 @@
 
         $(document).ready(function () {
             $("input[name='islogo']").change(function () {
-                
+
                 var rdvalue = $(this).val();
+
                 if (rdvalue == "True") {
 
                     $("#logopath").css("display", "");
@@ -111,262 +110,299 @@
 
 </script>
 
-    <div class="test_evaluation_outer" style="display: none" id="divcreate">
+<div class="test_evaluation_outer" style="display: none" id="divcreate">
 
-        <div class="process_end_popup">
-            <center>
-                <br />
-                <p style="color: black; font-size: 24px">Creating Test..</p>
-                <img width="128" src=""@("/content/images/notloader.gif")"" alt="Loading" id="img3" />
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Creating Test..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
 
-                <br />
-                <br />
-            </center>
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divload">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Loading..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="test_evaluation_outer" style="display: none" id="divupdate">
+
+    <div class="process_end_popup">
+        <center>
+            <br />
+            <p style="color: black; font-size: 24px">Updating Test..</p>
+            <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+            <br />
+            <br />
+        </center>
+    </div>
+
+</div>
+<div class="create_wrap">
+    <div class="batch_wrap" style="margin-top: 2px">
+        <div class="top_h">
+            <h2 id="CreateTitleH2">
+                Edit Test
+            </h2>
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
+
         </div>
+
+
 
     </div>
-    
-    
-    <div class="create_wrap">
-        <div class="batch_wrap" style="margin-top: 2px">
-            <div class="top_h">
-                <h2 id="CreateTitleH2">
-                    Create Test
-                </h2>
-                @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn loadanim" })
 
-            </div>
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <ul id="wizHeader">
 
+                    <li><a title="Step 1: Configure Test" class="currentStep">Step 1: Configure Test</a> </li>
+                    <li><a title="Step 2: Configure Sections">Step 2: Configure Sections</a> </li>
+                    <li><a title="Step 3: Add Questions" class="nextStep">Step 3: Add Questions</a> </li>
+                    <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
+                    <li><a title="Step 5: Preview Test" class="nextStep">Step 5: Preview Test</a> </li>
+                </ul>
+            </td>
+        </tr>
+        @using (Html.BeginForm("Edit", "Test", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
 
-
-        </div>
-
-        <table style="width: 100%">
             <tr>
                 <td>
-                    <ul id="wizHeader">
-
-                        <li><a title="Step 1: Configure Test" class="currentStep">Step 1: Configure Test</a> </li>
-                        <li><a title="Step 2: Configure Sections">Step 2: Configure Sections</a> </li>
-                        <li><a title="Step 3: Add Questions" class="nextStep">Step 3: Add Questions</a> </li>
-                        <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
-                        <li><a title="Step 5: Preview Test" class="nextStep">Step 5: Preview Test</a> </li>
-                    </ul>
-                </td>
-            </tr>
-            @using (Html.BeginForm("Create", "Test",FormMethod.Post, new { enctype = "multipart/form-data" }))
-            {
-                @Html.AntiForgeryToken()
-
-                <tr>
-                    <td>
-                        <div class="create_wrap_inner">
-                            <div class="testname_row" style="width: 100%">
-                                <label class="tst_lable">
-                                    Enter Test Name:
-                                    @Html.ValidationMessageFor(model => model.examname, "", new { @class = "validerror" })
-                                </label>
-                                @Html.TextBoxFor(model => model.examname, null, new{ @class = "ginput", @style = "width:400px;"  })
-                                <br />
-                                <br />
-                                <label class="tst_lable" style="width: auto;">
-                                    Enter Test Syllabus:
-                                </label>
-                                <span class="rc_lable_value" style="font-size: 12px">(It will be displayed at the start of test.)</span>
+                    <div class="create_wrap_inner">
+                        <div class="testname_row" style="width: 100%">
+                            <label class="tst_lable">
+                                Enter Test Name:
+                            @Html.ValidationMessageFor(model => model.examname, "", new { @class = "validerror" })
+                            </label>
+                            @Html.TextBoxFor(model => model.examname, null, new { @class = "ginput", @style = "width:400px;" })
+                            <br />
+                            <br />
+                            <label class="tst_lable" style="width: auto;">
+                                Enter Test Syllabus:
+                            </label>
+                            <span class="rc_lable_value" style="font-size: 12px">(It will be displayed at the start of test.)</span>
 
 
-                                @Html.TextAreaFor(model => model.instructions, 10,20,  new { @class = "cr_txtarea myTextEditor" })
-                                <div class="clr"></div>
-                              
-                            </div>
+                            @Html.TextAreaFor(model => model.instructions, 10, 20, new { @class = "cr_txtarea myTextEditor" })
+                            <div class="clr"></div>
+
+                        </div>
 
 
-                            <div id="maintestset" class="prgme check_language" style="width: 90%">
-                                <label class="tst_lable" style="font-weight: bold; font-size: 20px;">
-                                    Test Settings:
+                        <div id="maintestset" class="prgme check_language" style="width: 90%">
+                            <label class="tst_lable" style="font-weight: bold; font-size: 20px;">
+                                Test Settings:
 
 
-                                </label>
+                            </label>
 
-                                <table cellpadding="0" class="tbltestopts" style="width: 100%">
-                                   <tr id="assesslogo">
-                                            <td>
-                                                <label class="tst_lable" style="width: auto; float: left">
-                                                    Test Logo <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yrdtestlogoes' will display test specific logo during the assessment. <br><br>Maximum Size:500px, Maximum Height:199px, Maximum Width:780px" data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
-                                                </label>
-                                                @Html.ValidationMessageFor(model => model.islogo, "", new { @class = "validerror" })
-                                            </td>
-                                            <td>
-                                                @{
-                                                    List<SelectListItem> logolist = new List<SelectListItem>();
-                                                    logolist.Add(new SelectListItem
-                                                    {
-                                                        Text = "Yes",
-                                                        Value = "True"
+                            <table cellpadding="0" class="tbltestopts" style="width: 100%">
+                                <tr id="assesslogo">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Test Logo <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yrdtestlogoes' will display test specific logo during the assessment. <br><br>Maximum Size:500px, Maximum Height:199px, Maximum Width:780px" data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.islogo, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> logolist = new List<SelectListItem>();
+                                            logolist.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
 
-                                                    });
-                                                    logolist.Add(new SelectListItem
-                                                    {
-                                                        Text = "No",
-                                                        Value = "False",
-                                                        Selected = true,
-                                                    });
+                                            });
+                                            logolist.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+                         
+                                            });
 
 
 
-                                                }
-                                              
-                                                    @Html.DropDownListFor(model => model.islogo,logolist, new { @class = "ginput", @style = "width:200px;" })
-                                                    
+                                        }
+                                        @foreach (var logo in logolist)
+                                        {
+                                            @Html.RadioButtonFor(model => model.islogo, logo.Value)
+                                            @logo.Text
 
-                                               
-                                                
-                                                <label ID="lbllogoerror" Style="left: 30px; position: relative; top: 10px;display:none;" class="validerror">(Please select logo to upload.)</label>
-                                            </td>
-                                        </tr>
-                                        <tr id="logopath" style="display: none;" class="imgprev">
-                                            <td></td>
-                                            <td>
-                                                @Html.TextBoxFor(model => model.File, new { type = "file", name = "fileInput", @onchange = "showquesimagepreview(this)" })<br /><br />
-                                                
-                                                <img ID="logo" />
-                                            </td>
-                                        </tr>
-                                    <tr id="assessmail">
-                                            <td>
-                                                <label class="tst_lable" style="width: auto; float: left">
-                                                    Email test report to candidate <a class="inst tooltipSetting tooltip2" title="Test taker will be mailed report once the test is completed." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+                                        }
 
-                                                </label>
-                                                @Html.ValidationMessageFor(model => model.isemailreport, "", new { @class = "validerror" })
-                                            </td>
-                                            <td>
-                                                @{
-                                                    List<SelectListItem> emaillist = new List<SelectListItem>();
-                                                    emaillist.Add(new SelectListItem
-                                                    {
-                                                        Text = "Yes",
-                                                        Value = "True"
+                                        <label ID="lbllogoerror" Style="left: 30px; position: relative; top: 10px;display:none;" class="validerror">(Please select logo to upload.)</label>
+                                    </td>
+                                </tr>
+                                <tr id="logopath" style="display: none;" class="imgprev">
+                                    <td></td>
+                                    <td>
+                                        @Html.TextBoxFor(model => model.File, new { type = "file", name = "fileInput", @onchange = "showquesimagepreview(this)" })<br /><br />
 
-                                                    });
-                                                    emaillist.Add(new SelectListItem
-                                                    {
-                                                        Text = "No",
-                                                        Value = "False",
-                                                        Selected = true,
-                                                    });
+                                        <img ID="logo" />
+                                    </td>
+                                </tr>
+                                <tr id="assessmail">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Email test report to candidate <a class="inst tooltipSetting tooltip2" title="Test taker will be mailed report once the test is completed." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
 
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.isemailreport, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> emaillist = new List<SelectListItem>();
+                                            emaillist.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
 
+                                            });
+                                            emaillist.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
 
-                                                }
-                                                
-                                                    @Html.DropDownListFor(model => model.isemailreport, emaillist, new { @class = "ginput", @style = "width:200px;" })
-                                                  
-
-                                               
-
-                                            </td>
-                                        </tr><tr id="audioisnt">
-                                            <td>
-                                                <label class="tst_lable" style="width: auto; float: left">
-                                                    Enable Text to Speech <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will read the test instructions over audio." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
-
-                                                </label>
-                                                @Html.ValidationMessageFor(model => model.istexttospeech, "", new { @class = "validerror" })
-                                            </td>
-                                            <td>
-                                                @{
-                                                    List<SelectListItem> tospeech = new List<SelectListItem>();
-                                                    tospeech.Add(new SelectListItem
-                                                    {
-                                                        Text = "Yes",
-                                                        Value = "True"
-
-                                                    });
-                                                    tospeech.Add(new SelectListItem
-                                                    {
-                                                        Text = "No",
-                                                        Value = "False",
-                                                        Selected = true,
-                                                    });
+                                            });
 
 
 
-                                                }
-                                              
-                                                    @Html.DropDownListFor(model => model.istexttospeech, tospeech, new { @class = "ginput", @style = "width:200px;" })
-                                                 
+                                        }
+                                        @foreach (var email in emaillist)
+                                        {
+                                            @Html.RadioButtonFor(model => model.isemailreport, email.Value)
+                                            @email.Text
 
-                                                
+                                        }
 
-                                            </td>
-                                        </tr>
-                                        <tr id="assesquesdetails">
-                                            <td>
-                                                <label class="tst_lable" style="width: auto; float: left">
-                                                    Include test attempts in analysis <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will enable question level reporting in admin." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
-                                                </label>
-                                                @Html.ValidationMessageFor(model => model.istestreport, "", new { @class = "validerror" })
-                                            </td>
-                                            <td>
-                                                @{
-                                                    List<SelectListItem> analysis = new List<SelectListItem>();
-                                                    analysis.Add(new SelectListItem
-                                                    {
-                                                        Text = "Yes",
-                                                        Value = "True"
+                                    </td>
+                                </tr>
+                                <tr id="audioisnt">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Enable Text to Speech <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will read the test instructions over audio." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
 
-                                                    });
-                                                    analysis.Add(new SelectListItem
-                                                    {
-                                                        Text = "No",
-                                                        Value = "False",
-                                                        Selected = true,
-                                                    });
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.istexttospeech, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> tospeech = new List<SelectListItem>();
+                                            tospeech.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
 
+                                            });
+                                            tospeech.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
 
-
-                                                }
-                                              
-                                                    @Html.DropDownListFor(model => model.istestreport, analysis, new { @class = "ginput", @style = "width:200px;" })
-                                                 
-
-                                            </td>
-                                        </tr>
-                                    <tr id="trrandomtest">
-                                        <td>
-                                            <label class="tst_lable" style="width: auto; float: left">
-                                                Randomize Questions <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will randomize the order of questions in section." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
-
-                                            </label>
-                                            @Html.ValidationMessageFor(model => model.randomtest, "", new { @class = "validerror" })
-                                        </td>
-                                        <td>
-                                            @{
-                                                List<SelectListItem> rndmItems = new List<SelectListItem>();
-                                                rndmItems.Add(new SelectListItem
-                                                {
-                                                    Text = "Yes",
-                                                    Value = "True"
-
-                                                });
-                                                rndmItems.Add(new SelectListItem
-                                                {
-                                                    Text = "No",
-                                                    Value = "False",
-                                                    Selected = true,
-                                                });
+                                            });
 
 
 
-                                            }
-                                            
+                                        }
+                                        @foreach (var sppech in tospeech)
+                                        {
+                                            @Html.RadioButtonFor(model => model.istexttospeech, sppech.Value)
 
-                                            @Html.DropDownListFor(model => model.randomtest, rndmItems, new { @class = "ginput", @style = "width:200px;" })
-                                         
-                                        </td>
-                                    </tr>
-                                    @*<tr id="trtimedisplay" style="display: none">
+                                            @sppech.Text
+
+                                        }
+
+                                    </td>
+                                </tr>
+                                <tr id="assesquesdetails">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Include test attempts in analysis <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will enable question level reporting in admin." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.istestreport, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> analysis = new List<SelectListItem>();
+                                            analysis.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            analysis.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+
+                                            });
+
+
+
+                                        }
+                                        @foreach (var annly in analysis)
+                                        {
+                                            @Html.RadioButtonFor(model => model.istestreport, annly.Value)
+                                            @annly.Text
+
+                                        }
+
+                                    </td>
+                                </tr>
+                                <tr id="trrandomtest">
+                                    <td>
+                                        <label class="tst_lable" style="width: auto; float: left">
+                                            Randomize Questions <a class="inst tooltipSetting tooltip2" title="Setting this option as 'Yes' will randomize the order of questions in section." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
+
+                                        </label>
+                                        @Html.ValidationMessageFor(model => model.randomtest, "", new { @class = "validerror" })
+                                    </td>
+                                    <td>
+                                        @{
+                                            List<SelectListItem> rndmItems = new List<SelectListItem>();
+                                            rndmItems.Add(new SelectListItem
+                                            {
+                                                Text = "Yes",
+                                                Value = "True"
+
+                                            });
+                                            rndmItems.Add(new SelectListItem
+                                            {
+                                                Text = "No",
+                                                Value = "False",
+                                                Selected = true
+                                            });
+
+
+
+                                        }
+                                        @foreach (var radio in rndmItems)
+                                        {
+
+                                            @Html.RadioButtonFor(model => model.randomtest, radio.Value)
+                                            @radio.Text
+
+                                        }
+                                    </td>
+                                </tr>
+                                @*<tr id="trtimedisplay" style="display: none">
                                         <td>
                                             <label class="tst_lable" style="width: auto; float: left">
                                                 Test Duration:
@@ -463,7 +499,7 @@
                                             </asp:GridView>
                                         </td>
                                     </tr>*@
-                                    @*<tr style="display: none;">
+                                @*<tr style="display: none;">
                                         <td>
                                             <label class="tst_lable" style="width: auto; float: left">
                                                 Pass Percentage <a class="inst tooltipSetting tooltip2" title="The selected value will be the minimum amount of percentage marks required by candidate to pass the test." data-alignx="right" data-alignto="target" data-aligny="center" data-offsety="4" data-offsetx="6">?</a>
@@ -579,25 +615,27 @@
                                         </td>
                                     </tr>*@
 
-                                </table>
-                            </div>
-                    </td>
-                </tr>
+                            </table>
+                        </div>
+                </td>
+            </tr>
 
                 <tr>
                     <td>
-                       <input type="submit" class="crt_tset_btn actionbtns" value="Create and Add" >
-                       @Html.ActionLink("Cancel", actionName: "Index", controllerName: "Home", routeValues: null , htmlAttributes: new { @class = "crt_tset_btn loadanim cancelbtn"})
+                        <input type="submit" class="crt_tset_btn" value="Update" Style="border-width:0px;font-size:14px;float: right; position: relative; right: 110px;">
+                        <input type="submit" class="crt_tset_btn" value="Cancel" Style="border-width:0px;font-size:14px;float: right; position: absolute; right: 18px;">
 
-
-                     </td>
+                    </td>
                 </tr>
 
 
 
 
 
-            }
-        </table>
-    </div>
+                                            }
+    </table>
+</div>
 
+
+
+  

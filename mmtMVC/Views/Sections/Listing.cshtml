@@ -79,7 +79,7 @@
                 Section Listing
 
             </h2>
-            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn loadanim" })
 
         </div>
     </div>
@@ -89,7 +89,7 @@
             <td>
                 <ul id="wizHeader">
 
-                    <li><a href="addtest.aspx" onclick="load()" title="Step 1: Configure Test" class="nextStep">Step 1: Configure Test</a> </li>
+                    <li>@Html.ActionLink("Step 1: Configure Test", "Edit", "Test", new { eid = Session["examid"].ToString() }, new { @title = "Step 1: Configure Test", @class = "nextStep loadanim" })</li>
                     <li><a title="Step 2: Configure Sections" class="currentStep">Step 2: Configure Sections</a> </li>
                     <li><a title="Step 2: Add Questions">Step 3: Add Questions</a> </li>
                     <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
@@ -106,7 +106,7 @@
 
                     </label>
 
-                    <div class="prgme check_language" style="width: 90%">
+                    <div class="prgme check_language">
                         <div style="width: 100%; margin-left: 4px;" class="tst_lable">
                             Add a section:
                             @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
@@ -180,9 +180,9 @@
 
                                             </td>
                                             <td style="width:10%;" align="left">
-                                               
-   
-                                                @Html.ActionLink("Edit", actionName: "Edit", controllerName: "Sections", routeValues: new { eid = item.examid, secid = item.secid }, htmlAttributes: new { @class = "exdlt_uesr", @style = "border: none; cursor: pointer;" })
+
+
+                                                @Html.ActionLink("Edit", actionName: "Edit", controllerName: "Sections", routeValues: new { eid = item.examid, secid = item.secid }, htmlAttributes: new { @class = "exdlt_uesr loadanim", @style = "border: none; cursor: pointer;" })
                                                 <input name="delsec" value="Remove" onclick="javascript: return deleteCheck();" id="delsec" class="dlt_uesr" style="border: none; cursor: pointer;" type="submit">
                                             </td>
                                         </tr>
@@ -198,11 +198,17 @@
             </td>
         </tr>
         <tr>
-            <td style="text-align: right">
+            <td colspan="2" style="text-align: right">
 
-                <asp:Button ID="UpdateButton" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return update();" BorderWidth="0px" OnClick="UpdateButton_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Update Section" />
-                <asp:Button ID="Button1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="Button1_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" Text="Cancel" />
-                <asp:Button ID="nextbtn" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="nextbtn_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Next" />
+                @if (ViewBag.NextButton == true)
+                {
+                    @Html.ActionLink("Next", actionName: "mcqlisting", controllerName: "Questions", routeValues: new { eid = Session["examid"].ToString(), secid = 1 }, htmlAttributes: new { @onclick = "javascript: return load();", @class = "crt_tset_btn loadanim actionbtns"})
+
+                }
+                @Html.ActionLink("Cancel", actionName: "Listing", controllerName: "Home", routeValues: null, htmlAttributes: new { @onclick = "javascript: return load();", @class = "crt_tset_btn loadanim cancelbtn" })
+
+
+
 
             </td>
         </tr>

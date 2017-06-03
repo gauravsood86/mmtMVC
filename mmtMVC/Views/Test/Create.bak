@@ -4,6 +4,7 @@
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
 }
 
+<!DOCTYPE html>
 
 
 <script src="@("/Content/js/tiny_mce/tiny_mce.js")"></script>
@@ -96,6 +97,7 @@
             $("input[name='islogo']").change(function () {
                 
                 var rdvalue = $(this).val();
+                alert(rdvalue);
                 if (rdvalue == "True") {
 
                     $("#logopath").css("display", "");
@@ -117,7 +119,7 @@
             <center>
                 <br />
                 <p style="color: black; font-size: 24px">Creating Test..</p>
-                <img width="128" src=""@("/content/images/notloader.gif")"" alt="Loading" id="img3" />
+                <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
 
                 <br />
                 <br />
@@ -125,15 +127,41 @@
         </div>
 
     </div>
-    
-    
+    <div class="test_evaluation_outer" style="display: none" id="divload">
+
+        <div class="process_end_popup">
+            <center>
+                <br />
+                <p style="color: black; font-size: 24px">Loading..</p>
+                <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+                <br />
+                <br />
+            </center>
+        </div>
+
+    </div>
+    <div class="test_evaluation_outer" style="display: none" id="divupdate">
+
+        <div class="process_end_popup">
+            <center>
+                <br />
+                <p style="color: black; font-size: 24px">Updating Test..</p>
+                <img width="128" src="content/images/notloader.gif" alt="Loading" id="img3" />
+
+                <br />
+                <br />
+            </center>
+        </div>
+
+    </div>
     <div class="create_wrap">
         <div class="batch_wrap" style="margin-top: 2px">
             <div class="top_h">
                 <h2 id="CreateTitleH2">
                     Create Test
                 </h2>
-                @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn loadanim" })
+                @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
 
             </div>
 
@@ -586,9 +614,8 @@
 
                 <tr>
                     <td>
-                       <input type="submit" class="crt_tset_btn actionbtns" value="Create and Add" >
-                       @Html.ActionLink("Cancel", actionName: "Index", controllerName: "Home", routeValues: null , htmlAttributes: new { @class = "crt_tset_btn loadanim cancelbtn"})
-
+                       <input type="submit" class="crt_tset_btn" value="Create and Add"  Style="border-width:0px;font-size:14px;float: right; position: relative; right: 110px;">
+                        <input type="submit" class="crt_tset_btn" value="Cancel"  Style="border-width:0px;font-size:14px;float: right; position: absolute; right: 18px;">
 
                      </td>
                 </tr>
@@ -601,3 +628,6 @@
         </table>
     </div>
 
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>

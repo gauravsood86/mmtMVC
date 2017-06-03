@@ -279,14 +279,18 @@
             $.fancybox.open([{ href: '#divupdate', modal: true, closeBtn: false }]);
         }
 
-        function load() {
-           
-            $.fancybox.open([{ href: '#divload', modal: true, closeBtn: false }]);
-        }
+     
         function closebox() {
             isshown = false;
             $.fancybox.close();
         }
+
+        $(document).ready(function () {
+            $(".loadanim").click(function () {
+                $.fancybox.open([{ href: '#divload', modal: true, closeBtn: false }]);
+            });
+
+        });
     </script>
 
     <link type="text/css" rel="stylesheet" href="@("/Content/css/style-new-ca.css")")" media="screen" />
@@ -296,7 +300,20 @@
 
 </head>
 <body>
+    <div class="test_evaluation_outer" style="display: none" id="divload">
 
+        <div class="process_end_popup">
+            <center>
+                <br />
+                <p style="color: black; font-size: 24px">Loading..</p>
+                <img width="128" src="@("/content/images/notloader.gif")" alt="Loading" id="img3" />
+
+                <br />
+                <br />
+            </center>
+        </div>
+
+    </div>
     <noscript>
         <table style="margin-left: auto; margin-right: auto" width="799px" border="0" cellspacing="0" cellpadding="0">
             <tr>

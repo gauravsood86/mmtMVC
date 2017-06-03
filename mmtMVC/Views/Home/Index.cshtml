@@ -12,7 +12,7 @@
             <h2>Dashboard</h2>
         </div>
 
-        @Html.ActionLink("Create New Test", "Create","Test", null, new { @style = "margin-top: 15px; float: left; font-size: 15px;", @class = "new_test_btn" })
+        @Html.ActionLink("Create New Test", "Create","Test", null, new { @style = "margin-top: 15px; float: left; font-size: 15px;", @class = "new_test_btn loadanim" })
         @*<a class="new_test_btn" style="margin-top: 15px; float: left; font-size: 15px;" href="addtest.aspx">Create New Test</a>
             <%if (downloadexam == true)
             {
@@ -150,7 +150,7 @@
                             <div id="panel1">
 
                                 <div style="float: left">
-                                    @Html.ActionLink(" ",actionName:"Listing",controllerName:"Sections", routeValues: new { eid = item.examid }, htmlAttributes: new {@class= "tooltip2 dash-edit edit-users", @style= "padding-right:10px;" })
+                                    @Html.ActionLink(" ",actionName:"Listing",controllerName:"Sections", routeValues: new { eid = item.examid }, htmlAttributes: new {@class= "tooltip2 dash-edit edit-users loadanim", @style= "padding-right:10px;" })
                                  
                                 </div>
                                 <div style="float: left">

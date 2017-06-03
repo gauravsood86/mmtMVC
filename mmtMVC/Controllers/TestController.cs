@@ -178,7 +178,7 @@ namespace mmtMVC.Controllers
                     Utils.CACheckXML.CheckXML(id);
 
 
-                    return RedirectToAction("Listing","Section", new {eid= id });
+                    return RedirectToAction("Listing","Sections", new {eid= id });
                 }
                 catch (DbEntityValidationException e)
                 {

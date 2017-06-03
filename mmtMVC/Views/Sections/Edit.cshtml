@@ -27,7 +27,7 @@
                 <asp:Label ID="lbltitl" Text="Create Section"></asp:Label>
             </h2>
           
-            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn" })
+            @Html.ActionLink("<< Back to Dashboard", actionName: "Index", controllerName: "Home", routeValues: null, htmlAttributes: new { @class = "dashboard_btn loadanim" })
 
 
 
@@ -41,7 +41,7 @@
         <tr>
             <td>
                 <ul id="wizHeader">
-                    <li>@Html.ActionLink("Step 1: Configure Test", "Edit", "Test", null, new {@title= "Step 1: Configure Test", @oncline= "load()",  @class = "nextStep" })</li>
+                    <li>@Html.ActionLink("Step 1: Configure Test", "Edit", "Test", new { eid=Session["examid"].ToString()}, new {@title= "Step 1: Configure Test", @class = "nextStep loadanim" })</li>
                     <li><a title="Step 2: Configure Sections" class="currentStep">Step 2: Configure Sections</a> </li>
                     <li><a title="Step 2: Add Questions"> Step 3: Add Questions</a> </li>
                     <li><a title="Step 4: Master Settings" class="nextStep">Step 4: Master Settings</a> </li>
@@ -152,6 +152,7 @@
                                             @Html.TextBoxFor(x => x.type, null, new { @disabled = "disabled", @class = "ginput", @style = "width:50%" })
 
                                             @Html.HiddenFor(x => x.sectionid)
+                                            @Html.HiddenFor(x => x.examid)
                                         </td>
                                     </tr>
 
@@ -338,24 +339,15 @@
             </tr>
             <tr>
                 <td style="text-align: right">
-                    <input type="submit" class="crt_tset_btn" style="float: right; position: relative; right: 117px; font-size:14px;" Valie="Update Section" />
+                    <input type="submit" class="crt_tset_btn actionbtns" Valie="Update Section" />
                  
-                    @Html.ActionLink("Cancel", actionName: "Listing", controllerName: "Sections", routeValues: new { eid = Session["examid"].ToString() }, htmlAttributes: new {@onclick= "javascript: return load();", @class = "crt_tset_btn", @style = "border-width:0px;font-size:14px;float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" })
+                    @Html.ActionLink("Cancel", actionName: "Listing", controllerName: "Sections", routeValues: new { eid = Session["examid"].ToString() }, htmlAttributes: new { @class = "crt_tset_btn loadanim cancelbtn" })
 
 
-
-                    @*<asp:Button ID="Button1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="Button1_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; background-color: #c2c2c2; margin-right: -172px; position: relative;" Text="Cancel" />
-                        <asp:Button ID="nextbtn" ValidationGroup="grp1" Visible="false" OnClientClick="javascript: return load();" BorderWidth="0px" OnClick="nextbtn_Click" CssClass="crt_tset_btn" Font-Size="14px" Style="float: right; position: relative; right: 117px;" Text="Next" />*@
 
                 </td>
             </tr>
                                                 }
     </table>
 </div>
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
 
-<script src="~/Scripts/jquery-1.10.2.min.js"></script>
-<script src="~/Scripts/jquery.validate.min.js"></script>
-<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
